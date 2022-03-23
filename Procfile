@@ -1,2 +1,2 @@
-web: cd frontend && npm i && npm start
-server: cd backend && npm i && npm start
+web: npm i && npm start
+server: cd backend && npm i && cd .. && npm run server

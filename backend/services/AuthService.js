@@ -34,7 +34,6 @@ module.exports = class AuthService {
 
     try {
       const user = await UserModelInstance.findOneByEmail(email);
-      console.log(user);
       if (!user) return callback(null, false);
       const passwordMatch = await verifyPassword(user.password, password);
       if (!passwordMatch) return callback(null, false);
