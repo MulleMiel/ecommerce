@@ -1,5 +1,5 @@
 module.exports = {
-  PORT: process.env.PORT,
+  PORT: process.env.BACKEND_PORT,
   DB: {
     PGHOST: process.env.PGHOST,
     PGUSER: process.env.PGUSER,
