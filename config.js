@@ -1,5 +1,6 @@
 module.exports = {
-  PORT: process.env.BACKEND_PORT,
+  PORT: process.env.PORT || 8080,
+  NODE_ENV: process.env.NODE_ENV,
   DB: {
     PGHOST: process.env.PGHOST,
     PGUSER: process.env.PGUSER,

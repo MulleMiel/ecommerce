@@ -1,7 +1,7 @@
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const session = require('cookie-session');
-const { SESSION_SECRET } = require('../config');
+const { SESSION_SECRET, NODE_ENV } = require('../config');
 
 module.exports = (app) => {
 
@@ -13,6 +13,11 @@ module.exports = (app) => {
 
   // Parses urlencoded bodies
   app.use(bodyParser.urlencoded({ extended: true }));
+
+  
+  if(NODE_ENV === 'production'){
+    app.use(express.static('frontend/build'));
+  }
 
   // 
   app.set('trust proxy', 1);
