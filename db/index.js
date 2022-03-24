@@ -17,9 +17,10 @@ if(DB.URL) options = {
 
 const pool = new Pool(options);
 
+// Test connection
 pool.query('SELECT NOW()', (err, res) => {
+  console.log("Test database connection:");
   console.log(err, res);
-  pool.end()
 });
 
 module.exports = {
