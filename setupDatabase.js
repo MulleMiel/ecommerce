@@ -3,6 +3,12 @@ dotenv.config();
 const { Client } = require('pg');
 const { DB } = require('./config');
 
+const tableCheckQuery = (table) => {
+  return `SELECT * 
+  FROM INFORMATION_SCHEMA.TABLES 
+  WHERE TABLE_NAME = '${table}';`;
+}
+
 (async () => {
 
   const usersTableStmt = `
@@ -96,12 +102,41 @@ const { DB } = require('./config');
     await db.connect();
 
     // Create tables on database
-    await db.query(usersTableStmt);
-    await db.query(productsTableStmt);
-    await db.query(ordersTableStmt);
-    await db.query(orderItemsTableStmt);
-    await db.query(cartsTableStmt);
-    await db.query(cartItemsTableStmt);
+    const users = await db.query(tableCheckQuery("users"));
+    if(!users.rows[0]){
+      console.log("'users' table doesn't exist, creating one.");
+      await db.query(usersTableStmt);
+    }
+    
+    const products = await db.query(tableCheckQuery("products"));
+    if(!products.rows[0]){
+      console.log("'products' table doesn't exist, creating one.");
+      await db.query(productsTableStmt);
+    }
+
+    const orders = await db.query(tableCheckQuery("orders"));
+    if(!orders.rows[0]){
+      console.log("'orders' table doesn't exist, creating one.");
+      await db.query(ordersTableStmt);
+    }
+
+    const orderItems = await db.query(tableCheckQuery("orderItems"));
+    if(!orderItems.rows[0]){
+      console.log("'orderItems' table doesn't exist, creating one.");
+      await db.query(orderItemsTableStmt);
+    }
+
+    const carts = await db.query(tableCheckQuery("carts"));
+    if(!carts.rows[0]){
+      console.log("'carts' table doesn't exist, creating one.");
+      await db.query(cartsTableStmt);
+    }
+
+    const cartItems = await db.query(tableCheckQuery("cartItems"));
+    if(!cartItems.rows[0]){
+      console.log("'cartItems' table doesn't exist, creating one.");
+      await db.query(cartItemsTableStmt);
+    }
 
     await db.end();
 

@@ -7,7 +7,7 @@
     "build": "cd frontend && npm run build",
     "install-frontend": "cd frontend && npm install",
     "heroku-postbuild": "npm run install-frontend && npm run build",
-    "start": "node -r dotenv/config server.js",
+    "start": "node -r dotenv/config setupDatabase && node -r dotenv/config server.js",
     "frontend": "cd frontend && npm start",
     "dev": "concurrently \"nodemon -r dotenv/config server.js\" \"npm run frontend\"",
     "test": "echo \"Error: no test specified\" && exit 1",
