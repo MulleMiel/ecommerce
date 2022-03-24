@@ -1,6 +1,7 @@
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
-const GoogleStrategy = require( 'passport-google-oauth2' ).Strategy;
+const GoogleStrategy = require('passport-google-oauth2').Strategy;
+const FacebookStrategy = require('passport-facebook').Strategy;
 
 const UserModel = require('../models/user');
 const UserModelInstance = new UserModel();
@@ -44,31 +45,64 @@ module.exports = (app) => {
     clientSecret: OAUTH2.GOOGLE.CLIENT_SECRET,
     callbackURL: OAUTH2.GOOGLE.CALLBACK_URL,
     passReqToCallback: true
-  },
-  async function(request, accessToken, refreshToken, profile, done) {
-    try {
-      const existingUser = await UserModelInstance.findOneByEmail(profile.email);
+  }, async function(request, accessToken, refreshToken, profile, done) {
+
+      try {
+        const existingUser = await UserModelInstance.findOneByEmail(profile.email);
+        
+        if(existingUser){
+          return done(null, existingUser);
+        }
       
-      if(existingUser){
-        return done(null, existingUser);
+        const data = {
+          email: profile.email,
+          firstname: profile.name.givenName,
+          lastname: profile.name.familyName,
+          google: true
+        }
+        const newUser = await UserModelInstance.create(data);
+        if(newUser){
+          return done(null, newUser);
+        }
+        done("Something went wrong.", null);
+      } catch (error){
+        done(error, null);
       }
-     
-      const data = {
-        email: profile.email,
-        firstname: profile.name.givenName,
-        lastname: profile.name.familyName,
-        google: true
-      }
-      const newUser = await UserModelInstance.create(data);
-      if(newUser){
-        return done(null, newUser);
-      }
-      done("Something went wrong.", null);
-    } catch (error){
-      done(error, null);
     }
-  }
-));
+  ));
+
+  passport.use(new FacebookStrategy({
+    clientID: OAUTH2.FACEBOOK.CLIENT_ID,
+    clientSecret: OAUTH2.FACEBOOK.CLIENT_SECRET,
+    callbackURL: OAUTH2.FACEBOOK.CALLBACK_URL,
+    profileFields: ['id', 'displayName', 'email']
+  }, async function(accessToken, refreshToken, profile, done) {
+
+      console.log(profile);
+
+      try {
+        const existingUser = await UserModelInstance.findOneByEmail(profile.email);
+        
+        if(existingUser){
+          return done(null, existingUser);
+        }
+      
+        const data = {
+          email: profile.emails[0].value,
+          firstname: profile.name.givenName || profile.displayName,
+          lastname: profile.name.familyName,
+          facebook: true
+        }
+        const newUser = await UserModelInstance.create(data);
+        if(newUser){
+          return done(null, newUser);
+        }
+        done("Something went wrong.", null);
+      } catch (error){
+        done(error, null);
+      }
+    }
+  ));
 
   return passport;
 }

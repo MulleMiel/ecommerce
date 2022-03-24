@@ -8,11 +8,15 @@ module.exports = (app, passport) => {
 
   app.use('/auth', router);
 
+  // SESSION
+
   router.get('/current-session',
   function(req, res) {
     if(req.isAuthenticated()) return res.status(200).json(req.user);
     res.sendStatus(401);
   });
+
+  // LOCAL AUTH
   
   router.post('/login', isNotAuthMiddleware,
   passport.authenticate('local'),
@@ -23,7 +27,7 @@ module.exports = (app, passport) => {
 
   router.delete('/logout', isAuthMiddleware, function(req, res) {
     req.logout();
-    res.status(200).send(true);
+    res.redirect('/');
   });
 
   router.post('/register', isNotAuthMiddleware, function(req, res) {
@@ -37,14 +41,29 @@ module.exports = (app, passport) => {
     });
   });
 
+  // GOOGLE AUTH
 
-
-  router.get('/google', passport.authenticate('google', {
+  router.get('/google', 
+  passport.authenticate('google', {
     scope: [ 'email', 'profile' ]
   }));
 
   router.get('/google/callback',
   passport.authenticate('google'),
+  function(req, res) {
+    if(req.isAuthenticated()) return res.redirect('/');
+    res.redirect('/error');
+  });
+
+  // FACEBOOK AUTH
+
+  router.get('/facebook',
+  passport.authenticate('facebook', { 
+    scope: ['email'] 
+  }));
+
+  router.get('/facebook/callback',
+  passport.authenticate('facebook'),
   function(req, res) {
     if(req.isAuthenticated()) return res.redirect('/');
     res.redirect('/error');

@@ -106,11 +106,7 @@ export const localAuth =  {
 export const googleAuth =  {
   signin: async (callback) => {
     try {
-      const res = await fetch(`/auth/google`, {
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      });
+      const res = await fetch(`/auth/google`);
       if(res.ok){
         const user = await res.json();
         return callback(null, user);
