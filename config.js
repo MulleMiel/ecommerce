@@ -2,7 +2,8 @@ module.exports = {
   PORT: process.env.PORT || 8080,
   NODE_ENV: process.env.NODE_ENV,
   DB: {
-    PGHOST: process.env.PGHOST || process.env.DATABASE_URL,
+    URL: process.env.DATABASE_URL,
+    PGHOST: process.env.PGHOST,
     PGUSER: process.env.PGUSER,
     PGDATABASE: process.env.PGDATABASE,
     PGPASSWORD: process.env.PGPASSWORD,

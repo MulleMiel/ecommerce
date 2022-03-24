@@ -75,13 +75,20 @@ const { DB } = require('./config');
   `;
 
   try {
-    const db = new Client({
+
+    let options = {
       user: DB.PGUSER,
       host: DB.PGHOST,
       database: DB.PGDATABASE,
       password: DB.PGPASSWORD,
       port: parseInt(DB.PGPORT)
-    });
+    }
+
+    if(DB.URL) options = {
+      connectionString: DB.URL + "?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory"
+    }
+
+    const db = new Client(options);
 
     await db.connect();
 
