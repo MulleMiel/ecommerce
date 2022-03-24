@@ -12,15 +12,19 @@ let options = {
 }
 
 if(DB.URL) options = {
-  connectionString: DB.URL + "?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory"
+  connectionString: DB.URL,
+  ssl: { 
+    rejectUnauthorized: false 
+  } 
 }
 
 const pool = new Pool(options);
 
 // Test connection
 pool.query('SELECT NOW()', (err, res) => {
-  console.log("Test database connection:");
-  console.log(err, res);
+  console.log("Test database connection <SELECT NOW()>:");
+  if(err) console.log(err);
+  if(res) console.log(res.rows[0].now);
 });
 
 module.exports = {

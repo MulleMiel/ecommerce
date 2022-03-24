@@ -85,7 +85,10 @@ const { DB } = require('./config');
     }
 
     if(DB.URL) options = {
-      connectionString: DB.URL + "?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory"
+      connectionString: DB.URL,
+      ssl: { 
+        rejectUnauthorized: false 
+      }
     }
 
     const db = new Client(options);
