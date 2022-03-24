@@ -46,8 +46,8 @@ module.exports = (app, passport) => {
   router.get('/google/callback',
   passport.authenticate('google'),
   function(req, res) {
-    if(req.isAuthenticated()) return res.status(200).json(req.user);
-    res.sendStatus(401);
+    if(req.isAuthenticated()) return res.redirect('/');
+    res.redirect('/error');
   });
 }
 

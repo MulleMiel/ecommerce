@@ -56,7 +56,8 @@ export default function LoginPage() {
         </div>
         <p className='error'>{error}</p>
       </form>
-      <p>No account? Register <Link to="/register">here</Link>. Or login via: <button onClick={handleGoogleClick}>Google</button></p>
+      {/* <p>No account? Register <Link to="/register">here</Link>. Or login via: <button onClick={handleGoogleClick}>Google</button></p> */}
+      <p>No account? Register <Link to="/register">here</Link>. Or login via: <a href="/auth/google">Google</a></p>
     </div>
   )
 }
