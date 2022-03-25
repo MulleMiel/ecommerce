@@ -7,3 +7,7 @@
 form .error {
   color: red;
 }
+
+form input {
+  margin-bottom: 1em;
+}

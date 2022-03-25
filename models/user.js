@@ -61,13 +61,15 @@ module.exports = class UserModel {
    * @param  {String}      email [Email address]
    * @return {Object|null}       [User record]
    */
-  async findOneByEmail(email) {
+  async findOneByEmail(email, strategy) {
     try {
+
+      const strategyAND = strategy === 'local' ? 'AND local = true' : '';
 
       // Generate SQL statement
       const statement = `SELECT *
                          FROM users
-                         WHERE email = $1`;
+                         WHERE email = $1` + strategyAND;
       const values = [email];
   
       // Execute SQL statment

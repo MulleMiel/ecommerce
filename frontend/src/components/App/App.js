@@ -34,9 +34,9 @@ function App() {
                 </PreventWhenAuth>
               } />
               <Route path="/account" element={
-                  <RequireAuth>
-                    <AccountPage />
-                  </RequireAuth>
+                <RequireAuth>
+                  <AccountPage />
+                </RequireAuth>
                 } />
             </Route>
           </Routes>
@@ -48,6 +48,12 @@ function App() {
 function Layout() {
   const auth = useAuth();
 
+  useEffect(() => {
+    auth.check();
+  }, []);
+
+  if(auth.user === null) return null;
+
   return (
     <div>
       <AuthStatus />
@@ -56,11 +62,11 @@ function Layout() {
         <li>
           <Link to="/">Home</Link>
         </li>
-          { auth.user && 
-            <li>
-              <Link to="/account">My Account</Link>
-            </li>
-          }
+    { auth.user.loggedIn && 
+        <li>
+          <Link to="/account">My Account</Link>
+        </li>
+    }
       </ul>
 
       <Outlet />
@@ -76,25 +82,37 @@ function AuthProvider({ children }) {
   const signin = async (creds, callback) => {
     return localAuth.signin(creds, (error, foundUser) => {
       if(!error) setUser(foundUser);
+      if(foundUser === null){
+        setUser({ loggedIn: false });
+        callback(error, foundUser);
+        return 
+      }
+      foundUser.loggedIn = true;
+      setUser(foundUser);
       callback(error, foundUser);
     });
   };
 
   const signout = (callback) => {
     return localAuth.signout(() => {
-      setUser(null);
+      setUser({ loggedIn: false });
       callback();
     });
   };
 
   const register = (creds, callback) => {
     return localAuth.register(creds, (error, newUser) => {
+      newUser.loggedIn = false;
       callback(error, newUser);
     });
   };
 
   const check = () => {
-    return localAuth.check(foundUser => {
+    return localAuth.check((foundUser) => {
+      if(foundUser === null){
+        return setUser({ loggedIn: false });
+      }
+      if(foundUser) foundUser.loggedIn = true;
       setUser(foundUser);
     });
   };
@@ -105,10 +123,6 @@ function AuthProvider({ children }) {
       callback(error, foundUser);
     });
   };
-
-  useEffect(() => {
-    check();
-  }, []);
 
   const value = { user, signin, signout, register, check, signinGoogle };
 
@@ -123,13 +137,13 @@ function AuthStatus() {
   const auth = useAuth();
   const navigate = useNavigate();
 
-  if(!auth.user){
+  if(!auth.user.loggedIn){
     return <Link to="/login">Login</Link>
   }
 
   return (
     <p>
-      Welcome {auth.email}!{" "}
+      Welcome { auth.user.firstname } { auth.user.lastname }!{" "}
       <button
         onClick={() => {
           auth.signout(() => navigate("/"));
@@ -145,7 +159,8 @@ function RequireAuth({ children }) {
   const auth = useAuth();
   const location = useLocation();
 
-  if (!auth.user) {
+  if(auth.user === null) return null;
+  if (!auth.user.loggedIn) {
     return <Navigate to="/login" state={{ from: location }} replace />;
   }
 
@@ -155,7 +170,8 @@ function RequireAuth({ children }) {
 function PreventWhenAuth({ children }) {
   const auth = useAuth();
 
-  if (auth.user) {
+  if(auth.user === null) return null;
+  if (auth.user.loggedIn) {
     return <Navigate to="/" replace />;
   }
 

@@ -44,7 +44,7 @@ export default function LoginPage() {
       <h1>Please Log In</h1>
       <form onSubmit={handleSubmit}>
         <label>
-          <p>Username</p>
+          <p>E-mail</p>
           <input name="email" type="email" onChange={e => setEmail(e.target.value)} />
         </label>
         <label>

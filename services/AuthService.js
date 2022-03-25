@@ -10,7 +10,7 @@ module.exports = class AuthService {
 
     try {
       // Check if user already exists
-      const user = await UserModelInstance.findOneByEmail(email);
+      const user = await UserModelInstance.findOneByEmail(email, 'local');
 
       // If user already exists, reject
       if (user) {
@@ -33,7 +33,7 @@ module.exports = class AuthService {
   async login(email, password, callback) {
 
     try {
-      const user = await UserModelInstance.findOneByEmail(email);
+      const user = await UserModelInstance.findOneByEmail(email, 'local');
       if (!user) return callback(null, false);
       const passwordMatch = await verifyPassword(user.password, password);
       if (!passwordMatch) return callback(null, false);

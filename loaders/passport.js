@@ -78,8 +78,6 @@ module.exports = (app) => {
     profileFields: ['id', 'displayName', 'email']
   }, async function(accessToken, refreshToken, profile, done) {
 
-      console.log(profile);
-
       try {
         const existingUser = await UserModelInstance.findOneByEmail(profile.email);
         

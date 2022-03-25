@@ -21,13 +21,18 @@ module.exports = (app, passport) => {
   router.post('/login', isNotAuthMiddleware,
   passport.authenticate('local'),
   function(req, res) {
-    if(req.isAuthenticated()) return res.status(200).json(req.user);
+    if(req.isAuthenticated()) return res.status(200).json({
+      id: req.user.id,
+      email: req.user.email,
+      firstname: req.user.firstname,
+      lastname: req.user.lastname
+    });
     res.sendStatus(401);
   });
 
   router.delete('/logout', isAuthMiddleware, function(req, res) {
     req.logout();
-    res.redirect('/');
+    res.sendStatus(200)
   });
 
   router.post('/register', isNotAuthMiddleware, function(req, res) {
