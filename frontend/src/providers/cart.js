@@ -1,9 +1,13 @@
-import { createContext, useContext, useEffect, useState } from 'react';
+import { createContext, useContext, useState } from 'react';
 
 const CartContext = createContext();
 
 export function CartProvider({ children }) {
   const [items, setCart] = useState(null);
+
+  const reset = async () => {
+    setCart(null);
+  }
   
   const getCart = async (callback = () => {}) => {
     const res = await fetch(`/api/carts/mine/`, {
@@ -80,7 +84,7 @@ export function CartProvider({ children }) {
     }
   }
 
-  const value = { items, getCart, addItems, updateItem, removeItem };
+  const value = { items, reset, getCart, addItems, updateItem, removeItem };
 
   return <CartContext.Provider value={value}>{children}</CartContext.Provider>;
 }

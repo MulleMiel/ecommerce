@@ -67,11 +67,26 @@ function Layout() {
   const location = useLocation();
   const cart = useCart();
 
+  console.log()
+
   useEffect(() => {
+
     auth.check(() => {
-      cart.getCart();
+      if(auth?.user?.loggedIn){
+        cart.getCart();
+      }
     });
   }, []);
+
+  useEffect(() => {
+    if(auth?.user?.loggedIn){
+      cart.getCart();
+    } else {
+      if(cart.items){
+        cart.reset();
+      }
+    }
+  }, [auth?.user?.loggedIn]);
 
   if(auth.user === null) return null;
 

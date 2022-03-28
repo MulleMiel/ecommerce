@@ -17,11 +17,11 @@ export default function CartPage() {
   const [subtotals, setSubtotals] = useState([]);
 
   useEffect(() => {
-    cart.getCart((items) => {
-      const initialSubtotals = items.map(item => item.qty);
+    if(cart.items){
+      const initialSubtotals = cart.items.map(item => item.qty);
       setSubtotals(initialSubtotals);
-    });
-  }, []);
+    }
+  }, [cart.items]);
 
   const onChange = (newValue, i) => {
     setSubtotals(oldSubtotals => {
@@ -69,6 +69,7 @@ export default function CartPage() {
             index={index} 
             lQty={subtotals[index]} />;
           }
+          return null;
         }) : <p>No items found in your cart.</p> }
         <div className='total-price'>Total amount: { total / 100 }</div>
       </div>

@@ -24,7 +24,6 @@ export default function Homepage() {
     getProducts();
   }, []);
   
-  
   return(
     <div>
       <section id="products">
