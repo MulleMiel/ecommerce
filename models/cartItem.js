@@ -102,7 +102,7 @@ module.exports = class CartItemModel {
 
       // Generate SQL statement
       const statement = `DELETE
-                         FROM "cartItems"
+                         FROM "cartitems"
                          WHERE id = $1
                          RETURNING *`;
       const values = [id];

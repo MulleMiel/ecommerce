@@ -23,8 +23,6 @@ export default function CartPage() {
     });
   }, []);
 
-  // our onChange handler will update the index of "subtotals"
-  // with the passed new value
   const onChange = (newValue, i) => {
     setSubtotals(oldSubtotals => {
       const newSubtotals = [...oldSubtotals];
@@ -33,20 +31,43 @@ export default function CartPage() {
     });
   }
 
-  let total = 0;
-  for (let i = 0; i < subtotals.length; i++) {
-    total += subtotals[i] * cart.items[i].price;
+  const onSave = (index) => {
+    cart.updateItem(index, subtotals[index]);
   }
 
+  const onRemove = (index) => {
+    cart.removeItem(index, () => {
+      setSubtotals(oldSubtotals => {
+        const newSubtotals = [...oldSubtotals];
+        newSubtotals.splice(index, 1);
+        return newSubtotals;
+      });
+    });
+  }
+
+  let total = 0;
+  if(cart?.items?.length === subtotals.length){
+    total = subtotals.reduce((prevSubtotal, currentSubtotal, currentIndex) => {
+      return prevSubtotal + currentSubtotal * cart.items[currentIndex].price;
+    }, 0);
+  }
+  
   if(!auth.user) return;
 
   return(
-    <div id="account">
+    <div id="cart-page">
       <h1>Cart</h1>
       <div id="cart">
-        { cart.items.length ? cart.items.map((item, index) => {
+        { cart.items?.length ? cart.items.map((item, index) => {
           if(item.price && subtotals.length) {
-            return <CartItem key={ item.id } item={item} onChange={onChange} index={index} lQty={subtotals[index]} />;
+            return <CartItem 
+            key={ item.id } 
+            item={item} 
+            onChange={onChange} 
+            onSave={onSave} 
+            onRemove={onRemove} 
+            index={index} 
+            lQty={subtotals[index]} />;
           }
         }) : <p>No items found in your cart.</p> }
         <div className='total-price'>Total amount: { total / 100 }</div>
@@ -55,7 +76,7 @@ export default function CartPage() {
   );
 }
 
-function CartItem ({ item, onChange, index, lQty }) {
+function CartItem ({ item, index, lQty, onChange, onSave, onRemove }) {
   const { productid, image, name, qty, price } = item;
 
   const onChangeHandler  = (e) => {
@@ -66,14 +87,22 @@ function CartItem ({ item, onChange, index, lQty }) {
     }
   }
 
-  const onAddHandler  = () => {
+  const onAddHandler = () => {
     onChange(lQty + 1, index);
   }
 
-  const onSubHandler  = () => {
+  const onSubHandler = () => {
     if(lQty > 1){
       onChange(lQty - 1, index);
     }
+  }
+
+  const onSaveHandler = () => {
+    onSave(index);
+  }
+
+  const onRemoveHandler = () => {
+    onRemove(index);
   }
 
   return (
@@ -87,8 +116,8 @@ function CartItem ({ item, onChange, index, lQty }) {
       </div>
       <NumberInput qty={lQty} onChangeHandler={onChangeHandler} onAddHandler={onAddHandler} onSubHandler={onSubHandler}/>
       <div className='price item-total-price'>{ Math.round(price * lQty) / 100 }</div>
-      <button className={`btn ${ qty === lQty ? 'disabled' : ''}`}><SaveIcon /></button>
-      <button className='btn'><TrashCan /></button>
+      <button onClick={onSaveHandler} className={`btn ${ qty === lQty ? 'disabled' : ''}`}><SaveIcon /></button>
+      <button onClick={onRemoveHandler} className='btn'><TrashCan /></button>
     </div>
   )
 }

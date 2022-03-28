@@ -46,7 +46,41 @@ export function CartProvider({ children }) {
     }
   }
 
-  const value = { items, getCart, addItems };
+  const updateItem = async (index, qty) => {
+    const item = items[index];
+    const res = await fetch(`/api/carts/mine/items/${item.cartitemid}`, {
+      method: "PUT",
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        qty
+      })
+    });
+    if(res.ok){
+      const data = await res.json();
+      items[index].qty = data.qty;
+      setCart([...items]);
+    }
+  }
+
+  const removeItem = async (index, callback = () => {}) => {
+    const item = items[index];
+    const res = await fetch(`/api/carts/mine/items/${item.cartitemid}`, {
+      method: "DELETE",
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    });
+    if(res.ok){
+      const data = await res.json();
+      items.splice(index, 1);
+      setCart([...items]);
+      callback(data.id);
+    }
+  }
+
+  const value = { items, getCart, addItems, updateItem, removeItem };
 
   return <CartContext.Provider value={value}>{children}</CartContext.Provider>;
 }
