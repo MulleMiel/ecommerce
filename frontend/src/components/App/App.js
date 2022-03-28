@@ -93,11 +93,10 @@ function Layout() {
   return (
     <div>
       <header>
-        <div className="logo">
+        <Link to="/" className="logo">
           <img src="https://svgsilh.com/svg/2027989.svg" alt="Plants"/> Plants
-        </div>
+        </Link>
         <nav>
-          { location.pathname !== "/" && <Link to="/">Overview</Link> }
           { auth.user.loggedIn && <Link to="/account"><UserIcon />&nbsp;{ auth.user.firstname[0] + "." }</Link> }
           { cart?.items?.length > 0 && <Link to="/cart"><ShoppingBasket /><div className='amount'>{cart.items.length}</div></Link> }
           { auth.user.loggedIn && <Link to="/logout" onClick={() => { auth.signout(() => navigate("/")) }}>Logout</Link> }
