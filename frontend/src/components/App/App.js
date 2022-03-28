@@ -3,26 +3,36 @@ import './App.css';
 import { 
   Route, 
   Routes, 
-  Navigate, 
   useNavigate,
   useLocation,
   Outlet,
   Link
 } from 'react-router-dom';
-import { localAuth, googleAuth } from "../../api/auth";
+
+import { AuthProvider, PreventWhenAuth, RequireAuth, useAuth } from '../../providers/auth';
+import { CartProvider, useCart } from '../../providers/cart';
+
+
+// PAGES
 import LoginPage from '../LoginPage/LoginPage';
 import RegisterPage from '../RegisterPage/RegisterPage';
 import Homepage from '../Homepage/Homepage';
+import ProductPage from '../ProductPage/ProductPage';
 import AccountPage from '../AccountPage/AccountPage';
+import CartPage from '../CartPage/CartPage';
+
+import { ShoppingBasket, UserIcon } from '../partials/icons';
 
 function App() {
 
   return (
     <div className="wrapper">
       <AuthProvider>
+        <CartProvider>
           <Routes>
             <Route element={<Layout />}>
               <Route path="/" element={<Homepage />}/>
+              <Route path="/product/:id" element={<ProductPage />} />
               <Route path="/login" element={
                 <PreventWhenAuth>
                   <LoginPage />
@@ -38,8 +48,14 @@ function App() {
                   <AccountPage />
                 </RequireAuth>
                 } />
+              <Route path="/cart" element={
+                <RequireAuth>
+                  <CartPage />
+                </RequireAuth>
+                } />
             </Route>
           </Routes>
+        </CartProvider>
       </AuthProvider>
     </div>
   );
@@ -47,135 +63,38 @@ function App() {
 
 function Layout() {
   const auth = useAuth();
+  const navigate = useNavigate();
+  const location = useLocation();
+  const cart = useCart();
 
   useEffect(() => {
-    auth.check();
+    auth.check(() => {
+      cart.getCart();
+    });
   }, []);
 
   if(auth.user === null) return null;
 
   return (
     <div>
-      <AuthStatus />
-
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-    { auth.user.loggedIn && 
-        <li>
-          <Link to="/account">My Account</Link>
-        </li>
-    }
-      </ul>
-
-      <Outlet />
+      <header>
+        <div className="logo">
+          <img src="https://svgsilh.com/svg/2027989.svg" alt="Plants"/> Plants
+        </div>
+        <nav>
+          { location.pathname !== "/" && <Link to="/">Overview</Link> }
+          { auth.user.loggedIn && <Link to="/account"><UserIcon />&nbsp;{ auth.user.firstname[0] + "." }</Link> }
+          { cart?.items?.length > 0 && <Link to="/cart"><ShoppingBasket /><div className='amount'>{cart.items.length}</div></Link> }
+          { auth.user.loggedIn && <Link to="/logout" onClick={() => { auth.signout(() => navigate("/")) }}>Logout</Link> }
+          { !auth.user.loggedIn && <Link to="/login">Login</Link> }
+        </nav>
+      </header>
+      <main>
+        <Outlet />
+      </main>
+      <footer></footer>
     </div>
   );
-}
-
-const AuthContext = React.createContext();
-
-function AuthProvider({ children }) {
-  const [user, setUser] = React.useState(null);
-  
-  const signin = async (creds, callback) => {
-    return localAuth.signin(creds, (error, foundUser) => {
-      if(!error) setUser(foundUser);
-      if(foundUser === null){
-        setUser({ loggedIn: false });
-        callback(error, foundUser);
-        return 
-      }
-      foundUser.loggedIn = true;
-      setUser(foundUser);
-      callback(error, foundUser);
-    });
-  };
-
-  const signout = (callback) => {
-    return localAuth.signout(() => {
-      setUser({ loggedIn: false });
-      callback();
-    });
-  };
-
-  const register = (creds, callback) => {
-    return localAuth.register(creds, (error, newUser) => {
-      newUser.loggedIn = false;
-      callback(error, newUser);
-    });
-  };
-
-  const check = () => {
-    return localAuth.check((foundUser) => {
-      if(foundUser === null){
-        return setUser({ loggedIn: false });
-      }
-      if(foundUser) foundUser.loggedIn = true;
-      setUser(foundUser);
-    });
-  };
-
-  const signinGoogle = async (callback) => {
-    return googleAuth.signin((error, foundUser) => {
-      if(!error) setUser(foundUser);
-      callback(error, foundUser);
-    });
-  };
-
-  const value = { user, signin, signout, register, check, signinGoogle };
-
-  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
-}
-
-export function useAuth() {
-  return React.useContext(AuthContext);
-}
-
-function AuthStatus() {
-  const auth = useAuth();
-  const navigate = useNavigate();
-
-  if(!auth.user.loggedIn){
-    return <Link to="/login">Login</Link>
-  }
-
-  return (
-    <p>
-      Welcome { auth.user.firstname } { auth.user.lastname }!{" "}
-      <button
-        onClick={() => {
-          auth.signout(() => navigate("/"));
-        }}
-      >
-        Sign out
-      </button>
-    </p>
-  );
-}
-
-function RequireAuth({ children }) {
-  const auth = useAuth();
-  const location = useLocation();
-
-  if(auth.user === null) return null;
-  if (!auth.user.loggedIn) {
-    return <Navigate to="/login" state={{ from: location }} replace />;
-  }
-
-  return children;
-}
-
-function PreventWhenAuth({ children }) {
-  const auth = useAuth();
-
-  if(auth.user === null) return null;
-  if (auth.user.loggedIn) {
-    return <Navigate to="/" replace />;
-  }
-
-  return children;
 }
 
 export default App;

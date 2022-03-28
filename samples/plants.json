@@ -1,0 +1,3693 @@
+{
+  "data": {
+    "products": {
+      "items": [{
+        "id": 2997,
+        "uid": "Mjk5Nw==",
+        "categories": [{
+          "uid": "NDc=",
+          "name": "BabyPLNTS",
+          "url_key": "babyplnts-home",
+          "breadcrumbs": [{
+            "category_uid": "NDg=",
+            "category_name": "alle PLNTS",
+            "category_url_key": "all-plnts",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDg=",
+          "name": "alle PLNTS",
+          "url_key": "all-plnts",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "Nzg=",
+          "name": "top-stars",
+          "url_key": "top-stars",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "Nzk=",
+          "name": "first",
+          "url_key": "first",
+          "breadcrumbs": [{
+            "category_uid": "Nzg=",
+            "category_name": "top-stars",
+            "category_url_key": "top-stars",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }],
+        "care": "De Senecio Rowleyanus \u2018String of Pearls\u2019 staat het liefst in een hangpotje of op een hoge kast zodat ze haar slierten lekker kan laten zwieren. Haar slierten kunnen ontzettend lang worden, maar als je wil dat ze wat breder groeit, mag je haar gerust een knipbeurt geven. Belangrijk om te weten is dat de het erwtenplantje zich vertakt op de plek waar je het stengeltje afknipt. Op deze manier groeit de stengel naar de zijkant en krijg je een bredere verdeling van sliertjes. De takjes die je afknipt kun je heel gemakkelijk opnieuw stekken!\r\n \r\n \r\n \r\n Het baby erwtenplantje houdt van veel indirect licht. De String of Pearls is een vetplant, dus je hoeft haar maar weinig water te geven. Als ze te veel water krijgt, verschrompelen haar erwtjes een beetje en kunnen haar sliertjes afsterven. Geef haar daarom als je twijfelt liever te weinig dan te veel water. Ook als het bovenste laagje van de potgrond droog aanvoelt, hoef je jouw erwtenplant niet meteen op een drankje te trakteren. Ze slaat namelijk een voorraadje water op in haar erwtjes.",
+        "description": {
+          "html": "De Baby rowleyanus, ook wel String of Pearls genoemd, is echt d\u00e9 parel van alle babyplantjes. Dit schattige hangende vetplantje is misschien nog wel het meest bekend onder haar bijnaam \u2018Erwtenplant\u2019. Deze bijnaam heeft ze te danken aan haar ronde blaadjes die eruitzien als kleine, groene balletjes die aan steeltjes groeien en \u2013 inderdaad \u2013 op doperwtjes lijken.\r\n \r\n \r\n \r\n De Senecio rowleyanus is een van de allerkleinste babyplantjes in een kweekpotje. Met haar schattige bolletjesblaadjes is het erwtenplantje een echte aanwinst voor je plantenfamilie! De Baby String of Pearls heeft net als andere vetplanten maar wenig water nodig. Ze slaat water op in haar \u2018erwtjes\u2019 en ziet er op haar best uit wanneer haar bolletjes een frisgroene kleur hebben en stevig aanvoelen. Hoewel de kleine bolletjes uitnodigen om eraan te zitten, kun je dit beter niet doen; dit gevoelige typje is erg fragiel en kan snel haar bolletjes verliezen. Met een beetje liefde groeit jouw erwtenplantje snel uit tot een volwaardige kamerplant.",
+          "__typename": "ComplexTextValue"
+        },
+        "small_image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_m_011-thumbnail_2.jpg",
+          "label": "Rowleyanus Senecio",
+          "__typename": "ProductImage"
+        },
+        "image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_m_011-thumbnail_2.jpg",
+          "label": "Rowleyanus Senecio",
+          "__typename": "ProductImage"
+        },
+        "media_gallery": [{
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_m_011-2.jpg",
+          "label": null,
+          "position": 1,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_m_011-thumbnail_2.jpg",
+          "label": "Rowleyanus Senecio",
+          "position": 0,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.m.011-8.jpg",
+          "label": null,
+          "position": 2,
+          "__typename": "ProductImage"
+        }],
+        "stock_status": "IN_STOCK",
+        "only_x_left_in_stock": 537,
+        "expected_availability_date": null,
+        "meta_description": "Bestel Senecio Rowleyanus online bij PLNTS.com \u2713 30 dagen gezondheidsgarantie \u2713 Verzonden in 1 werkdag \u2713 Gratis verzending vanaf \u20ac75,-",
+        "name": "Rowleyanus",
+        "brand": "Senecio",
+        "title_sub": "Senecio",
+        "title_alt": "Erwtenplant",
+        "size": 167,
+        "pot_color": null,
+        "product_diameter": "6",
+        "product_height": "10",
+        "sku": "PL.S.M.011",
+        "url_key": "senecio-rowleyanus",
+        "sun": 0,
+        "sun_shade": 1,
+        "shade": 0,
+        "easy": 1,
+        "air": 1,
+        "pet": 0,
+        "nursery_pot": 1,
+        "price_range": {
+          "minimum_price": {
+            "discount": {
+              "amount_off": 0,
+              "percent_off": 0,
+              "__typename": "ProductDiscount"
+            },
+            "final_price": {
+              "currency": "EUR",
+              "value": 4.95,
+              "__typename": "Money"
+            },
+            "regular_price": {
+              "currency": "EUR",
+              "value": 4.95,
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "review_count": 14,
+        "rating_summary": 0,
+        "reviews": {
+          "items": [{
+            "average_rating": 60,
+            "created_at": "2022-02-08 15:13:59",
+            "nickname": "Setare Aaz",
+            "ratings_breakdown": [],
+            "summary": "Setare Aaz",
+            "text": "This little guy arrived in not such a good condition, with several of its pearls destroyed and two strings without any pearls. so I wrote to the support team, and they were very fast and helpful, and refunded me for the plant. The other plant I ordered is happy and fully healthy though. Maybe its just my luck!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-03-14 00:00:00",
+            "nickname": "Rasha Suliman",
+            "ratings_breakdown": [],
+            "summary": "Rasha Suliman",
+            "text": "Very nice plant arrived in excellent condition.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 20,
+            "created_at": "2021-02-06 00:00:00",
+            "nickname": "Mesdroms",
+            "ratings_breakdown": [],
+            "summary": "Mesdroms",
+            "text": ":)<a href=\"http:\/\/industrial-wood.ru\/\" \/ rel=\"nofollow ugc\">:)<\/a>:)",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 80,
+            "created_at": "2021-01-12 00:00:00",
+            "nickname": "Yarrid Dhooghe",
+            "ratings_breakdown": [],
+            "summary": "Yarrid Dhooghe",
+            "text": "De foto hier toont correct wat voor plantje krijgt. E\u00e9n takje met wortels was wel losgekomen tijdens het transport. Ik heb dit zelf teruggestopt, maar ik denk dat het goed komt!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 60,
+            "created_at": "2020-11-13 00:00:00",
+            "nickname": "Stacey Henry",
+            "ratings_breakdown": [],
+            "summary": "Stacey Henry",
+            "text": "The soil was too wet, so the vines started rotting and my plant unfortunately died. I was given a full refund though, and would still order other plants from the site as I have many other plants from here that have done well.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 60,
+            "created_at": "2020-11-08 00:00:00",
+            "nickname": "Lina Maniusyte",
+            "ratings_breakdown": [],
+            "summary": "Lina Maniusyte",
+            "text": "much smaller than in picture. one string was squashed in a box, only two left growing.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 80,
+            "created_at": "2020-10-27 00:00:00",
+            "nickname": "emxly3903",
+            "ratings_breakdown": [],
+            "summary": "emxly3903",
+            "text": "not very big but its growing really quick and really healthy",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 80,
+            "created_at": "2020-10-16 00:00:00",
+            "nickname": "alison rampelotto",
+            "ratings_breakdown": [],
+            "summary": "alison rampelotto",
+            "text": "arrived in great condition. was very small though",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-09-23 00:00:00",
+            "nickname": "alexandra",
+            "ratings_breakdown": [],
+            "summary": "alexandra",
+            "text": "arrived in perfect condition :)",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 60,
+            "created_at": "2020-08-22 00:00:00",
+            "nickname": "Isa",
+            "ratings_breakdown": [],
+            "summary": "Isa",
+            "text": "a few strings fell off in the first week after transportation, since then the plant hasn't lost any more pearls, but doesn't seem to grow neither",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 80,
+            "created_at": "2020-08-16 00:00:00",
+            "nickname": "PriyaRobert",
+            "ratings_breakdown": [],
+            "summary": "PriyaRobert",
+            "text": "Arrived in decent condition not big as shown",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 40,
+            "created_at": "2020-07-16 00:00:00",
+            "nickname": "V\u00e9ronique",
+            "ratings_breakdown": [],
+            "summary": "V\u00e9ronique",
+            "text": "Je suis ravie des autres boutures command\u00e9es en m\u00eame temps mais les 3 senecio sont arriv\u00e9s dans un \u00e9tat d\u00e9plorable. Replant\u00e9s ensemble vu les d\u00e9g\u00e2ts afin d'obtenir un semblant de plante, je ne pense pas qu'elle va survivre. Je suis tr\u00e8s d\u00e9\u00e7ue par les senecio et ne les recommande pas du tout.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-06-26 00:00:00",
+            "nickname": "Rachel K",
+            "ratings_breakdown": [],
+            "summary": "Rachel K",
+            "text": "A cutie.\n \n Elle est arriv\u00e9e en pleine forme, ravie.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-05-13 00:00:00",
+            "nickname": "Clover",
+            "ratings_breakdown": [],
+            "summary": "Clover",
+            "text": "It could hardly be a better plant!",
+            "__typename": "ProductReview"
+          }],
+          "__typename": "ProductReviews"
+        },
+        "__typename": "SimpleProduct"
+      }, {
+        "id": 2944,
+        "uid": "Mjk0NA==",
+        "categories": [{
+          "uid": "NDc=",
+          "name": "BabyPLNTS",
+          "url_key": "babyplnts-home",
+          "breadcrumbs": [{
+            "category_uid": "NDg=",
+            "category_name": "alle PLNTS",
+            "category_url_key": "all-plnts",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDg=",
+          "name": "alle PLNTS",
+          "url_key": "all-plnts",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "Nzg=",
+          "name": "top-stars",
+          "url_key": "top-stars",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "Nzk=",
+          "name": "first",
+          "url_key": "first",
+          "breadcrumbs": [{
+            "category_uid": "Nzg=",
+            "category_name": "top-stars",
+            "category_url_key": "top-stars",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }],
+        "care": "De Monstera Adansonii (Baby) is niet zo lastig als het op water geven aankomt. Ze houdt van vochtige aarde. Wat wel heel belangrijk is, is dat de Baby Monstera Adansonii van veel licht houdt, maar niet de volle zon. Zet haar daarom op een lichte warme plek, een natuurlijk lichte badkamer is ideaal. Let goed op haar groei, met een beetje liefde ontgroeit ze snel haar kleine potje en is ze toe aan een groter exemplaar.",
+        "description": {
+          "html": "De Monstera Adansonii (Baby), ook wel gatenplantje of \u2018monkey mask\u2019 genoemd is een klimmer. Wanneer je deze in je huiskamer hebt staan zul je al snel merken dat de Baby Adansonii uitlopers omhoog gaan. Voor je het weet is ze uitgegroeid tot een volwaardige huiskamerplant. Span een draad omhoog, of plaats een mospaal en je zult merken dat deze klimmer meteen blij wordt, omdat ze haar bladeren dan lekker kan laten groeien.",
+          "__typename": "ComplexTextValue"
+        },
+        "small_image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.006-thumbnail.jpg",
+          "label": "Adansonii Monstera",
+          "__typename": "ProductImage"
+        },
+        "image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.006-thumbnail.jpg",
+          "label": "Adansonii Monstera",
+          "__typename": "ProductImage"
+        },
+        "media_gallery": [{
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.006-thumbnail.jpg",
+          "label": "Adansonii Monstera",
+          "position": 5,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.006-2.jpg",
+          "label": null,
+          "position": 6,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.006-8.jpg",
+          "label": null,
+          "position": 7,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/a\/d\/adasonii_-_hydroplantie_1.jpg",
+          "label": null,
+          "position": 8,
+          "__typename": "ProductImage"
+        }],
+        "stock_status": "IN_STOCK",
+        "only_x_left_in_stock": 591,
+        "expected_availability_date": null,
+        "meta_description": "Bestel Monstera Adansonii online bij PLNTS.com \u2713 30 dagen gezondheidsgarantie \u2713 Verzonden in 1 werkdag \u2713 Gratis verzending vanaf \u20ac75,-",
+        "name": "Adansonii",
+        "brand": "Monstera",
+        "title_sub": "Monstera",
+        "title_alt": null,
+        "size": 167,
+        "pot_color": null,
+        "product_diameter": "2",
+        "product_height": "15",
+        "sku": "PL.S.B.006",
+        "url_key": "monstera-adansonii-baby",
+        "sun": 0,
+        "sun_shade": 1,
+        "shade": 0,
+        "easy": 1,
+        "air": 1,
+        "pet": 0,
+        "nursery_pot": 0,
+        "price_range": {
+          "minimum_price": {
+            "discount": {
+              "amount_off": 0,
+              "percent_off": 0,
+              "__typename": "ProductDiscount"
+            },
+            "final_price": {
+              "currency": "EUR",
+              "value": 4.45,
+              "__typename": "Money"
+            },
+            "regular_price": {
+              "currency": "EUR",
+              "value": 4.45,
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "review_count": 21,
+        "rating_summary": 0,
+        "reviews": {
+          "items": [{
+            "average_rating": 100,
+            "created_at": "2021-04-10 00:00:00",
+            "nickname": "Adriana Pena Bolivar",
+            "ratings_breakdown": [],
+            "summary": "Adriana Pena Bolivar",
+            "text": "Hace casi un a\u00f1o que la compre, tra\u00eda 3 o 4 hojitas cuando la recibi, pero comenz\u00f3 a crecer r\u00e1pidamente es la 3 vez que la he transplantado a una matera mas garde, es muy f\u00e1cil de cuidar ahora ya mide unos 50 cm y todo el tiempo tiene hojas nuevas , muy feliz por mi compra.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-02-10 00:00:00",
+            "nickname": "Katar\u00edna HOLLA",
+            "ratings_breakdown": [],
+            "summary": "Katar\u00edna HOLLA",
+            "text": "They arrived quite small and I was little worried. I was so wrong. They pick up immediately and they are growing fast, adding a leaf every two week. Absolutely gorgeous!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-12-04 00:00:00",
+            "nickname": "Ullie2001mandy",
+            "ratings_breakdown": [],
+            "summary": "Ullie2001mandy",
+            "text": "Zag er zo uit als op de foto bij binnenkomst. Blad was klein beetje gelig maar trok erg snel bij en 2 weken later is er al een blad bij gekomen.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-25 00:00:00",
+            "nickname": "Elisabeth Loresch",
+            "ratings_breakdown": [],
+            "summary": "Elisabeth Loresch",
+            "text": "Kam wunderbar an, Wurzeln sehen super aus!!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-17 00:00:00",
+            "nickname": "Polin Azimzadeh",
+            "ratings_breakdown": [],
+            "summary": "Polin Azimzadeh",
+            "text": "Very beautiful and cute!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-14 00:00:00",
+            "nickname": "Sarah Shaw",
+            "ratings_breakdown": [],
+            "summary": "Sarah Shaw",
+            "text": "My plant came in good condition considering I ordered it in the colder months, and no damage from beong in the post thanks to the very protective packaging. It was a little bit dirty for displaced soil but that was easily fixed. Very happy with my plant!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-10 00:00:00",
+            "nickname": "Molly Hadley",
+            "ratings_breakdown": [],
+            "summary": "Molly Hadley",
+            "text": "I ordered two adonsonii baby plants. One is larger with fewer leaves, one is smaller with many more leaves. Both are lovely though! Arrived beautifully packaged and healthy and two weeks down the line they are settling in well!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-09 00:00:00",
+            "nickname": "Abigail Edmonds",
+            "ratings_breakdown": [],
+            "summary": "Abigail Edmonds",
+            "text": "Have had for awhile and is growing well months later even post transition to leca!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-08 00:00:00",
+            "nickname": "Lina Maniusyte",
+            "ratings_breakdown": [],
+            "summary": "Lina Maniusyte",
+            "text": "like picture. Grows very quickly. Beautiful plant.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-06 00:00:00",
+            "nickname": "Mahalia English",
+            "ratings_breakdown": [],
+            "summary": "Mahalia English",
+            "text": "Just like picture, plant in very good health and condition. Absolutely adore!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-10-18 00:00:00",
+            "nickname": "Jana S.",
+            "ratings_breakdown": [],
+            "summary": "Jana S.",
+            "text": "I ordered 4 baby plants. This one was a little bigger than two of the order, but it\u2019s really pretty and it came in a healthy condition. It is already showing some new leafs.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-09-26 00:00:00",
+            "nickname": "Sarah Peter",
+            "ratings_breakdown": [],
+            "summary": "Sarah Peter",
+            "text": "I ordered three of these in size \"S\" to give to friends and family, since they enjoyed my other big one I already had so much!\n \n All of them had a pretty decent size, although one was a lot bigger than the other two. But that's fine, it would be boring if each plant was always the same. ;)\n \n \n \n All of them were packaged really nicely and weren't stressed from shipping at all. Excellent condition!\n \n They are all already growing pretty nicely and have all made new leaves already in the 2-3 weeks since they were bought! I can't wait to see how they will look once they are bigger! :)",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-30 00:00:00",
+            "nickname": "Nounn",
+            "ratings_breakdown": [],
+            "summary": "Nounn",
+            "text": "Beaucoup plus petite que sur la photo (environ 1\/3 de la plante montr\u00e9e) mais tr\u00e8s jolie tout de m\u00eame, et semble en forme.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-26 00:00:00",
+            "nickname": "hazyhazy",
+            "ratings_breakdown": [],
+            "summary": "hazyhazy",
+            "text": "Perfect, just like the picture.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-23 00:00:00",
+            "nickname": "Anca Dragoe",
+            "ratings_breakdown": [],
+            "summary": "Anca Dragoe",
+            "text": "It is a bit smaller than the picture but it arrived in excellent condition. Very pretty !!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-15 00:00:00",
+            "nickname": "Laura Quesada",
+            "ratings_breakdown": [],
+            "summary": "Laura Quesada",
+            "text": "Took a week to arrive but it is very healthy and cute :) a little stressed from shipping, but it will recover",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-11 00:00:00",
+            "nickname": "Shannon Paul",
+            "ratings_breakdown": [],
+            "summary": "Shannon Paul",
+            "text": "Totalement conquise. Le soin port\u00e9e \u00e0 la livraison \u00e9tait vraiment top et la reprise s'est faite sans encombre, quand bien m\u00eame j'avais un peu peur au moment de la commande. Bref, je recommande et la plante, et le site ! :D",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-11 00:00:00",
+            "nickname": "Tanja",
+            "ratings_breakdown": [],
+            "summary": "Tanja",
+            "text": "Plant arrived quick and in perfect condition! Its growing really fast, 3 new leaves in one week",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-03 00:00:00",
+            "nickname": "Dominika Sudra",
+            "ratings_breakdown": [],
+            "summary": "Dominika Sudra",
+            "text": "Plant has arrived in perfect condition! Extremely pleased with this order! :)",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-07-24 00:00:00",
+            "nickname": "Pandaxotic",
+            "ratings_breakdown": [],
+            "summary": "Pandaxotic",
+            "text": "Re\u00e7ue en 4 jours en parfait \u00e9tat , une nouvelle feuille en chemin et un syst\u00e8me racinaire bien d\u00e9velopp\u00e9 et en tr\u00e8s bonne sant\u00e9 ! Je suis ravie de mon achat !",
+            "__typename": "ProductReview"
+          }],
+          "__typename": "ProductReviews"
+        },
+        "__typename": "SimpleProduct"
+      }, {
+        "id": 2939,
+        "uid": "MjkzOQ==",
+        "categories": [{
+          "uid": "NDc=",
+          "name": "BabyPLNTS",
+          "url_key": "babyplnts-home",
+          "breadcrumbs": [{
+            "category_uid": "NDg=",
+            "category_name": "alle PLNTS",
+            "category_url_key": "all-plnts",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDg=",
+          "name": "alle PLNTS",
+          "url_key": "all-plnts",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }],
+        "care": "De Asperagus Fern (Baby) is een fijne varen soort. Ondanks haar verfijnde voorkomen kan ze best tegen een stootje. Ze houdt van vochtige niet te natte aarde en af en toe een sproeibeurt met de plantenspuit doet wonderen, daar worden haar blaadjes nog groener van! Het beste is om haar eens per week even een half uurtje in water te zetten zodat de aarde al het vocht kan opzuigen. Geef haar eens per twee weken organische organic PLNTSvoeding tijdens de lente en zomer maanden.",
+        "description": {
+          "html": "De Asparagus Fern (Baby), in het Latijns Asparagus Setaceus Plumoses is een van ons meest schattige babyplantjes. Ze is een mix tussen haar papa aspergeplant en haar mama de krulvaren. De Baby Asparagus Fern is een net als alle varens dol op een vochtige omgeving. Met haar zachte plumeau-achtige voorkomen is ze een frisse verschijning in bijvoorbeeld de badkamer of de keuken. Ze kan ook goed gedijen onder een stolpje of in een Terrarium.",
+          "__typename": "ComplexTextValue"
+        },
+        "small_image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_b_001-thumbnail_3.jpg",
+          "label": "Fern Asparagus",
+          "__typename": "ProductImage"
+        },
+        "image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_b_001-thumbnail_3.jpg",
+          "label": "Fern Asparagus",
+          "__typename": "ProductImage"
+        },
+        "media_gallery": [{
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_b_001-2.jpg",
+          "label": null,
+          "position": 1,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_b_001-thumbnail_3.jpg",
+          "label": "Fern Asparagus",
+          "position": 0,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.001-8.jpg",
+          "label": null,
+          "position": 2,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/a\/s\/asparagus_fern_-_clarelucyp.jpg",
+          "label": null,
+          "position": 3,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/a\/s\/asparagus_fern_-_curlyplantlady.jpg",
+          "label": null,
+          "position": 4,
+          "__typename": "ProductImage"
+        }],
+        "stock_status": "IN_STOCK",
+        "only_x_left_in_stock": 78,
+        "expected_availability_date": null,
+        "meta_description": "Bestel Asparagus Fern online bij PLNTS.com \u2713 30 dagen gezondheidsgarantie \u2713 Verzonden in 1 werkdag \u2713 Gratis verzending vanaf \u20ac75,-",
+        "name": "Fern",
+        "brand": "Asparagus",
+        "title_sub": "Asparagus",
+        "title_alt": null,
+        "size": 167,
+        "pot_color": null,
+        "product_diameter": "2",
+        "product_height": "15",
+        "sku": "PL.S.B.001",
+        "url_key": "asparagus-fern",
+        "sun": 0,
+        "sun_shade": 1,
+        "shade": 1,
+        "easy": 1,
+        "air": 1,
+        "pet": 0,
+        "nursery_pot": 0,
+        "price_range": {
+          "minimum_price": {
+            "discount": {
+              "amount_off": 0,
+              "percent_off": 0,
+              "__typename": "ProductDiscount"
+            },
+            "final_price": {
+              "currency": "EUR",
+              "value": 3.45,
+              "__typename": "Money"
+            },
+            "regular_price": {
+              "currency": "EUR",
+              "value": 3.45,
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "review_count": 5,
+        "rating_summary": 0,
+        "reviews": {
+          "items": [{
+            "average_rating": 100,
+            "created_at": "2022-02-17 00:35:36",
+            "nickname": "Richard Braun",
+            "ratings_breakdown": [],
+            "summary": "Richard Braun",
+            "text": "Kam sehr sauber an und steht super da ",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-02-17 00:00:00",
+            "nickname": "nuria119",
+            "ratings_breakdown": [],
+            "summary": "nuria119",
+            "text": "Arrived in perfect condition and looks really good. I love it!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-02-10 00:00:00",
+            "nickname": "Katar\u00edna HOLLA",
+            "ratings_breakdown": [],
+            "summary": "Katar\u00edna HOLLA",
+            "text": "Arrived well packaged. Seemed little fragile - the stems are so fine, but the root system was well developed. So far is looking well.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-02-04 00:00:00",
+            "nickname": "Luke O Mara",
+            "ratings_breakdown": [],
+            "summary": "Luke O Mara",
+            "text": "I ordered three. All came in perfect condition. Very healthy.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-01-27 00:00:00",
+            "nickname": "Ronahi Comak",
+            "ratings_breakdown": [],
+            "summary": "Ronahi Comak",
+            "text": "I absolutely love it. For me it looks like a mini forest!",
+            "__typename": "ProductReview"
+          }],
+          "__typename": "ProductReviews"
+        },
+        "__typename": "SimpleProduct"
+      }, {
+        "id": 3015,
+        "uid": "MzAxNQ==",
+        "categories": [{
+          "uid": "NDc=",
+          "name": "BabyPLNTS",
+          "url_key": "babyplnts-home",
+          "breadcrumbs": [{
+            "category_uid": "NDg=",
+            "category_name": "alle PLNTS",
+            "category_url_key": "all-plnts",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDg=",
+          "name": "alle PLNTS",
+          "url_key": "all-plnts",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }],
+        "care": "De Aglanonema Pink Princess (Baby) heeft weinig water nodig, maar het is wel belangrijk dat de grond vochtig blijft. Tussen het water geven door mag de grond een beetje droog aanvoelen. Teveel water kan wortelrot veroorzaken. De Baby Aglanonema Pink Princess kan op veel plekken staan zolang ze maar niet direct in het felle zonlicht staat. Geef in de lente en zomer, het groeiseizoen, regelmatig wat extra organic PLNTSvoeding zodat ze lekker kan groeien.",
+        "description": {
+          "html": "De Aglanonema Pink Princess (Baby) is niet voor niets vernoemd naar een prinses. Deze bijzondere Babyplant laat iedereen even stilstaan om je te verliezen in haar rijke bladerpracht. Ze lijkt wel een levend kunstwerkje; ieder blad heeft een kleurexplosie van roze en groene tinten in een duizelingwekkend patroon. En het goede nieuws met deze Baby is; ze wordt met jouw zorg nog een stuk groter! Probeer hier je ogen maar eens vanaf te houden!",
+          "__typename": "ComplexTextValue"
+        },
+        "small_image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.m.031-thumbnail.jpg",
+          "label": "Pink Princess Aglaonema",
+          "__typename": "ProductImage"
+        },
+        "image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.m.031-thumbnail.jpg",
+          "label": "Pink Princess Aglaonema",
+          "__typename": "ProductImage"
+        },
+        "media_gallery": [{
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.m.031-thumbnail.jpg",
+          "label": "Pink Princess Aglaonema",
+          "position": 2,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.m.031-2.jpg",
+          "label": null,
+          "position": 3,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.m.031-8.jpg",
+          "label": null,
+          "position": 4,
+          "__typename": "ProductImage"
+        }],
+        "stock_status": "IN_STOCK",
+        "only_x_left_in_stock": 470,
+        "expected_availability_date": null,
+        "meta_description": "Bestel Aglaonema Pink Princess online bij PLNTS.com \u2713 30 dagen gezondheidsgarantie \u2713 Verzonden in 1 werkdag \u2713 Gratis verzending vanaf \u20ac75,-",
+        "name": "Pink Princess",
+        "brand": "Aglaonema ",
+        "title_sub": "Aglaonema",
+        "title_alt": "Chinese evergreen",
+        "size": 167,
+        "pot_color": null,
+        "product_diameter": "6",
+        "product_height": "15",
+        "sku": "PL.S.M.031",
+        "url_key": "aglaonema-pink-princess",
+        "sun": 0,
+        "sun_shade": 1,
+        "shade": 1,
+        "easy": 1,
+        "air": 1,
+        "pet": 0,
+        "nursery_pot": 1,
+        "price_range": {
+          "minimum_price": {
+            "discount": {
+              "amount_off": 0,
+              "percent_off": 0,
+              "__typename": "ProductDiscount"
+            },
+            "final_price": {
+              "currency": "EUR",
+              "value": 5.95,
+              "__typename": "Money"
+            },
+            "regular_price": {
+              "currency": "EUR",
+              "value": 5.95,
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "review_count": 17,
+        "rating_summary": 0,
+        "reviews": {
+          "items": [{
+            "average_rating": 100,
+            "created_at": "2021-11-18 17:22:56",
+            "nickname": "Halina Belzek",
+            "ratings_breakdown": [],
+            "summary": "Halina Belzek",
+            "text": "Amazing, highly recomended",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-10-24 15:51:22",
+            "nickname": "Sara St\u00e5hl",
+            "ratings_breakdown": [],
+            "summary": "Sara St\u00e5hl",
+            "text": "Love this plant! Mine had more leaves than piqrure and was in good condition at arrival. Seems to like living in my home ",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-03-28 00:00:00",
+            "nickname": "Vitor Cruz",
+            "ratings_breakdown": [],
+            "summary": "Vitor Cruz",
+            "text": "(First of all, this plant isn\u2019t an aglaonema pink princess! Those are usually pricey and it would be super rare to find an online retailer without a waiting list for that particular variation of aglaonema. I was aware of this before ordering, and the plant in the photo IS the plant you receive, so it doesn\u2019t matter much unless you\u2019re specifically looking for a pink princess!)\n \n Arrived to Ireland quickly and in healthy condition! Lost a leaf or two after a week of settling in, but she\u2019s sprouting new growth like there\u2019s no tomorrow! Also, I\u2019ve been trying to figure out the actual variation type this is, as someone else mentioned in a review it could be pink Aurora, but the plant I received definitely has much brighter pink and a lot of beautiful mottling that isn\u2019t usually present in pink Aurora. I\u2019m at a loss as of right now, but the closest resemblance i found to my plant is \u201cspotted star aglaonema\u201d.\n \n Definitely recommend this little plant!!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 60,
+            "created_at": "2021-03-18 00:00:00",
+            "nickname": "Maria Ibanez Sabate",
+            "ratings_breakdown": [],
+            "summary": "Maria Ibanez Sabate",
+            "text": "The plant didn't arrive in great conditions. Brownish\/yellowish levels. I hope it recovers not sure if it will survive",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-03-14 00:00:00",
+            "nickname": "Rasha Suliman",
+            "ratings_breakdown": [],
+            "summary": "Rasha Suliman",
+            "text": "So cute. love it",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-01-21 00:00:00",
+            "nickname": "Inger Nordkvist",
+            "ratings_breakdown": [],
+            "summary": "Inger Nordkvist",
+            "text": "Anl\u00e4nde i utm\u00e4rkt skick exakt som p\u00e5 bilden. \n \n Omplanterad med ny jord och lite st\u00f6rre kruka.\n \n Ett par veckor senare, ett nytt blad har anl\u00e4nt, ser ut att trivas fint.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-01-17 00:00:00",
+            "nickname": "Sanshin-hh",
+            "ratings_breakdown": [],
+            "summary": "Sanshin-hh",
+            "text": "I'm just in love with this plant. Besides great service and quick delivery, I have to say that the quality of the plants is amazing. I received a healthy beautiful and VERY pink aglaonema. More beautiful than in the picture. No leaves were damaged during trasport. I can't wait to see it growing.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-12-11 00:00:00",
+            "nickname": "Imke9056",
+            "ratings_breakdown": [],
+            "summary": "Imke9056",
+            "text": "Eerste keer besteld hier. En meteen enthousiast. Perfect verpakt met een heatpack wat nog steeds goed warm was. De plant zelf: PRACHTIG!!! ik ben zo verbaasd over de mooie bladeren. Ik zal zeker weer bestellen.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-12-04 00:00:00",
+            "nickname": "Sundinska",
+            "ratings_breakdown": [],
+            "summary": "Sundinska",
+            "text": "I think this is a Pink Aurora(?). \n \n Arrived in fantastic condition, and I'm very pleased with it so far.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-12-01 00:00:00",
+            "nickname": "Majam",
+            "ratings_breakdown": [],
+            "summary": "Majam",
+            "text": "Arrived in great condition. I love it.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 80,
+            "created_at": "2020-11-30 00:00:00",
+            "nickname": "Aleksandra Glebicka",
+            "ratings_breakdown": [],
+            "summary": "Aleksandra Glebicka",
+            "text": "Im pretty sure this is pink splash , still , very happy with how healthy it arrived.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-16 00:00:00",
+            "nickname": "River Darling",
+            "ratings_breakdown": [],
+            "summary": "River Darling",
+            "text": "Plant looked like like the photo; two pink leaves, one green. I changed soil and washed roots and about 2 weeks later its slowly putting out signs its thinking about a new leaf. Very, very slow growing, but it seems happy enough!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-08 00:00:00",
+            "nickname": "Lina Maniusyte",
+            "ratings_breakdown": [],
+            "summary": "Lina Maniusyte",
+            "text": "like picture. Really nice pant.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-10-31 00:00:00",
+            "nickname": "StijnB",
+            "ratings_breakdown": [],
+            "summary": "StijnB",
+            "text": "Fast, very good packaging, arrived in top condition.\n \n I also think Pink Princess is not the variety. It must be another name, can it be \"Red Valentine\", \"Pink Splash\",...",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-10-15 00:00:00",
+            "nickname": "Melanie Suki\u010d",
+            "ratings_breakdown": [],
+            "summary": "Melanie Suki\u010d",
+            "text": "It arrived in excellent condition!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-31 00:00:00",
+            "nickname": "Maybe the name is not ok",
+            "ratings_breakdown": [],
+            "summary": "Maybe the name is not ok",
+            "text": "Super pretty, but I don't believe that it's name is Pink Princess, I can't find anywhere this reference for this Aglaonema, and there are not enough care advices here",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-18 00:00:00",
+            "nickname": "Jhoanna Lindgren",
+            "ratings_breakdown": [],
+            "summary": "Jhoanna Lindgren",
+            "text": "One of the favorites.",
+            "__typename": "ProductReview"
+          }],
+          "__typename": "ProductReviews"
+        },
+        "__typename": "SimpleProduct"
+      }, {
+        "id": 2995,
+        "uid": "Mjk5NQ==",
+        "categories": [{
+          "uid": "NDc=",
+          "name": "BabyPLNTS",
+          "url_key": "babyplnts-home",
+          "breadcrumbs": [{
+            "category_uid": "NDg=",
+            "category_name": "alle PLNTS",
+            "category_url_key": "all-plnts",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDg=",
+          "name": "alle PLNTS",
+          "url_key": "all-plnts",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }],
+        "care": "De Peperomia Prostrata (Baby) houdt van vochtige grond. Geef haar daarom twee keer in de week een beetje water. Blijf de aarde goed in de gaten houden, want te natte aarde zorgt ervoor dat haar worteltjes gaan rotten. In de natuur groeit ze vaak tegen de rotsen, bij jou thuis kun je haar het beste in een hangpotje zetten of in een pot waar haar strengen de ruimte hebben om losjes naar beneden te hangen. Ze is redelijk honkvast, wat inhoudt dat je niet of nauwelijks hoeft te verpotten. Om de aarde niet te laten uitputten kun je daarom in de zomermaanden wat organic PLNTSvoeding geven. De Baby Peperomia Prostrata vindt een verfrissende sproeibeurt heerlijk en je zal zien dat ze haar strengen snel vermeerderd en nog langer wordt.",
+        "description": {
+          "html": "De Peperomia Prostrata (Baby) komt van oorsprong uit Zuid-Amerika en is een kruiper of hangplant. Dit schattige babyplantje heeft dikke ronde blaadjes die qua vorm wat weghebben van kleine knoopjes of kleine schildpadschildjes. In het engels wordt ze daarom ook wel de String of Turtles genoemd. De blaadjes zijn wat dikker en lijken op een vetplantje, maar laat je daar niet door verwarren want deze baby heeft wel wat meer water nodig. Als ze begint met groeien strekt ze haar stengels fier in de lucht, wordt ze wat groter dan zakken ze naar beneden en kun je haar lekker laten hangen in een hangpot. Maar ook in een terrarium kan de Baby Peperomia Prostrata als kruipende plant heel goed gedijen.",
+          "__typename": "ComplexTextValue"
+        },
+        "small_image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_m_008-thumbnail_2.jpg",
+          "label": "Prostrata Peperomia",
+          "__typename": "ProductImage"
+        },
+        "image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_m_008-thumbnail_2.jpg",
+          "label": "Prostrata Peperomia",
+          "__typename": "ProductImage"
+        },
+        "media_gallery": [{
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_m_008-2.jpg",
+          "label": null,
+          "position": 1,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_m_008-thumbnail_2.jpg",
+          "label": "Prostrata Peperomia",
+          "position": 0,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.m.008-8.jpg",
+          "label": null,
+          "position": 2,
+          "__typename": "ProductImage"
+        }],
+        "stock_status": "IN_STOCK",
+        "only_x_left_in_stock": 549,
+        "expected_availability_date": null,
+        "meta_description": "Bestel Peperomia Prostrata online bij PLNTS.com \u2713 30 dagen gezondheidsgarantie \u2713 Verzonden in 1 werkdag \u2713 Gratis verzending vanaf \u20ac75,-",
+        "name": "Prostrata",
+        "brand": "Peperomia",
+        "title_sub": "Peperomia",
+        "title_alt": "String of Turtles",
+        "size": 167,
+        "pot_color": null,
+        "product_diameter": "6",
+        "product_height": "10",
+        "sku": "PL.S.M.008",
+        "url_key": "peperomia-prostrata",
+        "sun": 0,
+        "sun_shade": 1,
+        "shade": 0,
+        "easy": 1,
+        "air": 1,
+        "pet": 1,
+        "nursery_pot": 1,
+        "price_range": {
+          "minimum_price": {
+            "discount": {
+              "amount_off": 0,
+              "percent_off": 0,
+              "__typename": "ProductDiscount"
+            },
+            "final_price": {
+              "currency": "EUR",
+              "value": 4.95,
+              "__typename": "Money"
+            },
+            "regular_price": {
+              "currency": "EUR",
+              "value": 4.95,
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "review_count": 19,
+        "rating_summary": 0,
+        "reviews": {
+          "items": [{
+            "average_rating": 80,
+            "created_at": "2022-03-21 19:57:21",
+            "nickname": "Mariagiovanna Capone",
+            "ratings_breakdown": [],
+            "summary": "Mariagiovanna Capone",
+            "text": "Cute! the plant was perfectly packed (like all the others). it is having a hard time adjusting to the new home",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 60,
+            "created_at": "2021-02-01 00:00:00",
+            "nickname": "Misia",
+            "ratings_breakdown": [],
+            "summary": "Misia",
+            "text": "Good condition, but not trailing at all.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 60,
+            "created_at": "2021-01-16 00:00:00",
+            "nickname": "Kayla Lahti",
+            "ratings_breakdown": [],
+            "summary": "Kayla Lahti",
+            "text": "Sadly mine was damaged during shipping and most of the leaves broke off. I'm going to try to propagate them along with what was left of the plant. The other plants in my order were fine, but this one has delicate foliage.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 60,
+            "created_at": "2020-12-09 00:00:00",
+            "nickname": "damanti.saru99",
+            "ratings_breakdown": [],
+            "summary": "damanti.saru99",
+            "text": "not trailed like a picture and was not in a good condition.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-12-02 00:00:00",
+            "nickname": "Maratgaroby",
+            "ratings_breakdown": [],
+            "summary": "Maratgaroby",
+            "text": "It arrived in good condition and its very cute.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 60,
+            "created_at": "2020-12-01 00:00:00",
+            "nickname": "Francesca Sicora",
+            "ratings_breakdown": [],
+            "summary": "Francesca Sicora",
+            "text": "Molto bella, anche se ha patito un po' il viaggio. L'ho rinvasata come da istruzioni, spero che si riprenda.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 80,
+            "created_at": "2020-11-13 00:00:00",
+            "nickname": "Stacey Henry",
+            "ratings_breakdown": [],
+            "summary": "Stacey Henry",
+            "text": "Didn't trail in the same way as the picture. My longest trail was around half the size of the longest one in the picture. A cute and healthy plant though that has put out a good amount of new growth.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-10 00:00:00",
+            "nickname": "Molly Hadley",
+            "ratings_breakdown": [],
+            "summary": "Molly Hadley",
+            "text": "Love this little guy, he is definately smaller then the pic - but that\u2019s fine! Means I get to witness lots of growth (hopefully!) arrived healthy and happy and well packaged",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-10-10 00:00:00",
+            "nickname": "JBK",
+            "ratings_breakdown": [],
+            "summary": "JBK",
+            "text": "The plant arrived in great condition I\u2019ve had it for a month now and it has grown very fast and has some very long trailing stems",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-09-24 00:00:00",
+            "nickname": "Hugomrsilva",
+            "ratings_breakdown": [],
+            "summary": "Hugomrsilva",
+            "text": "Beautifall and got in my hand in perfect conditions",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-09-05 00:00:00",
+            "nickname": "bunny",
+            "ratings_breakdown": [],
+            "summary": "bunny",
+            "text": "The plant that I received was in a good condition. Can't wait to see how it grows bigger!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-09-01 00:00:00",
+            "nickname": "Cheryl McGuigan",
+            "ratings_breakdown": [],
+            "summary": "Cheryl McGuigan",
+            "text": "Arrived healthy and well packaged. A little smaller than the other image displayed as in not many trailing stems, however I\u2019m still happy with my plant as this for some reason seems to be difficult to buy",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-26 00:00:00",
+            "nickname": "hazyhazy",
+            "ratings_breakdown": [],
+            "summary": "hazyhazy",
+            "text": "Fantastic, very similar size to the picture and in perfect health",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-23 00:00:00",
+            "nickname": "Anca Dragoe",
+            "ratings_breakdown": [],
+            "summary": "Anca Dragoe",
+            "text": "It arrived in excellent condition! Very cute !",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 80,
+            "created_at": "2020-08-16 00:00:00",
+            "nickname": "PriyaRobert",
+            "ratings_breakdown": [],
+            "summary": "PriyaRobert",
+            "text": "Not trailing like the picture ! But recieved in a good condition",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 60,
+            "created_at": "2020-08-15 00:00:00",
+            "nickname": "Laura Quesada",
+            "ratings_breakdown": [],
+            "summary": "Laura Quesada",
+            "text": "So small, much smaller than the photo. Not trailling at all.... Still very cute and healthy",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-07-06 00:00:00",
+            "nickname": "Ellie",
+            "ratings_breakdown": [],
+            "summary": "Ellie",
+            "text": "Lovely and full, beautiful markings on the leaves. Starting to trail down already :)",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-06-26 00:00:00",
+            "nickname": "kr9434@gmail.com",
+            "ratings_breakdown": [],
+            "summary": "kr9434@gmail.com",
+            "text": "Arriv\u00e9e dans un \u00e9tat \u00e9tonnamment parfait ! Il n'y a plus qu'\u00e0 s'en occuper correctement. Je recommande.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-05-13 00:00:00",
+            "nickname": "Clover",
+            "ratings_breakdown": [],
+            "summary": "Clover",
+            "text": "A perfect bushy plant with lots of new growth. Highly recommend!",
+            "__typename": "ProductReview"
+          }],
+          "__typename": "ProductReviews"
+        },
+        "__typename": "SimpleProduct"
+      }, {
+        "id": 2953,
+        "uid": "Mjk1Mw==",
+        "categories": [{
+          "uid": "Mzc=",
+          "name": "Sale",
+          "url_key": "sale",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDc=",
+          "name": "BabyPLNTS",
+          "url_key": "babyplnts-home",
+          "breadcrumbs": [{
+            "category_uid": "NDg=",
+            "category_name": "alle PLNTS",
+            "category_url_key": "all-plnts",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDg=",
+          "name": "alle PLNTS",
+          "url_key": "all-plnts",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "Nzg=",
+          "name": "top-stars",
+          "url_key": "top-stars",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "Nzk=",
+          "name": "first",
+          "url_key": "first",
+          "breadcrumbs": [{
+            "category_uid": "Nzg=",
+            "category_name": "top-stars",
+            "category_url_key": "top-stars",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }],
+        "care": "De Philodendron Moonlight (Baby) is geen moeilijk type. Ze houdt veel van licht, maar plaats haar niet in de zon. Houd de aarde licht vochtig en maak haar af en toe blij met een zachte spray douche uit je plantenspuit. Geef eens in de twee maanden in de zomer een beetje organic PLNTSvoeding dan groeit de Baby Philodendron Moonlight uit tot je favoriete huiskamerplant.",
+        "description": {
+          "html": "De Philodendron Moonlight (Baby) is een opvallende verschijning. Haar bijna neongele bladeren lijken wel licht te geven. Niet voor niets is ze vernoemd naar het licht van de maan. Zoals bijna elke Philodendron is ze makkelijk te verzorgen en groeit ze in no-time uit tot een volwaardige huiskamerplant.",
+          "__typename": "ComplexTextValue"
+        },
+        "small_image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.021-thumbnail.jpg",
+          "label": "Moonlight Philodendron",
+          "__typename": "ProductImage"
+        },
+        "image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.021-thumbnail.jpg",
+          "label": "Moonlight Philodendron",
+          "__typename": "ProductImage"
+        },
+        "media_gallery": [{
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.021-2.jpg",
+          "label": null,
+          "position": 1,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.021-thumbnail.jpg",
+          "label": "Moonlight Philodendron",
+          "position": 0,
+          "__typename": "ProductImage"
+        }],
+        "stock_status": "IN_STOCK",
+        "only_x_left_in_stock": 391,
+        "expected_availability_date": null,
+        "meta_description": "Bestel Philodendron Moonlight online bij PLNTS.com \u2713 30 dagen gezondheidsgarantie \u2713 Verzonden in 1 werkdag \u2713 Gratis verzending vanaf \u20ac75,-",
+        "name": "Moonlight",
+        "brand": "Philodendron",
+        "title_sub": "Philodendron",
+        "title_alt": null,
+        "size": 167,
+        "pot_color": null,
+        "product_diameter": "2",
+        "product_height": "20",
+        "sku": "PL.S.B.021",
+        "url_key": "philodendron-moonlight",
+        "sun": 0,
+        "sun_shade": 0,
+        "shade": 1,
+        "easy": 0,
+        "air": 0,
+        "pet": 0,
+        "nursery_pot": 0,
+        "price_range": {
+          "minimum_price": {
+            "discount": {
+              "amount_off": 1.5,
+              "percent_off": 30.3,
+              "__typename": "ProductDiscount"
+            },
+            "final_price": {
+              "currency": "EUR",
+              "value": 3.45,
+              "__typename": "Money"
+            },
+            "regular_price": {
+              "currency": "EUR",
+              "value": 4.95,
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "review_count": 17,
+        "rating_summary": 0,
+        "reviews": {
+          "items": [{
+            "average_rating": 100,
+            "created_at": "2022-02-17 00:34:56",
+            "nickname": "Richard Braun",
+            "ratings_breakdown": [],
+            "summary": "Richard Braun",
+            "text": "Sehr guter Zustand,\nSehr dicht bewachsen ",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2022-02-17 00:34:45",
+            "nickname": "Richard Braun",
+            "ratings_breakdown": [],
+            "summary": "Richard Braun",
+            "text": "Sehr guter Zustand,\r\nSehr dicht bewachsen ",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 80,
+            "created_at": "2021-04-15 00:00:00",
+            "nickname": "Maria Ibanez Sabate",
+            "ratings_breakdown": [],
+            "summary": "Maria Ibanez Sabate",
+            "text": "Super dense and packed. Many leave damage, other seems to be fine. Trying to figure out what's best for the plant.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 60,
+            "created_at": "2021-02-25 00:00:00",
+            "nickname": "Katar\u00edna HOLLA",
+            "ratings_breakdown": [],
+            "summary": "Katar\u00edna HOLLA",
+            "text": "Baby moonlight came very small and in not very good condition.The leaves were very small,even thou there seemed to be some new growth, its been almost two weeks and still seems to be struggling. Leaves are yellowing right upon growth.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-01-25 00:00:00",
+            "nickname": "Emma More",
+            "ratings_breakdown": [],
+            "summary": "Emma More",
+            "text": "Still figuring out what it likes, but it's a really cute plant baby. I am happy with it, tho some leaves were damaged, but only the bottom ones.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-01-01 00:00:00",
+            "nickname": "Stefania",
+            "ratings_breakdown": [],
+            "summary": "Stefania",
+            "text": "A fully deserved 5 stars! This was my first time purchasing plants online outside my country (Portugal) and was a bit nervous about it. But what a great experience with PLNTS! The package arrived super fast, 2 days after despatched (what a perfect ghift for New Year's Eve, right?) and all the plants were in perfect condition. Philodendron Moonlight is gorgeous, bigger than I expected, with no leaves loss and no damages. Good job PLNTS team and a very happy New Year ! You definitely won a loyal customer.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 20,
+            "created_at": "2020-12-21 00:00:00",
+            "nickname": "Lina",
+            "ratings_breakdown": [],
+            "summary": "Lina",
+            "text": "Not like photo, it was tiny. Died within week. Look for more established and mature plants. Don't waste your money.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-24 00:00:00",
+            "nickname": "Alexandra CHUVATIN",
+            "ratings_breakdown": [],
+            "summary": "Alexandra CHUVATIN",
+            "text": "Very pretty. Beautiful color, and I received 1 little plant with 2 tiny ones at its base.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-14 00:00:00",
+            "nickname": "Sarah Shaw",
+            "ratings_breakdown": [],
+            "summary": "Sarah Shaw",
+            "text": "This plant is adorable! The plant size in the photo is accurate. It arrived a little dirty from displaced soil but that was easily cleaned up so no big deal. It did look a little sad when it arrived, but nothing too bad, just a little floppy, I don't think it liked being in the post. I did order this plant during the colder months so that may have also upset the plant. However, its been a couple of days now and its looking very happy. Very pleased with this plant!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-13 00:00:00",
+            "nickname": "Lisa Schlossarek",
+            "ratings_breakdown": [],
+            "summary": "Lisa Schlossarek",
+            "text": "After reading the other reviews I was a bit worried that mine might die fast because when it arrived especially the stem seemed very weak. Handled with great care, after potting it up it recovered quite fast and now, two weeks later, it's healthy and growing and a whole new bright yellow-green leaf has unfolded already! Very happy",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-10-17 00:00:00",
+            "nickname": "Jana",
+            "ratings_breakdown": [],
+            "summary": "Jana",
+            "text": "I ordered three of them and all thrive! There were even more plants in one pot, which was a great surprise.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-10-11 00:00:00",
+            "nickname": "JBK",
+            "ratings_breakdown": [],
+            "summary": "JBK",
+            "text": "Arrived in great shape with a few little plants in the small pot which I wasn\u2019t expecting!!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 20,
+            "created_at": "2020-09-14 00:00:00",
+            "nickname": "Louma Sader",
+            "ratings_breakdown": [],
+            "summary": "Louma Sader",
+            "text": "Arrived sopping wet with root rot and weak leaves, unfortunately died within a couple of days. Sadly, it was too small and too wet to survive although I still potted it up in quality soil and did my best to help it recover.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-18 00:00:00",
+            "nickname": "Jhoanna Lindgren",
+            "ratings_breakdown": [],
+            "summary": "Jhoanna Lindgren",
+            "text": "Really beautiful, we had trouble with the parcel so they are struggling.. might try to order them again.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 40,
+            "created_at": "2020-07-20 00:00:00",
+            "nickname": "teashaped",
+            "ratings_breakdown": [],
+            "summary": "teashaped",
+            "text": "Sadly I have to agree with the other reviewer. I was given two of these, I suspect because one wasn't looking too hot so PLNTS wanted to give me a chance to save this plant. It did not do well at all. Over the coming weeks the leaves just fell off and also had root rot. This was on both of them. I have bits without roots that might re-root, but I highly doubt it because it's so small. I was given a refund and may give this plant another shot in my next order, but they need to send out better quality ones.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 60,
+            "created_at": "2020-07-16 00:00:00",
+            "nickname": "Shei Moin",
+            "ratings_breakdown": [],
+            "summary": "Shei Moin",
+            "text": "The plant itself is a beauty but it wasn't the healthiest of plants. It seems the stress of transport and new environment was a bit too much and it unfortunately died after a couple of weeks.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-07-12 00:00:00",
+            "nickname": "Lucy Heuer",
+            "ratings_breakdown": [],
+            "summary": "Lucy Heuer",
+            "text": "Beautiful Plant, lovely roots - recommended!",
+            "__typename": "ProductReview"
+          }],
+          "__typename": "ProductReviews"
+        },
+        "__typename": "SimpleProduct"
+      }, {
+        "id": 2969,
+        "uid": "Mjk2OQ==",
+        "categories": [{
+          "uid": "NDc=",
+          "name": "BabyPLNTS",
+          "url_key": "babyplnts-home",
+          "breadcrumbs": [{
+            "category_uid": "NDg=",
+            "category_name": "alle PLNTS",
+            "category_url_key": "all-plnts",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDg=",
+          "name": "alle PLNTS",
+          "url_key": "all-plnts",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }],
+        "care": "<p><span style=\"font-weight: 400;\">Planting a caladium tuber might take a little bit of effort, but will definitely be rewarded! She will be happy in a spot with partial shade, even a spot with no direct sunlight would be great for her. You can plant the tuber with the bud upwards, 1-2 centimeter deep in soil. To keep her warm and cozy, the temperature should roughly stay around 21 degrees. Make sure to give her lots of water, since she needs this to grow her big and bold leaves. Just keep an eye on if there is any water left over on the bottom of the pot, since she doesn\u2019t like this to happen. To spoil her even more, you can mist her regularly. This will also help to keep a nice humidity. In fall her leaves will start to die off, this is also the time that you should stop giving her water. When only the tuber is left, you can place her inside a dry area, like a pot or inside sand. The temperature around the tuber should be around 12 degrees. When spring is arriving, you can repeat these steps. This routine will make sure you can enjoy your tuber for many years!<\/span><\/p>",
+        "description": {
+          "html": "<p>De Caladium is een tropische plant uit Midden- en Zuid-Amerika, met name uit Brazili\u00eb en het Amazonegebied, waar ze in de oerwouden groeien. Caladiums zijn prachtige planten die uit bollen groeien. Met haar hartvormige, vaak felgekleurde, mooi geaderde blad is de Caladium echt een opvallende verschijning! De White Queen heeft prachtige witte bladeren met in het midden een roze binnenkant, die zij echt draagt als haar kroon. Deze mooierd kan jouw nieuwe koninklijke eyecatcher worden!<\/p>",
+          "__typename": "ComplexTextValue"
+        },
+        "small_image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.045-thumbnail_1.jpg",
+          "label": "Caladium Tuber - White Queen",
+          "__typename": "ProductImage"
+        },
+        "image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.045-thumbnail_1.jpg",
+          "label": "Caladium Tuber - White Queen",
+          "__typename": "ProductImage"
+        },
+        "media_gallery": [{
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.045-thumbnail_1.jpg",
+          "label": null,
+          "position": 2,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.045-2.jpg",
+          "label": null,
+          "position": 3,
+          "__typename": "ProductImage"
+        }],
+        "stock_status": "IN_STOCK",
+        "only_x_left_in_stock": 46,
+        "expected_availability_date": null,
+        "meta_description": "Bestel Caladium White Queen online bij PLNTS.com \u2713 30 dagen gezondheidsgarantie \u2713 Verzonden in 1 werkdag \u2713 Gratis verzending vanaf \u20ac75,-",
+        "name": "Caladium Tuber - White Queen",
+        "brand": "Caladium",
+        "title_sub": "Caladium",
+        "title_alt": "Angel wings",
+        "size": 167,
+        "pot_color": null,
+        "product_diameter": "4",
+        "product_height": "4",
+        "sku": "PL.S.B.045",
+        "url_key": "caladium-tuber-white-queen",
+        "sun": 1,
+        "sun_shade": 0,
+        "shade": 0,
+        "easy": 1,
+        "air": 0,
+        "pet": 0,
+        "nursery_pot": 0,
+        "price_range": {
+          "minimum_price": {
+            "discount": {
+              "amount_off": 0,
+              "percent_off": 0,
+              "__typename": "ProductDiscount"
+            },
+            "final_price": {
+              "currency": "EUR",
+              "value": 5.95,
+              "__typename": "Money"
+            },
+            "regular_price": {
+              "currency": "EUR",
+              "value": 5.95,
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "review_count": 0,
+        "rating_summary": 0,
+        "reviews": {
+          "items": [],
+          "__typename": "ProductReviews"
+        },
+        "__typename": "SimpleProduct"
+      }, {
+        "id": 2973,
+        "uid": "Mjk3Mw==",
+        "categories": [{
+          "uid": "NDc=",
+          "name": "BabyPLNTS",
+          "url_key": "babyplnts-home",
+          "breadcrumbs": [{
+            "category_uid": "NDg=",
+            "category_name": "alle PLNTS",
+            "category_url_key": "all-plnts",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDg=",
+          "name": "alle PLNTS",
+          "url_key": "all-plnts",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }],
+        "care": "De Coffea Arabica (Baby) houdt van zon en licht, je kunt haar dus prima op de vensterbank zetten. Laat haar wel geleidelijk wennen aan volle zon door haar twee weken steeds wat langer in de zon te laten staan. De Baby Coffea Arabica heeft graag wat vochtige aarde. Geef haar wekelijks een klein beetje water en eens per twee weken een sproeibeurt met de plantenspuit, daar gaan haar bladeren namelijk helemaal van glimmen.",
+        "description": {
+          "html": "<style type=\"text\/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}--><\/style>\r\n<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;De Coffea Arabica (Baby) vindt haar oorsprong in de natuur van Ethiopi\u00eb. Net als de ontdekking van thee, is koffie ook per ongeluk ontdekt door een stel kloostergeiten die na het eten van de bonen wel heel alert werden. Verwacht van dit leuke kamerplantje geen koffiebonen, maar wel fris groen glimmend blad. De Baby Coffea Arabica is een plantje dat je goed in de volle zon kunt zetten. Met een beetje liefde groeit ze snel uit tot een volwaardige kamerplant.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:14784,&quot;9&quot;:0,&quot;10&quot;:0,&quot;11&quot;:4,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;arial&quot;,&quot;16&quot;:10}\">De Coffea Arabica (Baby) vindt haar oorsprong in de natuur van Ethiopi\u00eb. Net als de ontdekking van thee, is koffie ook per ongeluk ontdekt door een stel kloostergeiten die na het eten van de bonen wel heel alert werden. Verwacht van dit leuke kamerplantje geen koffiebonen, maar wel fris groen glimmend blad. De Baby Coffea Arabica is een plantje dat je goed in de volle zon kunt zetten. Met een beetje liefde groeit ze snel uit tot een volwaardige kamerplant.<\/span><\/p>",
+          "__typename": "ComplexTextValue"
+        },
+        "small_image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.bg.004-thumbnail.jpg",
+          "label": "Arabica Coffea",
+          "__typename": "ProductImage"
+        },
+        "image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.bg.004-thumbnail.jpg",
+          "label": "Arabica Coffea",
+          "__typename": "ProductImage"
+        },
+        "media_gallery": [{
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_bg_004-2.jpg",
+          "label": null,
+          "position": 1,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_bg_004-thumbnail_2.jpg",
+          "label": null,
+          "position": 2,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.bg.004-thumbnail.jpg",
+          "label": "Arabica Coffea",
+          "position": 0,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.bg.004-2.jpg",
+          "label": null,
+          "position": 3,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.bg.004-8.jpg",
+          "label": null,
+          "position": 4,
+          "__typename": "ProductImage"
+        }],
+        "stock_status": "IN_STOCK",
+        "only_x_left_in_stock": 151,
+        "expected_availability_date": null,
+        "meta_description": "Bestel Coffea Arabica online bij PLNTS.com \u2713 30 dagen gezondheidsgarantie \u2713 Verzonden in 1 werkdag \u2713 Gratis verzending vanaf \u20ac75,-",
+        "name": "Arabica",
+        "brand": "Coffea",
+        "title_sub": "Coffea",
+        "title_alt": "Koffieplant",
+        "size": 167,
+        "pot_color": null,
+        "product_diameter": "4",
+        "product_height": "15",
+        "sku": "PL.S.BG.004",
+        "url_key": "coffea-arabica-baby",
+        "sun": 0,
+        "sun_shade": 1,
+        "shade": 0,
+        "easy": 1,
+        "air": 1,
+        "pet": 0,
+        "nursery_pot": 0,
+        "price_range": {
+          "minimum_price": {
+            "discount": {
+              "amount_off": 0,
+              "percent_off": 0,
+              "__typename": "ProductDiscount"
+            },
+            "final_price": {
+              "currency": "EUR",
+              "value": 3.95,
+              "__typename": "Money"
+            },
+            "regular_price": {
+              "currency": "EUR",
+              "value": 3.95,
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "review_count": 5,
+        "rating_summary": 0,
+        "reviews": {
+          "items": [{
+            "average_rating": 100,
+            "created_at": "2022-02-16 07:46:22",
+            "nickname": "Jordi Heilbron",
+            "ratings_breakdown": [],
+            "summary": "Jordi Heilbron",
+            "text": "Nice!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-21 00:00:00",
+            "nickname": "Mariana de Jes\u00fas Su\u00e1rez Jes\u00fas",
+            "ratings_breakdown": [],
+            "summary": "Mariana de Jes\u00fas Su\u00e1rez Jes\u00fas",
+            "text": "I received it in perfect conditions, way better and bigger than in the picture. Coffee plants are very particular about their care, as they're very specific about soil, light and humidity: please, do keep this in mind before getting yourself one of these! I waited about two weeks after it arrived to transplant it to a slightly bigger pot, with some volcanic rocks added, and it has grown so fast that there are roots coming out of the bottom already, which is quite spectacular as these babies are not fast growers: it can take up to 5 years for a plant to fully mature and produce beans. Just keep that in mind if you're planning to grow coffee in case of a zombie apocalypse! :)",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-19 00:00:00",
+            "nickname": "Sazzy",
+            "ratings_breakdown": [],
+            "summary": "Sazzy",
+            "text": "Plant arrived in really good condition, slightly bigger than I expected.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 60,
+            "created_at": "2020-11-10 00:00:00",
+            "nickname": "Molly Hadley",
+            "ratings_breakdown": [],
+            "summary": "Molly Hadley",
+            "text": "I rate plnts very highly (I would like to very much make that clear!) but out of the 17 plants I ordered this was the only one that arrived in not such a good state, all of the stems are serverely shrivelled and an not sure if it\u2019ll survive as it was a gift for someone so I can\u2019t monitor. The leaves are healthy and the size of the plant was good but like I say the stems look shrillved possibly beyond repair but for one bad out of 17 plants that\u2019s really not bad and I can get over that! It is also cold in UK now and it was in the post a little while so maybe that didn\u2019t help. Anyway fingers crossed for this lil guy!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-23 00:00:00",
+            "nickname": "Anca Dragoe",
+            "ratings_breakdown": [],
+            "summary": "Anca Dragoe",
+            "text": "It arrived in excellent condition! Even better than the picture !!",
+            "__typename": "ProductReview"
+          }],
+          "__typename": "ProductReviews"
+        },
+        "__typename": "SimpleProduct"
+      }, {
+        "id": 2947,
+        "uid": "Mjk0Nw==",
+        "categories": [{
+          "uid": "NDc=",
+          "name": "BabyPLNTS",
+          "url_key": "babyplnts-home",
+          "breadcrumbs": [{
+            "category_uid": "NDg=",
+            "category_name": "alle PLNTS",
+            "category_url_key": "all-plnts",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDg=",
+          "name": "alle PLNTS",
+          "url_key": "all-plnts",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }],
+        "care": "De Alocasia Black Velvet (Baby) houdt niet van een vochtige voeten, geef daarom meerdere malen per week een klein scheutje water. Let er wel op dat de aarde niet te nat wordt, omdat de wortels van Baby Black Velvet dan kunnen gaan rotten. Geef in de lente en zomer, het groeiseizoen, regelmatig wat extra plantenvoeding zodat ze lekker kan groeien. Wanneer er bruine randjes aan het blad ontstaan is het tijd om te verpotten. Zet deze baby het liefst op een lichte plek, maar niet in de volle zon.",
+        "description": {
+          "html": "De Alocasia Black Velvet (Baby) dankt haar naam aan haar fluweelzachte bladeren. De prachtige witte nerven steken tegen de diepgroene, bijna zwarte bladeren af zodat ze wel licht lijken te geven. Net als de andere Alocasia\u2019s heeft ze wat extra liefde nodig om te blijven shinen, maar met jouw liefde groeit ze snel uit tot een prachtige huiskamerplant.",
+          "__typename": "ComplexTextValue"
+        },
+        "small_image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_b_010-thumbnail_3.jpg",
+          "label": "Black Velvet Alocasia",
+          "__typename": "ProductImage"
+        },
+        "image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_b_010-thumbnail_3.jpg",
+          "label": "Black Velvet Alocasia",
+          "__typename": "ProductImage"
+        },
+        "media_gallery": [{
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_b_010-2.jpg",
+          "label": null,
+          "position": 1,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_b_010-thumbnail_3.jpg",
+          "label": "Black Velvet Alocasia",
+          "position": 0,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.010-8.jpg",
+          "label": null,
+          "position": 2,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/b\/l\/black_velvet_-_callmeplantchild.jpg",
+          "label": null,
+          "position": 4,
+          "__typename": "ProductImage"
+        }],
+        "stock_status": "IN_STOCK",
+        "only_x_left_in_stock": 119,
+        "expected_availability_date": null,
+        "meta_description": "Bestel Alocasia Black Velvet online bij PLNTS.com \u2713 30 dagen gezondheidsgarantie \u2713 Verzonden in 1 werkdag \u2713 Gratis verzending vanaf \u20ac75,-",
+        "name": "Black Velvet",
+        "brand": "Alocasia",
+        "title_sub": "Alocasia",
+        "title_alt": "Reginula",
+        "size": 167,
+        "pot_color": null,
+        "product_diameter": "2",
+        "product_height": "10",
+        "sku": "PL.S.B.010",
+        "url_key": "alocasia-black-velvet",
+        "sun": 0,
+        "sun_shade": 1,
+        "shade": 1,
+        "easy": 1,
+        "air": 1,
+        "pet": 0,
+        "nursery_pot": 0,
+        "price_range": {
+          "minimum_price": {
+            "discount": {
+              "amount_off": 0,
+              "percent_off": 0,
+              "__typename": "ProductDiscount"
+            },
+            "final_price": {
+              "currency": "EUR",
+              "value": 5.45,
+              "__typename": "Money"
+            },
+            "regular_price": {
+              "currency": "EUR",
+              "value": 5.45,
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "review_count": 24,
+        "rating_summary": 0,
+        "reviews": {
+          "items": [{
+            "average_rating": 100,
+            "created_at": "2022-03-21 19:59:29",
+            "nickname": "Mariagiovanna Capone",
+            "ratings_breakdown": [],
+            "summary": "Mariagiovanna Capone",
+            "text": "Wonderful! it is adapting to the new house and one baby leaf is coming!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-11-25 16:39:08",
+            "nickname": "Sonia",
+            "ratings_breakdown": [],
+            "summary": "Sonia",
+            "text": "La planta lleg\u00f3 a Espa\u00f1a en perfectas condiciones y en menos de una semana; repetir\u00e9 seguro. ",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 60,
+            "created_at": "2021-04-12 00:00:00",
+            "nickname": "Maria Ibanez Sabate",
+            "ratings_breakdown": [],
+            "summary": "Maria Ibanez Sabate",
+            "text": "The plant arrived with 2 leaves, one as small as my thumb fingernail, which dies a week later. In the last month, one new leave started showing. I love the plant and I'm really happy with how is growing. However, the plant I got was much smaller than the one they put in the picture, which has 3 much bigger leaves.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 80,
+            "created_at": "2021-03-20 00:00:00",
+            "nickname": "Boby TANG",
+            "ratings_breakdown": [],
+            "summary": "Boby TANG",
+            "text": "I ordered two of them and both are a little bit smaller than on the picture but the leaves are still beautiful and i can't wait to see it grow!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-01-20 00:00:00",
+            "nickname": "Laura Sch\u00f6neberg",
+            "ratings_breakdown": [],
+            "summary": "Laura Sch\u00f6neberg",
+            "text": "Arrived with 2 leaves and a stem with multiple very small leaves, they get bigger every day. I love my baby black velvet &lt;3",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 80,
+            "created_at": "2021-01-20 00:00:00",
+            "nickname": "Malin Gr\u00fcnberg",
+            "ratings_breakdown": [],
+            "summary": "Malin Gr\u00fcnberg",
+            "text": "Very healthy leaves but only has 2 of them and no growth point at the moment. I think it\u2019s a bit risky to sell a plant with only two leaves and no growth point. It should have at least three or a growth point so if it suffers a bit after shipping it won\u2019t lose all its leaves. Plant seems to be doing fine though and hasn\u2019t lost a leaf after 5 days.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-18 00:00:00",
+            "nickname": "Rebecca Osei-boateng",
+            "ratings_breakdown": [],
+            "summary": "Rebecca Osei-boateng",
+            "text": "I'm so happy ! The two I ordered looked even better than on the picture, healthy and full of life. Looking at them makes me smile.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-15 00:00:00",
+            "nickname": "Paula",
+            "ratings_breakdown": [],
+            "summary": "Paula",
+            "text": "A lot smaller than on the picture, but arrived in perfect condition with two tiny healthy leafs, so I am very satisfied!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 60,
+            "created_at": "2020-11-13 00:00:00",
+            "nickname": "Stacey Henry",
+            "ratings_breakdown": [],
+            "summary": "Stacey Henry",
+            "text": "Arrived looking healthy, but a lot smaller than the picture. I have put it near a window though, and am hoping for it to perk up.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-08 00:00:00",
+            "nickname": "Lina Maniusyte",
+            "ratings_breakdown": [],
+            "summary": "Lina Maniusyte",
+            "text": "as picture, very cute little plant. Roots well established. Re potted to bigger pot on arrival.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-22 00:00:00",
+            "nickname": "Isa",
+            "ratings_breakdown": [],
+            "summary": "Isa",
+            "text": "Great plant, had three leaves when it arrived, now it has grown three big leaves since then!!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-16 00:00:00",
+            "nickname": "PriyaRobert",
+            "ratings_breakdown": [],
+            "summary": "PriyaRobert",
+            "text": "Loved it ! Arrived in a good condition",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-13 00:00:00",
+            "nickname": "theplantgal",
+            "ratings_breakdown": [],
+            "summary": "theplantgal",
+            "text": "Arrived with two leaves, one wasn't so healthy but it didn't matter because there was a healthy one on the way. It arrived very quickly and I was happy with the order.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-04 00:00:00",
+            "nickname": "Marissa",
+            "ratings_breakdown": [],
+            "summary": "Marissa",
+            "text": "Voor de eerste keer bestelde ik planten online.\n \n \n \n Ik ben zeer enthousiast over de service en de aangekregen plantjes (Black Velvet Allocasia, Philodendron Prince of Orange en Jewel Orchid).\n \n \n \n Een dynamisch bedrijf waarbij ik in de toekomst waarschijnlijk nog zeldzame plantjes zal bestellen!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 80,
+            "created_at": "2020-08-03 00:00:00",
+            "nickname": "Jurgita Raudonyt\u0117",
+            "ratings_breakdown": [],
+            "summary": "Jurgita Raudonyt\u0117",
+            "text": "Arrived extremely tiny and only with 2 leaves - this would not be an issue on its own, but one of the leaves are odd, brown-ish\/red-ish colour and I do not think it will survive. Anyways, put it under the grow light and hoping for the best.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-02 00:00:00",
+            "nickname": "Nik",
+            "ratings_breakdown": [],
+            "summary": "Nik",
+            "text": "Great plants! Arrived to the UK within 3 days and were very well packaged and healthy.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-07-26 00:00:00",
+            "nickname": "Maja",
+            "ratings_breakdown": [],
+            "summary": "Maja",
+            "text": "I ordered two plants two weeks ago, they came healthy, they had one leave each. one plant already has two leaves now and the other plant is also forming a new one at the moment. no damage when it arrived",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 80,
+            "created_at": "2020-07-20 00:00:00",
+            "nickname": "teashaped",
+            "ratings_breakdown": [],
+            "summary": "teashaped",
+            "text": "I've ordered 3 of these since discovering onlinebabyplants (now PLNTS). The first one, sadly, died from severe root and rhizome rot weeks after getting it. It was a shame as the plant was beautiful with multiple large leaves (large for a baby plant). I was given a refund for this. I've ordered again and it arrived with two leaves, but one was one it's way out (normal for Alocasia) but it looks to be making a new one. I ordered a third since I was hoping to get one with a few more leaves. This one I received had two tiny leaves with one incoming, which is decent I suppose! Will be checking to make sure the roots are okay and then planting it together with the first to create the illusion of a fuller plant.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-07-17 00:00:00",
+            "nickname": "Abigail",
+            "ratings_breakdown": [],
+            "summary": "Abigail",
+            "text": "Plant arrived very well, took a few weeks to acclimate but then started to push out larger, rounder growth.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 80,
+            "created_at": "2020-07-17 00:00:00",
+            "nickname": "anabeivide",
+            "ratings_breakdown": [],
+            "summary": "anabeivide",
+            "text": "We had a problem with the transport company and we saw that Baby Black Velvet arrived in bad conditions. On leaf was yellow at all and just have 1 leaf left right now hoping that it will survive. Even so, Emma has been aware of what happened and decided to refund us the money of this plant. We're so delighted with the other plants and grateful for the friendliness of emma... Thanks!",
+            "__typename": "ProductReview"
+          }],
+          "__typename": "ProductReviews"
+        },
+        "__typename": "SimpleProduct"
+      }, {
+        "id": 2942,
+        "uid": "Mjk0Mg==",
+        "categories": [{
+          "uid": "NDc=",
+          "name": "BabyPLNTS",
+          "url_key": "babyplnts-home",
+          "breadcrumbs": [{
+            "category_uid": "NDg=",
+            "category_name": "alle PLNTS",
+            "category_url_key": "all-plnts",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDg=",
+          "name": "alle PLNTS",
+          "url_key": "all-plnts",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }],
+        "care": "De Fittonia vereist niet veel licht, dus plaats haar niet onder direct zonlicht. Ze past perfect op donkere plekken in de woonkamer. De Fittonia heeft slechts een keer per week wat (lauw) water nodig. Zorg ervoor dat de grond niet te nat is, dan is de kans groot dat er wortelrot optreedt. Geef in de lente en zomer, het groeiseizoen, regelmatig wat extra organic PLNTSvoeding om je plant optimaal te ondersteunen.",
+        "description": {
+          "html": "De Fittonia Verschaffeltii wordt ook wel moza\u00efekplant genoemd. Ze is dan wel klein maar een echte blikvanger. Ieder blaadje aan deze plant is een kunstwerkje met het prachtige contrasterende nervenpatroon. De Fittonia Verschaffeltii is een tropische huisplant die oorspronkelijk uit Zuid-Amerika komt. Het is een simpele plant die weinig zorg vereist.",
+          "__typename": "ComplexTextValue"
+        },
+        "small_image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_b_004-thumbnail_3.jpg",
+          "label": "Verschaffeltii Fittonia",
+          "__typename": "ProductImage"
+        },
+        "image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_b_004-thumbnail_3.jpg",
+          "label": "Verschaffeltii Fittonia",
+          "__typename": "ProductImage"
+        },
+        "media_gallery": [{
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_b_004-2.jpg",
+          "label": null,
+          "position": 1,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_b_004-thumbnail_3.jpg",
+          "label": "Verschaffeltii Fittonia",
+          "position": 0,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.004-8.jpg",
+          "label": null,
+          "position": 2,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/f\/i\/fittonia_-_plant_it_gent.jpg",
+          "label": null,
+          "position": 5,
+          "__typename": "ProductImage"
+        }],
+        "stock_status": "IN_STOCK",
+        "only_x_left_in_stock": 435,
+        "expected_availability_date": null,
+        "meta_description": "Bestel Fittonia Verschaffeltii online bij PLNTS.com \u2713 30 dagen gezondheidsgarantie \u2713 Verzonden in 1 werkdag \u2713 Gratis verzending vanaf \u20ac75,-",
+        "name": "Verschaffeltii",
+        "brand": "Fittonia",
+        "title_sub": "Fittonia",
+        "title_alt": "Mozaiekplant",
+        "size": 167,
+        "pot_color": null,
+        "product_diameter": "6",
+        "product_height": "10",
+        "sku": "PL.S.B.004",
+        "url_key": "fittonia-verschaffeltii",
+        "sun": 0,
+        "sun_shade": 1,
+        "shade": 0,
+        "easy": 0,
+        "air": 1,
+        "pet": 1,
+        "nursery_pot": 1,
+        "price_range": {
+          "minimum_price": {
+            "discount": {
+              "amount_off": 0,
+              "percent_off": 0,
+              "__typename": "ProductDiscount"
+            },
+            "final_price": {
+              "currency": "EUR",
+              "value": 3.45,
+              "__typename": "Money"
+            },
+            "regular_price": {
+              "currency": "EUR",
+              "value": 3.45,
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "review_count": 6,
+        "rating_summary": 0,
+        "reviews": {
+          "items": [{
+            "average_rating": 80,
+            "created_at": "2021-03-12 00:00:00",
+            "nickname": "Chevelle Portier",
+            "ratings_breakdown": [],
+            "summary": "Chevelle Portier",
+            "text": "Arrived within 2 days of ordering. Well packaged however the leaves were squeezed in the packaging so it is slightly damaged and pushed to one side. It is also not close to 10cm in height, approximately 7cm. Hopefully it will recover as the leaves are stunning :)",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-03-07 00:00:00",
+            "nickname": "Ysatis NAQUIN",
+            "ratings_breakdown": [],
+            "summary": "Ysatis NAQUIN",
+            "text": "Plante arriv\u00e9e tr\u00e8s rapidement et saine. Cela fait 2 semaines que je l'ai et elle pousse tr\u00e8s bien. Tr\u00e8s satisfaite.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 40,
+            "created_at": "2021-02-26 00:00:00",
+            "nickname": "Anna Aneychik",
+            "ratings_breakdown": [],
+            "summary": "Anna Aneychik",
+            "text": "Arrived to me in a very poor condition, I had to remove about 1\/3 of the leaves cause they looked like some insect ate it. Not completely dead yet so maybe will still survive",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-01-12 00:00:00",
+            "nickname": "Yarrid Dhooghe",
+            "ratings_breakdown": [],
+            "summary": "Yarrid Dhooghe",
+            "text": "Prachtig en gezond plantje!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-09-01 00:00:00",
+            "nickname": "Cheryl McGuigan",
+            "ratings_breakdown": [],
+            "summary": "Cheryl McGuigan",
+            "text": "Such a cute plant. Arrived health, strong and well packaged. Bought this little one to put in a terrarium with my polka dot plant.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-26 00:00:00",
+            "nickname": "hazyhazy",
+            "ratings_breakdown": [],
+            "summary": "hazyhazy",
+            "text": "A beautiful little plant, the picture doesn't do it justice :)",
+            "__typename": "ProductReview"
+          }],
+          "__typename": "ProductReviews"
+        },
+        "__typename": "SimpleProduct"
+      }, {
+        "id": 2960,
+        "uid": "Mjk2MA==",
+        "categories": [{
+          "uid": "Mzc=",
+          "name": "Sale",
+          "url_key": "sale",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDc=",
+          "name": "BabyPLNTS",
+          "url_key": "babyplnts-home",
+          "breadcrumbs": [{
+            "category_uid": "NDg=",
+            "category_name": "alle PLNTS",
+            "category_url_key": "all-plnts",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDg=",
+          "name": "alle PLNTS",
+          "url_key": "all-plnts",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }],
+        "care": "De Philodendron Xanadu (Baby) is met haar tropische Zuid-Amerikaanse roots een warmte aanbidder. Zet haar daarom op een lichte warme plek, maar niet in de volle zon, want dan verbranden haar fr\u00eale bladeren. Net als veel tropische planten houdt ze van vochtige aarde. Geef haar daarom in de zomermaanden twee keer per week wat water. In de winter kun je dit terugschroeven naar 1 keer per week. De Baby Philodendron Xanadu houdt van een frisse sproeidouche met de plantenspuit en als je merkt dat ze steeds meer dorre bladeren tussen de groene bladeren krijgt kan je haar het best verpotten. Ze krijgt nog mooiere blaadjes wanneer je haar in de lente en zomermaanden eens in de twee weken wat bemest met vloeibare organic PLNTSvoeding.",
+        "description": {
+          "html": "<p>De Philodendron Xanadu Gold komt oorspronkelijk uit Brazili\u00eb en is een prachtige plant voor de toegewijde verzamelaar. De bladeren hebben een prachtige kleur in een vorm die zelden gezien wordt! Hun opvallende tinten van lichtgroen en geel hebben deze plant zijn naam van \"Gold\" bezorgd.<\/p>",
+          "__typename": "ComplexTextValue"
+        },
+        "small_image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_b_035-thumbnail_3.jpg",
+          "label": "Golden Xanadu Philodendron",
+          "__typename": "ProductImage"
+        },
+        "image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_b_035-thumbnail_3.jpg",
+          "label": "Golden Xanadu Philodendron",
+          "__typename": "ProductImage"
+        },
+        "media_gallery": [{
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_b_035-2.jpg",
+          "label": "Golden Xanadu Philodendron",
+          "position": 1,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_b_035-thumbnail_3.jpg",
+          "label": "Golden Xanadu Philodendron",
+          "position": 4,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.035-8.jpg",
+          "label": null,
+          "position": 5,
+          "__typename": "ProductImage"
+        }],
+        "stock_status": "IN_STOCK",
+        "only_x_left_in_stock": 1138,
+        "expected_availability_date": null,
+        "meta_description": "Bestel Philodendron Golden Xanadu online bij PLNTS.com \u2713 30 dagen gezondheidsgarantie \u2713 Verzonden in 1 werkdag \u2713 Gratis verzending vanaf \u20ac75,-",
+        "name": "Golden Xanadu",
+        "brand": "Philodendron",
+        "title_sub": "Philodendron",
+        "title_alt": "Lacy Tree",
+        "size": 167,
+        "pot_color": null,
+        "product_diameter": "2",
+        "product_height": "25",
+        "sku": "PL.S.B.035",
+        "url_key": "golden-xanadu",
+        "sun": 0,
+        "sun_shade": 0,
+        "shade": 0,
+        "easy": 0,
+        "air": 0,
+        "pet": 0,
+        "nursery_pot": 0,
+        "price_range": {
+          "minimum_price": {
+            "discount": {
+              "amount_off": 2.5,
+              "percent_off": 45.87,
+              "__typename": "ProductDiscount"
+            },
+            "final_price": {
+              "currency": "EUR",
+              "value": 2.95,
+              "__typename": "Money"
+            },
+            "regular_price": {
+              "currency": "EUR",
+              "value": 5.45,
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "review_count": 0,
+        "rating_summary": 0,
+        "reviews": {
+          "items": [],
+          "__typename": "ProductReviews"
+        },
+        "__typename": "SimpleProduct"
+      }, {
+        "id": 2994,
+        "uid": "Mjk5NA==",
+        "categories": [{
+          "uid": "NDc=",
+          "name": "BabyPLNTS",
+          "url_key": "babyplnts-home",
+          "breadcrumbs": [{
+            "category_uid": "NDg=",
+            "category_name": "alle PLNTS",
+            "category_url_key": "all-plnts",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDg=",
+          "name": "alle PLNTS",
+          "url_key": "all-plnts",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }],
+        "care": "De Nephrolepis Green Fantasy (Baby) houdt van een standplaats in de schaduw tot half schaduw maar niet van directe zonlicht. Het beste is om haar in het beginstadium in de halfschaduw te laten groeien, na een verpotting zal ze waarschijnlijk verhuizen naar een meer zonnige plek. Ze houdt net als andere varens van vocht en warmte, de badkamer is een ideale plek voor haar. Geef in de lente en zomer, het groeiseizoen, regelmatig wat extra organic PLNTSvoeding zodat ze lekker kan groeien.",
+        "description": {
+          "html": "De Nephrolepis Green Fantasy (Baby) is met haar frisgroene bladeren een vrolijke lichte krulvaren. Ze is nu nog een klein varentje, maar zal zeker snel uitgroeien tot een volle bos. Ze is een ideale hangplant, want zo kan ze haar groene \u2018lokken\u2019 mooi over de randen van de pot laten hangen. De Baby Nephrolepis Green Fantasy houdt zoals bijna alle varens van een vochtige en warme omgeving, de badkamer met natuurlijk licht is dan ook een ideale plek voor haar.",
+          "__typename": "ComplexTextValue"
+        },
+        "small_image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_m_007-thumbnail_2.jpg",
+          "label": "Green Fantasy Nephrolepis",
+          "__typename": "ProductImage"
+        },
+        "image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_m_007-thumbnail_2.jpg",
+          "label": "Green Fantasy Nephrolepis",
+          "__typename": "ProductImage"
+        },
+        "media_gallery": [{
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_m_007-2.jpg",
+          "label": null,
+          "position": 1,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_m_007-thumbnail_2.jpg",
+          "label": "Green Fantasy Nephrolepis",
+          "position": 0,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.m.007-8.jpg",
+          "label": null,
+          "position": 2,
+          "__typename": "ProductImage"
+        }],
+        "stock_status": "IN_STOCK",
+        "only_x_left_in_stock": 378,
+        "expected_availability_date": "2022-05-05 00:00:00",
+        "meta_description": "Bestel Nephrolepis Green Fantasy online bij PLNTS.com \u2713 30 dagen gezondheidsgarantie \u2713 Verzonden in 1 werkdag \u2713 Gratis verzending vanaf \u20ac75,-",
+        "name": "Green Fantasy",
+        "brand": "Nephrolepis",
+        "title_sub": "Nephrolepis",
+        "title_alt": "Zwaardvaren",
+        "size": 167,
+        "pot_color": null,
+        "product_diameter": "6",
+        "product_height": "10",
+        "sku": "PL.S.M.007",
+        "url_key": "nephrolepis-green-fantasy",
+        "sun": 0,
+        "sun_shade": 1,
+        "shade": 0,
+        "easy": 1,
+        "air": 1,
+        "pet": 1,
+        "nursery_pot": 1,
+        "price_range": {
+          "minimum_price": {
+            "discount": {
+              "amount_off": 0,
+              "percent_off": 0,
+              "__typename": "ProductDiscount"
+            },
+            "final_price": {
+              "currency": "EUR",
+              "value": 3.95,
+              "__typename": "Money"
+            },
+            "regular_price": {
+              "currency": "EUR",
+              "value": 3.95,
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "review_count": 1,
+        "rating_summary": 0,
+        "reviews": {
+          "items": [{
+            "average_rating": 100,
+            "created_at": "2021-02-17 00:00:00",
+            "nickname": "nuria119",
+            "ratings_breakdown": [],
+            "summary": "nuria119",
+            "text": "It arrived in perfect condition and look just like in the picture",
+            "__typename": "ProductReview"
+          }],
+          "__typename": "ProductReviews"
+        },
+        "__typename": "SimpleProduct"
+      }, {
+        "id": 2971,
+        "uid": "Mjk3MQ==",
+        "categories": [{
+          "uid": "NDc=",
+          "name": "BabyPLNTS",
+          "url_key": "babyplnts-home",
+          "breadcrumbs": [{
+            "category_uid": "NDg=",
+            "category_name": "alle PLNTS",
+            "category_url_key": "all-plnts",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDg=",
+          "name": "alle PLNTS",
+          "url_key": "all-plnts",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }],
+        "care": "De Alocasia Zebrina (Baby) houdt niet van een vochtige voeten, geef daarom meerdere malen per week een scheutje water. Let er wel op dat de aarde niet te nat wordt, omdat de wortels van Baby Alocasia Zebrina dan kunnen gaan rotten. Wanneer er bruine randjes aan het blad ontstaan is het tijd om te verpotten. Zet deze Baby het liefst op een lichte plek, maar niet in de volle zon. Wanneer je de Alocasia Zebrina (baby) teveel water geeft zal deze kleine druppeltjes vocht aan de bladeren krijgen. Let goed op, want dat zorgt voor vlekken op je houten vloer of tafel.",
+        "description": {
+          "html": "De Alocasia Zebrina (Baby) is de prinses van de planten savanne. Met haar prachtige gestreepte steel, die refereert aan een zebra, is ze een lust voor het oog. In de natuur worden haar bladeren zo groot dat er een vergelijking wordt gemaakt met een olifantsoor. Voor veel dieren in het Zuidoost-Aziatische regenwoud bieden de bladeren van de Alocasia Zebrina, die soms wel 100 centimeter groot kunnen worden, een veilige schuilplaats. Met jouw zorg groeit ze uit tot een prachtige huiskamerplant waar je veel oooh en aaaah\u2019s voor krijgt.",
+          "__typename": "ComplexTextValue"
+        },
+        "small_image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_bg_002-thumbnail_2.jpg",
+          "label": "Zebrina Alocasia",
+          "__typename": "ProductImage"
+        },
+        "image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_bg_002-thumbnail_2.jpg",
+          "label": "Zebrina Alocasia",
+          "__typename": "ProductImage"
+        },
+        "media_gallery": [{
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_bg_002-2.jpg",
+          "label": null,
+          "position": 1,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_bg_002-thumbnail_2.jpg",
+          "label": "Zebrina Alocasia",
+          "position": 0,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.bg.002-8.jpg",
+          "label": null,
+          "position": 2,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/z\/e\/zebrina_-_plantswithelisa_1.png",
+          "label": null,
+          "position": 4,
+          "__typename": "ProductImage"
+        }],
+        "stock_status": "IN_STOCK",
+        "only_x_left_in_stock": 30,
+        "expected_availability_date": null,
+        "meta_description": "Bestel Alocasia Zebrina online bij PLNTS.com \u2713 30 dagen gezondheidsgarantie \u2713 Verzonden in 1 werkdag \u2713 Gratis verzending vanaf \u20ac75,-",
+        "name": "Zebrina",
+        "brand": "Alocasia",
+        "title_sub": "Alocasia",
+        "title_alt": "Olifantsoor",
+        "size": 167,
+        "pot_color": null,
+        "product_diameter": "4",
+        "product_height": "20",
+        "sku": "PL.S.BG.002",
+        "url_key": "alocasia-zebrina-baby",
+        "sun": 0,
+        "sun_shade": 1,
+        "shade": 0,
+        "easy": 0,
+        "air": 0,
+        "pet": 0,
+        "nursery_pot": 0,
+        "price_range": {
+          "minimum_price": {
+            "discount": {
+              "amount_off": 0,
+              "percent_off": 0,
+              "__typename": "ProductDiscount"
+            },
+            "final_price": {
+              "currency": "EUR",
+              "value": 4.95,
+              "__typename": "Money"
+            },
+            "regular_price": {
+              "currency": "EUR",
+              "value": 4.95,
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "review_count": 27,
+        "rating_summary": 0,
+        "reviews": {
+          "items": [{
+            "average_rating": 60,
+            "created_at": "2022-03-05 14:40:24",
+            "nickname": "Juliana Aalderink",
+            "ratings_breakdown": [],
+            "summary": "Juliana Aalderink",
+            "text": "The little baby arrived with one dying leaf and one uncurled. Sadly it didn't recover after all efforts. Got a refund though. ",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-11-25 16:37:49",
+            "nickname": "Sonia",
+            "ratings_breakdown": [],
+            "summary": "Sonia",
+            "text": "En menos de una semana lleg\u00f3 a Espa\u00f1a en perfectas condiciones, con dos hojas y una en camino que en una semanita ya estaba desplegada del todo; el servicio est\u00e1 muy bien, sin duda repetir\u00e9. ",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 80,
+            "created_at": "2021-04-15 00:00:00",
+            "nickname": "Maria Ibanez Sabate",
+            "ratings_breakdown": [],
+            "summary": "Maria Ibanez Sabate",
+            "text": "I received a plant with 2 leaves, both healthy.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-02-25 00:00:00",
+            "nickname": "Jasmin Gro\u00dfhans",
+            "ratings_breakdown": [],
+            "summary": "Jasmin Gro\u00dfhans",
+            "text": "It arrived with three leaves. The little one died soon. We got them, I think in November. Also my cat bite into the biggest leave... Now, in February 2021 I think there's a new leave coming up. Should be fine, I heard alocasia normally rest during winter.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-16 00:00:00",
+            "nickname": "Elen",
+            "ratings_breakdown": [],
+            "summary": "Elen",
+            "text": "Such a pretty plant. Came with 3 leaves and at first looked a little sad, but a bit of water and light fixed it :) Beautiful healthy roots (except they grew through the plastic wrapping so I hope it can decmpose in time)",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-14 00:00:00",
+            "nickname": "Rieksma",
+            "ratings_breakdown": [],
+            "summary": "Rieksma",
+            "text": "Came with 3 leaves but unfortunately 1 broke during transit. That being said; the plant is super healthy and already growing a new leaf after arriving 3 days ago. I\u2019m very happy indeed",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-13 00:00:00",
+            "nickname": "Stacey Henry",
+            "ratings_breakdown": [],
+            "summary": "Stacey Henry",
+            "text": "Looked a little wilted when it arrived, but this was early into the lock down, so there were delays with delivery. (I have made orders since and they have arrived in the UK, within around 3 days) Quickly perked up, and has since become my favourite plant. Is strong and healthy.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-08 00:00:00",
+            "nickname": "Gwynoe",
+            "ratings_breakdown": [],
+            "summary": "Gwynoe",
+            "text": "came a bit shocked but survived",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-10-19 00:00:00",
+            "nickname": "Elisabelle Gerard",
+            "ratings_breakdown": [],
+            "summary": "Elisabelle Gerard",
+            "text": "Livraison ultra rapide en france. Super mignone petite plante",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-10-18 00:00:00",
+            "nickname": "Jana Sch\u00f6ppe",
+            "ratings_breakdown": [],
+            "summary": "Jana Sch\u00f6ppe",
+            "text": "Loving this little plant. It came with 3 leafs, one was curled, but it has uncurled itself after a week.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 60,
+            "created_at": "2020-10-17 00:00:00",
+            "nickname": "Samuel Turner",
+            "ratings_breakdown": [],
+            "summary": "Samuel Turner",
+            "text": "The plant itself arrived fairly quickly and well packaged with 2 young plants. I proceeded to use some brand new potting mixture and potted them. I have not had a new plant in my room or foreign soil for at least a month before these arrived and the windows are rarely opened and are far from where the plants are kept.\n \n A week in, the plants began to decline and one of each of their leaves\/stems started to decline. Upon checking, there were fungus gnats in the soil. These were only found in the new plants from PLNTS and nowhere else. It has been 3 weeks now. The gnats spread to 4 other plants and of my smaller plants. While I managed to kill them using insecticide spray on the other 4 larger plants, they managed to kill the smaller 2 through root rot (ie; eating wet roots). The two alocasia babies are very much struggling and the gnats are proving extremely hard to get rid of. One of the alocasias has died from root consumption and the other is losing its second to last leaf\/stem with only the main stem remaining as green as it was when it arrived. I have alocasias before, and this decline in the plants is almost certainly down to the gnats which almost definitely seem to have arrived with the package.\n \n I'm really upset because of course it isn't just that I loved these alocasia babies and was excited to grow them, but that this unfortunate spell of bad luck has also killed a couple of my other plants. I'll definitely be ordering from PLNTS again in future as I'm sure it was just bad luck, and I'll be sure to be more cautious with new plants arriving in my space.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-10-16 00:00:00",
+            "nickname": "alison rampelotto",
+            "ratings_breakdown": [],
+            "summary": "alison rampelotto",
+            "text": "arrived in great condition. beautiful",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-10-15 00:00:00",
+            "nickname": "Melanie Suki\u010d",
+            "ratings_breakdown": [],
+            "summary": "Melanie Suki\u010d",
+            "text": "It arrived in excellent condition",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-09-23 00:00:00",
+            "nickname": "alexandra",
+            "ratings_breakdown": [],
+            "summary": "alexandra",
+            "text": "Arrived in perfect condition, mine has 3 leaves. First it looked little bit sad, but watering helped a lot. It is such a cute plant!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-09-08 00:00:00",
+            "nickname": "LindaFuskova",
+            "ratings_breakdown": [],
+            "summary": "LindaFuskova",
+            "text": "plant looks exactly like on the picture. The size is nice and 3 healthy leafs. The only thing the plant is not standing but point down so hopefully it will recover soon",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 80,
+            "created_at": "2020-09-01 00:00:00",
+            "nickname": "Cheryl McGuigan",
+            "ratings_breakdown": [],
+            "summary": "Cheryl McGuigan",
+            "text": "Arrived well packaged and with three stems. However the smallest stem was broken upon opening but the remaining two stems have straightened and leaves have opened well, overall a very healthy plant",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-23 00:00:00",
+            "nickname": "Anca Dragoe",
+            "ratings_breakdown": [],
+            "summary": "Anca Dragoe",
+            "text": "It arrived in excellent condition!!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-23 00:00:00",
+            "nickname": "vremedios77",
+            "ratings_breakdown": [],
+            "summary": "vremedios77",
+            "text": "Beautiful and healthy plant. And already giving out a new leaf. Will definitely busy again from this seller.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-18 00:00:00",
+            "nickname": "Jhoanna Lindgren",
+            "ratings_breakdown": [],
+            "summary": "Jhoanna Lindgren",
+            "text": "Really beautiful plant, sadly we had trouble with the delivery parcel and this one came really sad, still struggling. Emma offered refund, thanks.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-07 00:00:00",
+            "nickname": "Veronica Dan",
+            "ratings_breakdown": [],
+            "summary": "Veronica Dan",
+            "text": "This baby arrived extremely safe and now, after 2 months is already twice and looking stunning!! \u2764\ufe0f",
+            "__typename": "ProductReview"
+          }],
+          "__typename": "ProductReviews"
+        },
+        "__typename": "SimpleProduct"
+      }, {
+        "id": 2911,
+        "uid": "MjkxMQ==",
+        "categories": [{
+          "uid": "NDg=",
+          "name": "alle PLNTS",
+          "url_key": "all-plnts",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDk=",
+          "name": "HousePLNTS",
+          "url_key": "houseplnts",
+          "breadcrumbs": [{
+            "category_uid": "NDg=",
+            "category_name": "alle PLNTS",
+            "category_url_key": "all-plnts",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "Nzg=",
+          "name": "top-stars",
+          "url_key": "top-stars",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "ODA=",
+          "name": "second",
+          "url_key": "second",
+          "breadcrumbs": [{
+            "category_uid": "Nzg=",
+            "category_name": "top-stars",
+            "category_url_key": "top-stars",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }],
+        "care": "De Philodendron Scandens Micans houdt van licht maar niet van een fel zonnetje. Haar favoriete temperatuur zit tussen de 16 en 24 graden. Ze houdt van vochtige grond maar pas op dat je haar niet teveel water geeft. Krijgt ze gele bladeren? Geef haar dan minder water. Houd haar uit de buurt van je huisdieren, want ze is giftig. Geef in de lente en zomer, het groeiseizoen, regelmatig wat extra organic PLNTSvoeding om je plant optimaal te ondersteunen.",
+        "description": {
+          "html": "De Philodendron Scandens Micans is er eentje om spontaan verliefd op te worden. Ze heeft prachtige hartvormige bladeren die fluweelzacht aanvoelen. En ze heeft nog een bijzondere eigenschap; in ieder licht toont ze een andere kleur. Van diepgroen tot volpaars, ieder moment van de dag verrast ze je met een mooi kleurenpalet. De Philodendron Scandens Micans is een hangplant en houdt van een lichte plek.",
+          "__typename": "ComplexTextValue"
+        },
+        "small_image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.m.019-thumbnail.jpg",
+          "label": "Scandens Micans Philodendron",
+          "__typename": "ProductImage"
+        },
+        "image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.m.019-thumbnail.jpg",
+          "label": "Scandens Micans Philodendron",
+          "__typename": "ProductImage"
+        },
+        "media_gallery": [{
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_m_019-2.jpg",
+          "label": null,
+          "position": 1,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_m_019-thumbnail_5.jpg",
+          "label": null,
+          "position": 2,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.m.019-thumbnail.jpg",
+          "label": "Scandens Micans Philodendron",
+          "position": 0,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/s\/c\/scandens_l_-_plantyapril_1.png",
+          "label": null,
+          "position": 4,
+          "__typename": "ProductImage"
+        }],
+        "stock_status": "IN_STOCK",
+        "only_x_left_in_stock": 264,
+        "expected_availability_date": null,
+        "meta_description": "Bestel Philodendron Scandens Micans online bij PLNTS.com \u2713 30 dagen gezondheidsgarantie \u2713 Verzonden in 1 werkdag \u2713 Gratis verzending vanaf \u20ac75,-",
+        "name": "Scandens Micans",
+        "brand": "Philodendron",
+        "title_sub": "Philodendron",
+        "title_alt": "Heartleaf",
+        "size": 168,
+        "pot_color": null,
+        "product_diameter": "12",
+        "product_height": "15",
+        "sku": "PL.M.019",
+        "url_key": "philodendron-scandens-micans",
+        "sun": 0,
+        "sun_shade": 1,
+        "shade": 0,
+        "easy": 0,
+        "air": 1,
+        "pet": 0,
+        "nursery_pot": 1,
+        "price_range": {
+          "minimum_price": {
+            "discount": {
+              "amount_off": 0,
+              "percent_off": 0,
+              "__typename": "ProductDiscount"
+            },
+            "final_price": {
+              "currency": "EUR",
+              "value": 11.95,
+              "__typename": "Money"
+            },
+            "regular_price": {
+              "currency": "EUR",
+              "value": 11.95,
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "review_count": 17,
+        "rating_summary": 0,
+        "reviews": {
+          "items": [{
+            "average_rating": 80,
+            "created_at": "2022-03-19 08:15:14",
+            "nickname": "Lina Opd",
+            "ratings_breakdown": [],
+            "summary": "Lina Opd",
+            "text": "Much smaller and less bushy than in the photo, but already building new leaves",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-04-30 00:00:00",
+            "nickname": "Annika Veenstra",
+            "ratings_breakdown": [],
+            "summary": "Annika Veenstra",
+            "text": "Wel wat kleiner als verwacht maar ziet er erg goed uit, goed verpakt en snel geleverd!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 80,
+            "created_at": "2021-04-28 00:00:00",
+            "nickname": "Daniela Rodriguez-Garay",
+            "ratings_breakdown": [],
+            "summary": "Daniela Rodriguez-Garay",
+            "text": "Leaves much smaller than expected and a few of the larger leaves arrived damaged, but plenty of new growth so I imagine it will perk up and look lovely by the end of this growing season. One of my favourite philos and difficult to find locally, so happy overall.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-02-21 00:00:00",
+            "nickname": "soffelchen",
+            "ratings_breakdown": [],
+            "summary": "soffelchen",
+            "text": "Sadly, nearly 4 leafs had big holes in them when the plant arrived. When I contacted the support, they had a fitting solution. All in all it is a very beautiful plant and it grows magnificent.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-01-31 00:00:00",
+            "nickname": "Mollyhadley",
+            "ratings_breakdown": [],
+            "summary": "Mollyhadley",
+            "text": "I am a little late to leave a review, but I have now had my micans a few months and can say I am VERY happy. Definitely one of my favourite plants. It arrived in very nice condition and well packaged with no damage - after having it throughout the cold Uk winter I am happy to say it is still thriving and putting out leaves regularly. The micans is a special plant with its velvety leaves and gorgeous red underside of the leaves. I honestly spend most of my time while at home lovingly gazing at this plant..!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-01-29 00:00:00",
+            "nickname": "meeple_syrup@hotmail.com",
+            "ratings_breakdown": [],
+            "summary": "meeple_syrup@hotmail.com",
+            "text": "This plant is absolutely gorgeous, definitely a new fave\n \n Arrived in great condition, still looking fresh, no damage, lost leaves or wilting\n \n Maybe a few less mature leaves than I would have expected based on the photos, but plenty of new leaves and leaves ready to unfurl so I'm not disappointed",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-01-25 00:00:00",
+            "nickname": "Emma More",
+            "ratings_breakdown": [],
+            "summary": "Emma More",
+            "text": "Beautiful plant!!! So far one of the favorites that I own. The velvety leaves make it very special.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-01-08 00:00:00",
+            "nickname": "SONIAMAZ",
+            "ratings_breakdown": [],
+            "summary": "SONIAMAZ",
+            "text": "Smaller than pictured but lovely and safe",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-01-01 00:00:00",
+            "nickname": "Stefania",
+            "ratings_breakdown": [],
+            "summary": "Stefania",
+            "text": "A fully deserved 5 stars! This was my first time purchasing plants online outside my country (Portugal) and was a bit nervous about it. But what a great experience with PLNTS! The package arrived super fast, 2 days after despatched, and all the plants were in perfect condition. Philodendron Micans is gorgeous with no leaves loss and no damages. Good job PLNTS team! You definitely won a loyal customer.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-12-20 00:00:00",
+            "nickname": "Sara Wennerstr\u00f6m",
+            "ratings_breakdown": [],
+            "summary": "Sara Wennerstr\u00f6m",
+            "text": "Great condition and a nice healthy plant. Smaller than picture, but has grown several new leaves.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-18 00:00:00",
+            "nickname": "Rebecca Osei-boateng",
+            "ratings_breakdown": [],
+            "summary": "Rebecca Osei-boateng",
+            "text": "So colorful and velvety, absolute eye candy !",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-13 00:00:00",
+            "nickname": "Stacey Henry",
+            "ratings_breakdown": [],
+            "summary": "Stacey Henry",
+            "text": "My plant was well packaged and arrived quickly. Has grown so much over the last 3 months",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-06 00:00:00",
+            "nickname": "Lucija Reic",
+            "ratings_breakdown": [],
+            "summary": "Lucija Reic",
+            "text": "The plant arrived in great condition and is exactly as pictured",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-05 00:00:00",
+            "nickname": "Jennifer Miller",
+            "ratings_breakdown": [],
+            "summary": "Jennifer Miller",
+            "text": "Arrived in a very good condition! This was my first time ordering a plant online and I'm so happy that I choose this website!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-10-15 00:00:00",
+            "nickname": "Silke",
+            "ratings_breakdown": [],
+            "summary": "Silke",
+            "text": "Eine Pflanze von meiner Wunschliste und ich wurde nicht entt\u00e4uscht. Sie kam sehr gut verpackt und heil nach 2 Tagen Postweg bei mir an. Die Pflanze hat wundersch\u00f6ne Bl\u00e4tter und die Gr\u00f6\u00dfe passt f\u00fcr mich absolut.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-09-26 00:00:00",
+            "nickname": "Julia",
+            "ratings_breakdown": [],
+            "summary": "Julia",
+            "text": "I was a bit worried when i ordered the Micans, as they are quite fragile so I thought it might come looking unhappy. My plant came in excellent condition though, with many new growth points. Absolutely stunning plant.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-16 00:00:00",
+            "nickname": "PriyaRobert",
+            "ratings_breakdown": [],
+            "summary": "PriyaRobert",
+            "text": "Same As in picture! Arrived in a good condition",
+            "__typename": "ProductReview"
+          }],
+          "__typename": "ProductReviews"
+        },
+        "__typename": "SimpleProduct"
+      }, {
+        "id": 3285,
+        "uid": "MzI4NQ==",
+        "categories": [{
+          "uid": "NDc=",
+          "name": "BabyPLNTS",
+          "url_key": "babyplnts-home",
+          "breadcrumbs": [{
+            "category_uid": "NDg=",
+            "category_name": "alle PLNTS",
+            "category_url_key": "all-plnts",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDg=",
+          "name": "alle PLNTS",
+          "url_key": "all-plnts",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }],
+        "care": "<style type=\"text\/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}--><\/style>\r\n<style type=\"text\/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}--><\/style>\r\n<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Calathea Warscewiczii heeft matig tot helder, indirect licht nodig. De bladeren verschroeien snel in direct, intens zonlicht. Zij heeft ook een constant vochtige grond nodig die nooit te nat of te droog wordt. De bladeren van de Calathea Warscewiczii zijn al druk bezig zich aan te passen aan de variaties in het licht. Je kunt dus geen vooraf bepaald schema hanteren. Je moet haar gewoon regelmatig in de gaten houden. Gebruik water op kamertemperatuur om onnodige stress te voorkomen.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:13185,&quot;3&quot;:{&quot;1&quot;:0},&quot;10&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;15&quot;:&quot;arial&quot;,&quot;16&quot;:10}\">Calathea Warscewiczii heeft matig tot helder, indirect licht nodig. De bladeren verschroeien snel in direct, intens zonlicht. Zij heeft ook een constant vochtige grond nodig die nooit te nat of te droog wordt. De bladeren van de Calathea Warscewiczii zijn al druk bezig zich aan te passen aan de variaties in het licht. Je kunt dus geen vooraf bepaald schema hanteren. Je moet haar gewoon regelmatig in de gaten houden. Gebruik water op kamertemperatuur om onnodige stress te voorkomen.<\/span><\/p>",
+        "description": {
+          "html": "<style type=\"text\/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}--><\/style>\r\n<style type=\"text\/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}--><\/style>\r\n<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Calathea's zijn prachtige tropische planten met prachtig gevormde bladeren. Deze Calathea Warscewiczii baby is misschien wel een van de meest opmerkelijke soorten. Haar exotische fluweelachtige bladeren met twee kleuren groen en bordeauxrode onderzijde doen haar echt opvallen tussen jouw andere planten. Naast dat ze dus super decoratief is, is ze ook nog eens zeer luchtzuiverend! Wij weten niet waarom je deze mooie baby niet in huis zou nemen...&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:13185,&quot;3&quot;:{&quot;1&quot;:0},&quot;10&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;15&quot;:&quot;arial&quot;,&quot;16&quot;:10}\">Calathea's zijn prachtige tropische planten met prachtig gevormde bladeren. Deze Calathea Warscewiczii baby is misschien wel een van de meest opmerkelijke soorten. Haar exotische fluweelachtige bladeren met twee kleuren groen en bordeauxrode onderzijde doen haar echt opvallen tussen jouw andere planten. Naast dat ze dus super decoratief is, is ze ook nog eens zeer luchtzuiverend! Wij weten niet waarom je deze mooie baby niet in huis zou nemen...<\/span><\/p>",
+          "__typename": "ComplexTextValue"
+        },
+        "small_image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.bg.026-2.jpg",
+          "label": "Warscewiczii Calathea",
+          "__typename": "ProductImage"
+        },
+        "image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.bg.026-2.jpg",
+          "label": "Warscewiczii Calathea",
+          "__typename": "ProductImage"
+        },
+        "media_gallery": [{
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.bg.026-2.jpg",
+          "label": "Warscewiczii Calathea",
+          "position": 3,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.bg.026-thumbnail.jpg",
+          "label": null,
+          "position": 4,
+          "__typename": "ProductImage"
+        }],
+        "stock_status": "IN_STOCK",
+        "only_x_left_in_stock": 464,
+        "expected_availability_date": null,
+        "meta_description": "Bestel Calathea Warscewiczii online bij PLNTS.com \u2713 30 dagen gezondheidsgarantie \u2713 Verzonden in 1 werkdag \u2713 Gratis verzending vanaf \u20ac75,-",
+        "name": "Warscewiczii",
+        "brand": "Calathea",
+        "title_sub": "Calathea",
+        "title_alt": "Gebedsplant",
+        "size": 167,
+        "pot_color": null,
+        "product_diameter": "2",
+        "product_height": "12",
+        "sku": "PL.S.BG.026",
+        "url_key": "calathea-warscewiczii-s",
+        "sun": 0,
+        "sun_shade": 1,
+        "shade": 0,
+        "easy": 0,
+        "air": 1,
+        "pet": 0,
+        "nursery_pot": 1,
+        "price_range": {
+          "minimum_price": {
+            "discount": {
+              "amount_off": 0,
+              "percent_off": 0,
+              "__typename": "ProductDiscount"
+            },
+            "final_price": {
+              "currency": "EUR",
+              "value": 4.95,
+              "__typename": "Money"
+            },
+            "regular_price": {
+              "currency": "EUR",
+              "value": 4.95,
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "review_count": 0,
+        "rating_summary": 0,
+        "reviews": {
+          "items": [],
+          "__typename": "ProductReviews"
+        },
+        "__typename": "SimpleProduct"
+      }, {
+        "id": 2716,
+        "uid": "MjcxNg==",
+        "categories": [{
+          "uid": "NDc=",
+          "name": "BabyPLNTS",
+          "url_key": "babyplnts-home",
+          "breadcrumbs": [{
+            "category_uid": "NDg=",
+            "category_name": "alle PLNTS",
+            "category_url_key": "all-plnts",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDg=",
+          "name": "alle PLNTS",
+          "url_key": "all-plnts",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }],
+        "care": "De Calathea Dwarf Orbifolia (Baby) is een \u2018living plant\u2019, voor deze soort is het heel belangrijk om constant vochtige aarde te hebben. Wanneer je twee keer in de week water geeft gaat dat zeker lukken. De Baby Calathea Dwarf Orbifolia is een plant die heel goed in de wat donkeren gebieden van je huis kan staan, houd haar daarom weg van heel veel licht, dan maak je haar het meest gelukkig. Geef je babyplant in de lente en zomer, het groeiseizoen, regelmatig wat extra organic PLNTSvoeding zodat ze lekker kan groeien. Met een beetje liefde ontgroeit ze snel haar kleine potje en is ze toe aan een groter exemplaar.",
+        "description": {
+          "html": "De Calathea Dwarf Orbifolia (Baby) is met recht een wolk van een babyplant. Haar fijne met strepen getekende grote bladeren zijn een lust voor het oog. Ze hoort tot de categorie \u2018living plants\u2019, want elke avond sluit ze haar bladeren om ze in het ochtendgloren weer te openen. Als je stil bent kan je het zelfs horen\u2026 of zijn dat groeikrampjes? Met een beetje liefde en verzorging groeit de baby Calathea Dwarf Orbifolia uit tot een prachtige grote kamerplant, de perfecte plant voor in de hal of badkamer bijvoorbeeld.",
+          "__typename": "ComplexTextValue"
+        },
+        "small_image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_b_020-thumbnail_4.jpg",
+          "label": "Orbifolia Calathea",
+          "__typename": "ProductImage"
+        },
+        "image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_b_020-thumbnail_4.jpg",
+          "label": "Orbifolia Calathea",
+          "__typename": "ProductImage"
+        },
+        "media_gallery": [{
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_b_020-2.jpg",
+          "label": null,
+          "position": 1,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_b_020-thumbnail_4.jpg",
+          "label": "Orbifolia Calathea",
+          "position": 0,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.020-8.jpg",
+          "label": null,
+          "position": 2,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/o\/r\/orbifolia_-_plantcrazy.thao_1_1.png",
+          "label": null,
+          "position": 3,
+          "__typename": "ProductImage"
+        }],
+        "stock_status": "IN_STOCK",
+        "only_x_left_in_stock": 638,
+        "expected_availability_date": null,
+        "meta_description": "Bestel Calathea Orbifolia online bij PLNTS.com \u2713 30 dagen gezondheidsgarantie \u2713 Verzonden in 1 werkdag \u2713 Gratis verzending vanaf \u20ac75,-",
+        "name": "Orbifolia",
+        "brand": "Calathea",
+        "title_sub": "Calathea",
+        "title_alt": "Gebedsplant",
+        "size": 167,
+        "pot_color": null,
+        "product_diameter": "2",
+        "product_height": "15",
+        "sku": "PL.S.B.020",
+        "url_key": "calathea-orbifolia",
+        "sun": 0,
+        "sun_shade": 1,
+        "shade": 0,
+        "easy": 1,
+        "air": 0,
+        "pet": 1,
+        "nursery_pot": 0,
+        "price_range": {
+          "minimum_price": {
+            "discount": {
+              "amount_off": 0,
+              "percent_off": 0,
+              "__typename": "ProductDiscount"
+            },
+            "final_price": {
+              "currency": "EUR",
+              "value": 4.95,
+              "__typename": "Money"
+            },
+            "regular_price": {
+              "currency": "EUR",
+              "value": 4.95,
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "review_count": 14,
+        "rating_summary": 0,
+        "reviews": {
+          "items": [{
+            "average_rating": 100,
+            "created_at": "2021-04-25 00:00:00",
+            "nickname": "Paola Sereno",
+            "ratings_breakdown": [],
+            "summary": "Paola Sereno",
+            "text": "Piccola, bellissima e sana. Uno spettacolo",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-04-20 00:00:00",
+            "nickname": "coraline.bichet",
+            "ratings_breakdown": [],
+            "summary": "coraline.bichet",
+            "text": "A cute one! I received it with a damaged leaf, but now, since the 5 months I have it, it grows very well!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 60,
+            "created_at": "2021-03-07 00:00:00",
+            "nickname": "Ysatis NAQUIN",
+            "ratings_breakdown": [],
+            "summary": "Ysatis NAQUIN",
+            "text": "J'en ai command\u00e9es deux : certaines des feuilles avaient du marron dessus et elles n'\u00e9taient pas en super forme. Cela fait pr\u00e8s de 2 semaines : \u00e0 voir comment elles \u00e9voluent.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 80,
+            "created_at": "2021-02-02 00:00:00",
+            "nickname": "Lexie Bloem",
+            "ratings_breakdown": [],
+            "summary": "Lexie Bloem",
+            "text": "Came very healthy but with curly leaves and still has them unfortunetly tips maybe. But it put out a beautiful leaf.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-01-27 00:00:00",
+            "nickname": "Ronahi Comak",
+            "ratings_breakdown": [],
+            "summary": "Ronahi Comak",
+            "text": "I love it.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-12-17 00:00:00",
+            "nickname": "keyday1",
+            "ratings_breakdown": [],
+            "summary": "keyday1",
+            "text": "It came really very healthy and tall, with two growth points, a leaf just unfurled from one and the other already pushing another new leaf. Very happy with the purchase!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-12-13 00:00:00",
+            "nickname": "Huart Aurelie",
+            "ratings_breakdown": [],
+            "summary": "Huart Aurelie",
+            "text": "Baby plante re\u00e7ue en tr\u00e8s bon \u00e9tat, tr\u00e8s bien emball\u00e9e. Je suis impressionn\u00e9e par la taille des feuilles pour une baby plante ! Merci",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-17 00:00:00",
+            "nickname": "Polin Azimzadeh",
+            "ratings_breakdown": [],
+            "summary": "Polin Azimzadeh",
+            "text": "Also have a big one, they look so cute next to each other!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-10-25 00:00:00",
+            "nickname": "SARAH MARFEUILLE",
+            "ratings_breakdown": [],
+            "summary": "SARAH MARFEUILLE",
+            "text": "Tr\u00e8s belle plante, de belles nervures sur les feuilles",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 80,
+            "created_at": "2020-09-26 00:00:00",
+            "nickname": "Sarah Peter",
+            "ratings_breakdown": [],
+            "summary": "Sarah Peter",
+            "text": "I love Orbifolias and these little babies are just too cute!\n \n I ordered two babies, both of them had a pretty nice size! Both of them were extremly stressed from the shipping and seemed to be very dry when they arrived (unlike the other plants). It took quite a while for them to feel better, but they are gorgeous now! Their leaves have gotten soo much darker and the leaves aren't rolled up anymore, like the day they arrived.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-22 00:00:00",
+            "nickname": "Isa",
+            "ratings_breakdown": [],
+            "summary": "Isa",
+            "text": "came in very good condition and has already sprouted two new leaves",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-18 00:00:00",
+            "nickname": "Jhoanna Lindgren",
+            "ratings_breakdown": [],
+            "summary": "Jhoanna Lindgren",
+            "text": "Lovely plant! Came in great conditions.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-10 00:00:00",
+            "nickname": "catarinasfurtado",
+            "ratings_breakdown": [],
+            "summary": "catarinasfurtado",
+            "text": "Very pretty, exacly like the pictures, already gave a lot of new leaves",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-08 00:00:00",
+            "nickname": "Ilona Schippers",
+            "ratings_breakdown": [],
+            "summary": "Ilona Schippers",
+            "text": "Absolut sch\u00f6nes Pfl\u00e4nzchen. War etwas blass ums N\u00e4schen als sie ankam aber das hatte sich innerhalb 24 Std erholt. Sie ist absolut gesund und wundersch\u00f6n",
+            "__typename": "ProductReview"
+          }],
+          "__typename": "ProductReviews"
+        },
+        "__typename": "SimpleProduct"
+      }, {
+        "id": 2974,
+        "uid": "Mjk3NA==",
+        "categories": [{
+          "uid": "NDc=",
+          "name": "BabyPLNTS",
+          "url_key": "babyplnts-home",
+          "breadcrumbs": [{
+            "category_uid": "NDg=",
+            "category_name": "alle PLNTS",
+            "category_url_key": "all-plnts",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDg=",
+          "name": "alle PLNTS",
+          "url_key": "all-plnts",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }],
+        "care": "De Alocasia Stingray (Baby) houdt van vochtige voeten, geef daarom meerdere malen per week een scheutje water. Let er wel op dat de aarde niet te nat wordt, omdat de wortels van de baby Alocasia Stingray dan kunnen gaan rotten. Wanneer er bruine randjes aan het blad ontstaan is het tijd om te verpotten. Zet deze dame het liefst op een lichte plek, maar niet in de volle zon. Wanneer je de Alocasia Stingray teveel water geeft zal deze kleine druppeltje vocht aan de bladeren krijgen. Let goed op, want dat zorgt voor vlekken op je houten vloer of tafel.",
+        "description": {
+          "html": "De Alocasia Stingray (Baby) is vernoemd naar een pijlstaartrog. Deze gelijkenis zie terug in de opvallende, rechtopstaande, vleugelachtige bladeren die uitlopen in een puntige staart. De Alocasia Stingray is een bijzondere in de bonte Araceae familie. Ze heeft veel ruimte nodig om haar bladeren wijds te kunnen ontvouwen. In de natuur worden de bladeren zo groot dat er een vergelijking wordt gemaakt met een olifantsoor. Voor veel dieren in het Zuid-Oost Aziatische regenwoud bieden de bladeren, die soms wel een 100 centimeter groot kunnen worden, een veilige schuilplaats. De Baby Alocasia Stingray heeft wat aandacht nodig, maar doe je het goed, dan heb je binnen een halfjaar al een grote kamerplant!",
+          "__typename": "ComplexTextValue"
+        },
+        "small_image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_bg_005-thumbnail_2.jpg",
+          "label": "Stingray Alocasia",
+          "__typename": "ProductImage"
+        },
+        "image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_bg_005-thumbnail_2.jpg",
+          "label": "Stingray Alocasia",
+          "__typename": "ProductImage"
+        },
+        "media_gallery": [{
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_bg_005-2.jpg",
+          "label": null,
+          "position": 1,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl_s_bg_005-thumbnail_2.jpg",
+          "label": "Stingray Alocasia",
+          "position": 0,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.bg.005-8.jpg",
+          "label": null,
+          "position": 2,
+          "__typename": "ProductImage"
+        }],
+        "stock_status": "IN_STOCK",
+        "only_x_left_in_stock": 105,
+        "expected_availability_date": null,
+        "meta_description": "Bestel Alocasia Stingray online bij PLNTS.com \u2713 30 dagen gezondheidsgarantie \u2713 Verzonden in 1 werkdag \u2713 Gratis verzending vanaf \u20ac75,-",
+        "name": "Stingray",
+        "brand": "Alocasia",
+        "title_sub": "Alocasia",
+        "title_alt": "Pijlstaartplant",
+        "size": 167,
+        "pot_color": null,
+        "product_diameter": "4",
+        "product_height": "25",
+        "sku": "PL.S.BG.005",
+        "url_key": "baby-alocasia-stingray",
+        "sun": 0,
+        "sun_shade": 1,
+        "shade": 0,
+        "easy": 1,
+        "air": 1,
+        "pet": 0,
+        "nursery_pot": 0,
+        "price_range": {
+          "minimum_price": {
+            "discount": {
+              "amount_off": 0,
+              "percent_off": 0,
+              "__typename": "ProductDiscount"
+            },
+            "final_price": {
+              "currency": "EUR",
+              "value": 4.95,
+              "__typename": "Money"
+            },
+            "regular_price": {
+              "currency": "EUR",
+              "value": 4.95,
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "review_count": 11,
+        "rating_summary": 0,
+        "reviews": {
+          "items": [{
+            "average_rating": 100,
+            "created_at": "2022-03-21 19:58:15",
+            "nickname": "Mariagiovanna Capone",
+            "ratings_breakdown": [],
+            "summary": "Mariagiovanna Capone",
+            "text": "Wonderful. the plant was perfectly packed (like all the others). it is adapting to the new house, 1 leaves on 4 have dried up",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-04-15 00:00:00",
+            "nickname": "Emma More",
+            "ratings_breakdown": [],
+            "summary": "Emma More",
+            "text": "I think this is the funniest looking alocasia, also the coolest one! :) Arrived in perfect condition.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-03-22 00:00:00",
+            "nickname": "TessyMagpie",
+            "ratings_breakdown": [],
+            "summary": "TessyMagpie",
+            "text": "Arrived in great condition. Very nice baby plant. I hope it will grow bigger :))",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 60,
+            "created_at": "2021-02-18 00:00:00",
+            "nickname": "Inger Nordkvist",
+            "ratings_breakdown": [],
+            "summary": "Inger Nordkvist",
+            "text": "Tyv\u00e4rr klarade den sig inte.\n \n N\u00e4r jag fick den s\u00e5g den lite tagen ut, men \u00e4nd\u00e5 ok.\n \n Det tog n\u00e5gra dagar bara sedan var den d\u00f6d.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-12 00:00:00",
+            "nickname": "Elisabelle Gerard",
+            "ratings_breakdown": [],
+            "summary": "Elisabelle Gerard",
+            "text": "2 pieds sur une baby, pleins de feuilles. Tres bonne surprise",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-08 00:00:00",
+            "nickname": "Lina Maniusyte",
+            "ratings_breakdown": [],
+            "summary": "Lina Maniusyte",
+            "text": "very beautiful plant. One of the favourites Alocasias.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-09-14 00:00:00",
+            "nickname": "Louma Sader",
+            "ratings_breakdown": [],
+            "summary": "Louma Sader",
+            "text": "Arrived in perfect condition, bigger than pictured. This plant has pushed out 2 new leaves in a month. Very pleased!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-09-14 00:00:00",
+            "nickname": "Zsofia Margitai",
+            "ratings_breakdown": [],
+            "summary": "Zsofia Margitai",
+            "text": "I ordered some different plants last month, including this one. Each plant arrived in very good condition. Since then, among others, this plant has grown a lot. I am very satisfied with this webshop! Many thanks for these beautiful and healthy plants!!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-23 00:00:00",
+            "nickname": "Anca Dragoe",
+            "ratings_breakdown": [],
+            "summary": "Anca Dragoe",
+            "text": "They arrived in excellent condition! Very pretty!!!",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 60,
+            "created_at": "2020-08-18 00:00:00",
+            "nickname": "Jhoanna Lindgren",
+            "ratings_breakdown": [],
+            "summary": "Jhoanna Lindgren",
+            "text": "We had trouble with the parcel, it arrived in bad conditions and did not make it. Emma offered refund, I might try to order this one again.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-07-10 00:00:00",
+            "nickname": "Boby TANG",
+            "ratings_breakdown": [],
+            "summary": "Boby TANG",
+            "text": "Probably one of my favorite plant at the moment, it arrived perfectly fine, i hope it will acclimate well",
+            "__typename": "ProductReview"
+          }],
+          "__typename": "ProductReviews"
+        },
+        "__typename": "SimpleProduct"
+      }, {
+        "id": 3411,
+        "uid": "MzQxMQ==",
+        "categories": [{
+          "uid": "NDc=",
+          "name": "BabyPLNTS",
+          "url_key": "babyplnts-home",
+          "breadcrumbs": [{
+            "category_uid": "NDg=",
+            "category_name": "alle PLNTS",
+            "category_url_key": "all-plnts",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDg=",
+          "name": "alle PLNTS",
+          "url_key": "all-plnts",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }],
+        "care": "<style type=\"text\/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}--><\/style>\r\n<style type=\"text\/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}--><\/style>\r\n<style type=\"text\/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}--><\/style>\r\n<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Deze Dragon Jade houdt van weinig water, maar het is belangrijk dat de grond niet uitdroogt en licht vochtig blijft. Deze baby Dischidia is niet veeleisend wat betreft haar standplaats, ze kan zelfs een paar uur volle zon verdragen. In de zomermaanden kunt je haar \u00e9\u00e9n keer per maand wat extra PLNTS voeding geven. In de herfst en winter is bemesting nauwelijks nodig. Ze houdt wel van een wat hogere luchtvochtigheid, dus regelmatig wat water om haar heen sproeien.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:13185,&quot;3&quot;:{&quot;1&quot;:0},&quot;10&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;15&quot;:&quot;arial&quot;,&quot;16&quot;:10}\">Deze Dragon Jade houdt van weinig water, maar het is belangrijk dat de grond niet uitdroogt en licht vochtig blijft. Deze baby Dischidia is niet veeleisend wat betreft haar standplaats, ze kan zelfs een paar uur volle zon verdragen. In de zomermaanden kunt je haar \u00e9\u00e9n keer per maand wat extra PLNTS voeding geven. In de herfst en winter is bemesting nauwelijks nodig. Ze houdt wel van een wat hogere luchtvochtigheid, dus regelmatig wat water om haar heen sproeien.<\/span><\/p>",
+        "description": {
+          "html": "<style type=\"text\/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}--><\/style>\r\n<style type=\"text\/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}--><\/style>\r\n<style type=\"text\/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}--><\/style>\r\n<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Ben je op zoek naar een exclusieve plant? Houd je van planten met een bijzondere twist? Dan is deze Dischidia Nummularifolia Ideaminubu (WoW, een echte tongbreker), die we liever bij haar waarschijnlijk bekendere naam noemen, Dischidia Dragon Jade, precies de plant voor jou! Ze heeft allemaal van die prachtige kleine hartvormige blaadjes. Deze blaadjes zitten aan stengels vast en deze stengels kunnen behoorlijk lang worden. Laat je haar hangen of klimmen? Beide manieren zijn erg verrassend!&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:13185,&quot;3&quot;:{&quot;1&quot;:0},&quot;10&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;15&quot;:&quot;arial&quot;,&quot;16&quot;:10}\">Ben je op zoek naar een exclusieve plant? Houd je van planten met een bijzondere twist? Dan is deze Dischidia Nummularifolia Ideaminubu (WoW, een echte tongbreker), die we liever bij haar waarschijnlijk bekendere naam noemen, Dischidia Dragon Jade, precies de plant voor jou! Ze heeft allemaal van die prachtige kleine hartvormige blaadjes. Deze blaadjes zitten aan stengels vast en deze stengels kunnen behoorlijk lang worden. Laat je haar hangen of klimmen? Beide manieren zijn erg verrassend!<\/span><\/p>",
+          "__typename": "ComplexTextValue"
+        },
+        "small_image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.m.058-thumbnail.jpg",
+          "label": "Dragon Dischidia",
+          "__typename": "ProductImage"
+        },
+        "image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.m.058-thumbnail.jpg",
+          "label": "Dragon Dischidia",
+          "__typename": "ProductImage"
+        },
+        "media_gallery": [{
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.m.058-thumbnail.jpg",
+          "label": "Dragon Dischidia",
+          "position": 6,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.m.058-2.jpg",
+          "label": null,
+          "position": 7,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.m.058-3.jpg",
+          "label": null,
+          "position": 8,
+          "__typename": "ProductImage"
+        }],
+        "stock_status": "IN_STOCK",
+        "only_x_left_in_stock": 17,
+        "expected_availability_date": null,
+        "meta_description": "Bestel Dischidia Dragon online bij PLNTS.com \u2713 30 dagen gezondheidsgarantie \u2713 Verzonden in 1 werkdag \u2713 Gratis verzending vanaf \u20ac75,-",
+        "name": "Dragon",
+        "brand": "Dischidia",
+        "title_sub": "Dischidia",
+        "title_alt": null,
+        "size": 167,
+        "pot_color": null,
+        "product_diameter": "6",
+        "product_height": "10",
+        "sku": "PL.S.M.058",
+        "url_key": "dischidia-dragon-s",
+        "sun": 0,
+        "sun_shade": 1,
+        "shade": 0,
+        "easy": 1,
+        "air": 0,
+        "pet": 1,
+        "nursery_pot": 1,
+        "price_range": {
+          "minimum_price": {
+            "discount": {
+              "amount_off": 0,
+              "percent_off": 0,
+              "__typename": "ProductDiscount"
+            },
+            "final_price": {
+              "currency": "EUR",
+              "value": 5.95,
+              "__typename": "Money"
+            },
+            "regular_price": {
+              "currency": "EUR",
+              "value": 5.95,
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "review_count": 0,
+        "rating_summary": 0,
+        "reviews": {
+          "items": [],
+          "__typename": "ProductReviews"
+        },
+        "__typename": "SimpleProduct"
+      }, {
+        "id": 3113,
+        "uid": "MzExMw==",
+        "categories": [{
+          "uid": "Mzc=",
+          "name": "Sale",
+          "url_key": "sale",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDc=",
+          "name": "BabyPLNTS",
+          "url_key": "babyplnts-home",
+          "breadcrumbs": [{
+            "category_uid": "NDg=",
+            "category_name": "alle PLNTS",
+            "category_url_key": "all-plnts",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDg=",
+          "name": "alle PLNTS",
+          "url_key": "all-plnts",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }],
+        "care": "De Alocasia Portodora (Baby) groeit op in veel indirect zonlicht. Haar overgrootouders leefden in de oerwouden van Zuidoost-Azi\u00eb. Daarom groeit ze graag op in een soortgelijke, vochtige omgeving. Verwen je baby Portodora door haar regelmatig een goede sproeibeurt te geven. Houd haar grond vochtig, maar zorg er voor dat je haar niet te veel water geeft, want ze houdt totaal niet van natte voeten. Met deze beginnerstips zal je baby zich ontplooien tot een echte indrukwekkende beauty!",
+        "description": {
+          "html": "De Alocasia Portodora is een erg indrukwekkende Alocasia vanwege haar dikke stengels en grote, mooie, groene bladeren. Haar bladeren kunnen wel een doorsnede van 60 cm krijgen! Daarom worden ze ook wel de Olifantsoor plant genoemd. Deze snelgroeiende dame zal jouw kamer in een mum van tijd vullen en echte tropische vibes aan je kamer geven!",
+          "__typename": "ComplexTextValue"
+        },
+        "small_image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.050-thumbnail.jpg",
+          "label": "Portodora Alocasia",
+          "__typename": "ProductImage"
+        },
+        "image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.050-thumbnail.jpg",
+          "label": "Portodora Alocasia",
+          "__typename": "ProductImage"
+        },
+        "media_gallery": [{
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.050-thumbnail.jpg",
+          "label": "Portodora Alocasia",
+          "position": 0,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.050-2.jpg",
+          "label": null,
+          "position": 1,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.b.050-8.jpg",
+          "label": null,
+          "position": 2,
+          "__typename": "ProductImage"
+        }],
+        "stock_status": "IN_STOCK",
+        "only_x_left_in_stock": 84,
+        "expected_availability_date": null,
+        "meta_description": "Bestel Alocasia Portodora online bij PLNTS.com \u2713 30 dagen gezondheidsgarantie \u2713 Verzonden in 1 werkdag \u2713 Gratis verzending vanaf \u20ac75,-",
+        "name": "Portodora",
+        "brand": "Alocasia",
+        "title_sub": "Alocasia",
+        "title_alt": "Olifantsoor",
+        "size": 167,
+        "pot_color": null,
+        "product_diameter": "2",
+        "product_height": "20",
+        "sku": "PL.S.B.050",
+        "url_key": "alocasia-portodora",
+        "sun": 0,
+        "sun_shade": 1,
+        "shade": 0,
+        "easy": 0,
+        "air": 0,
+        "pet": 0,
+        "nursery_pot": 0,
+        "price_range": {
+          "minimum_price": {
+            "discount": {
+              "amount_off": 0,
+              "percent_off": 0,
+              "__typename": "ProductDiscount"
+            },
+            "final_price": {
+              "currency": "EUR",
+              "value": 5.45,
+              "__typename": "Money"
+            },
+            "regular_price": {
+              "currency": "EUR",
+              "value": 5.45,
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "review_count": 0,
+        "rating_summary": 0,
+        "reviews": {
+          "items": [],
+          "__typename": "ProductReviews"
+        },
+        "__typename": "SimpleProduct"
+      }, {
+        "id": 3022,
+        "uid": "MzAyMg==",
+        "categories": [{
+          "uid": "NDc=",
+          "name": "BabyPLNTS",
+          "url_key": "babyplnts-home",
+          "breadcrumbs": [{
+            "category_uid": "NDg=",
+            "category_name": "alle PLNTS",
+            "category_url_key": "all-plnts",
+            "__typename": "Breadcrumb"
+          }],
+          "__typename": "CategoryTree"
+        }, {
+          "uid": "NDg=",
+          "name": "alle PLNTS",
+          "url_key": "all-plnts",
+          "breadcrumbs": null,
+          "__typename": "CategoryTree"
+        }],
+        "care": "De Hoya Kerrii (Baby) houdt van vochtige aarde, dus je mag haar 2 keer in de week een klein scheutje water geven. Laat tussendoor de aarde een beetje uitdrogen om wortelrot te voorkomen. Eens per 2 weken geef je haar een beetje organic PLNTSvoeding om haar prachtige hartvormige blaadjes blij te houden. De Baby Hoya Kerrii houdt van licht dus zet haar op een mooi plekje, het liefst in de ochtendzon. Daarna is ze klaar met zonnebaden en wil ze het liefst de rest van de dag uit de zon.",
+        "description": {
+          "html": "Is deze Hoya Kerrii (dubbelblad) niet super speciaal? Twee harten in \u00e9\u00e9n! Daarom wordt deze Hoya ook wel hartjesplant genoemd. Dit romantische schatje is een echte cupido, dus behalve dat deze plant leuk is om zelf te hebben, is zij ook leuk om weg te geven aan een speciaal iemand. Het is een van de weinige planten die bijna altijd zo klein blijft, maar dat maakt hem niet minder leuk! Je kunt het ook als een uitdaging zien om ervoor te zorgen dat ze wel groeit. Dit vergt echter wel veel geduld. De compacte schattige vorm maakt wel dat deze plant in elk huis past!",
+          "__typename": "ComplexTextValue"
+        },
+        "small_image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.m.038-thumbnail.jpg",
+          "label": "Kerrii Hoya",
+          "__typename": "ProductImage"
+        },
+        "image": {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.m.038-thumbnail.jpg",
+          "label": "Kerrii Hoya",
+          "__typename": "ProductImage"
+        },
+        "media_gallery": [{
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.m.038-thumbnail.jpg",
+          "label": "Kerrii Hoya",
+          "position": 5,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.m.038-2.jpg",
+          "label": null,
+          "position": 6,
+          "__typename": "ProductImage"
+        }, {
+          "url": "https:\/\/webshop.plnts.com\/media\/catalog\/product\/cache\/aa5d334f459227518b6c3cf7ea9d29ed\/p\/l\/pl.s.m.038-8.2.jpg",
+          "label": null,
+          "position": 7,
+          "__typename": "ProductImage"
+        }],
+        "stock_status": "IN_STOCK",
+        "only_x_left_in_stock": 11,
+        "expected_availability_date": null,
+        "meta_description": "Bestel Hoya Kerrii online bij PLNTS.com \u2713 30 dagen gezondheidsgarantie \u2713 Verzonden in 1 werkdag \u2713 Gratis verzending vanaf \u20ac75,-",
+        "name": "Kerrii",
+        "brand": "Hoya",
+        "title_sub": "Hoya",
+        "title_alt": "Hartjesplant",
+        "size": 167,
+        "pot_color": null,
+        "product_diameter": "6",
+        "product_height": "10",
+        "sku": "PL.S.M.038",
+        "url_key": "hoya-kerrii",
+        "sun": 0,
+        "sun_shade": 1,
+        "shade": 0,
+        "easy": 1,
+        "air": 0,
+        "pet": 1,
+        "nursery_pot": 1,
+        "price_range": {
+          "minimum_price": {
+            "discount": {
+              "amount_off": 0,
+              "percent_off": 0,
+              "__typename": "ProductDiscount"
+            },
+            "final_price": {
+              "currency": "EUR",
+              "value": 5.95,
+              "__typename": "Money"
+            },
+            "regular_price": {
+              "currency": "EUR",
+              "value": 5.95,
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "review_count": 7,
+        "rating_summary": 0,
+        "reviews": {
+          "items": [{
+            "average_rating": 100,
+            "created_at": "2021-02-19 00:00:00",
+            "nickname": "Olga Mart\u00edn Valent\u00edn",
+            "ratings_breakdown": [],
+            "summary": "Olga Mart\u00edn Valent\u00edn",
+            "text": "Really cute! :) The order arrived in 2 days and in very good condition.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2021-01-13 00:00:00",
+            "nickname": "Nadine Janz",
+            "ratings_breakdown": [],
+            "summary": "Nadine Janz",
+            "text": "Super sch\u00f6n, w\u00fcrde ich empfehlen",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 60,
+            "created_at": "2020-12-17 00:00:00",
+            "nickname": "Xenia Zingg",
+            "ratings_breakdown": [],
+            "summary": "Xenia Zingg",
+            "text": "When I ordered this plant, I didn't realize it will not grow to a bigger plant. Now, I read online that if a Hoya Kerrii doesn't already have a stem, it will never grow to a full plant and will stay as small as it is. This is really disappointing because I assumed this will not only be a leave as it is but grow into an actual bigger plant.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 60,
+            "created_at": "2020-12-08 00:00:00",
+            "nickname": "Ugne Balciunaite",
+            "ratings_breakdown": [],
+            "summary": "Ugne Balciunaite",
+            "text": "Have to take off points for the horrid soil, which I find common amongst baby plants from here. It's hardened to a point where it's solid as a rock. There's no chance of changing it unless you want to rip off the roots. Watering it seems useless. Otherwise kerii leaf looks as described",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-11-08 00:00:00",
+            "nickname": "Lina Maniusyte",
+            "ratings_breakdown": [],
+            "summary": "Lina Maniusyte",
+            "text": "much bigger than expected. very beautiful.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-09-03 00:00:00",
+            "nickname": "FT",
+            "ratings_breakdown": [],
+            "summary": "FT",
+            "text": "Tr\u00e8s bien emball\u00e9, la plante est arriv\u00e9e avec beaucoup de racines et en parfait \u00e9tat.",
+            "__typename": "ProductReview"
+          }, {
+            "average_rating": 100,
+            "created_at": "2020-08-29 00:00:00",
+            "nickname": "Pippa_pilea",
+            "ratings_breakdown": [],
+            "summary": "Pippa_pilea",
+            "text": "Ordered thursday, delivered in saturday!\n \n Extremly pleased with this one. Much bigger than expected and in perfect condition!",
+            "__typename": "ProductReview"
+          }],
+          "__typename": "ProductReviews"
+        },
+        "__typename": "SimpleProduct"
+      }],
+      "__typename": "Products"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+
+#products {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(max(240px, 12.5%), 1fr));
+  gap: 30px;
+}
+
+#products:after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 15px;
+  position: absolute;
+  top: 0;
+  right: -25px;
+  background-color: white;
+}

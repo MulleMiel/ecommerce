@@ -32,7 +32,7 @@ module.exports = (app, passport) => {
 
   router.delete('/logout', isAuthMiddleware, function(req, res) {
     req.logout();
-    res.sendStatus(200)
+    res.redirect('/');
   });
 
   router.post('/register', isNotAuthMiddleware, function(req, res) {

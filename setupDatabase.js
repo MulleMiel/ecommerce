@@ -29,7 +29,8 @@ const tableCheckQuery = (table) => {
       id              INT             PRIMARY KEY GENERATED ALWAYS AS IDENTITY NOT NULL,
       name            VARCHAR(50)     NOT NULL,
       price           BIGINT          NOT NULL,
-      description     VARCHAR(50)     NOT NULL
+      description     TEXT            NOT NULL,
+      image           TEXT
     );
   `;
 
@@ -65,7 +66,9 @@ const tableCheckQuery = (table) => {
       userId          INT             NOT NULL,
       modified        DATE            NOT NULL,
       created         DATE            NOT NULL,
-      FOREIGN KEY (userId) REFERENCES users(id)
+      FOREIGN KEY (userId) REFERENCES users(id),
+      converted       BOOLEAN         NOT NULL,
+      isActive        BOOLEAN         NOT NULL
     );
   `;
 

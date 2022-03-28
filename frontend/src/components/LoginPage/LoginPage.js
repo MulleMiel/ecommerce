@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useLocation, useNavigate, Link } from 'react-router-dom';
 import './LoginPage.css';
-import { useAuth } from "../App/App";
+import { useAuth } from '../../providers/auth';
 
 export default function LoginPage() {
   let navigate = useNavigate();
@@ -17,19 +17,6 @@ export default function LoginPage() {
     e.preventDefault();
 
     auth.signin({ email, password }, (error, user) => {
-
-      if(!user) {
-        return setError(error);
-      }
-      
-      navigate(from, { replace: true });
-    });
-  }
-
-  const handleGoogleClick = async e => {
-    e.preventDefault();
-
-    auth.signinGoogle((error, user) => {
 
       if(!user) {
         return setError(error);

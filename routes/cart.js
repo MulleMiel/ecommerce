@@ -8,7 +8,7 @@ const { isAuthMiddleware } = require('./auth')
 
 module.exports = (app, passport) => {
 
-  app.use('/carts', isAuthMiddleware, router);
+  app.use('/api/carts', isAuthMiddleware, router);
 
   router.get('/mine', async (req, res, next) => {
     try {
@@ -30,7 +30,7 @@ module.exports = (app, passport) => {
       const { id } = req.user;
     
       const response = await CartServiceInstance.get({ id });
-      res.status(200).send(response);
+      res.status(200).json(response);
     } catch(err) {
       next(err);
     }
@@ -42,7 +42,7 @@ module.exports = (app, passport) => {
     
       const response = await CartServiceInstance.create({ userId: id });
 
-      res.status(200).send(response);
+      res.status(200).json(response);
     } catch(err) {
       next(err);
     }
@@ -52,10 +52,14 @@ module.exports = (app, passport) => {
     try {
       const { id } = req.user;
       const data = req.body;
+
+      if(!data.productId && isNaN(data.amount)){
+        return res.status(401)
+      }
     
       const response = await CartServiceInstance.addItem(id, data);
 
-      res.status(200).send(response);
+      res.status(200).json(response);
     } catch(err) {
       next(err);
     }

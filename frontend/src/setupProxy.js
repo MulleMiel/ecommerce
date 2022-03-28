@@ -9,4 +9,12 @@ module.exports = function(app) {
       changeOrigin: true,
     })
   );
+
+  app.use(
+    '/api/**',
+    createProxyMiddleware({
+      target: `http://localhost:${PORT}`,
+      changeOrigin: true,
+    })
+  );
 };

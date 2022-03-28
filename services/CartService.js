@@ -43,7 +43,20 @@ module.exports = class CartService {
   async addItem(userId, item) {
     try {
       // Load user cart based on ID
-      const cart = await CartModel.findOneByUser(userId);
+      let cart = await CartModel.findOneByUser(userId);
+
+      if(!cart){
+        cart = await this.create({ userId })
+      }
+
+      const existingCartItems = await CartItemModel.find(cart.id);
+
+      const existingCartItem = existingCartItems.find(cartItem => cartItem.productid === item.productId);
+
+      if(existingCartItem){
+        const cartItem = await CartItemModel.update(existingCartItem.cartitemid, { qty: existingCartItem.qty + item.qty });
+        return cartItem;
+      }
 
       // Create cart item
       const cartItem = await CartItemModel.create({ cartId: cart.id, ...item });
