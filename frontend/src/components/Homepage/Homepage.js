@@ -27,9 +27,9 @@ export default function Homepage() {
   return(
     <div>
       <section id="products">
-        { products.map(product => 
+        { products.length ? products.map(product => 
         <Product product={product} key={product.id} />) 
-        }
+        : <p>No products found.</p> }
       </section>
     </div>
   );

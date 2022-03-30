@@ -124,7 +124,7 @@ const tableCheckQuery = (table) => {
       await db.query(ordersTableStmt);
     }
 
-    const orderItems = await db.query(tableCheckQuery("orderItems"));
+    const orderItems = await db.query(tableCheckQuery("orderitems"));
     if(!orderItems.rows[0]){
       console.log("'orderItems' table doesn't exist, creating one.");
       await db.query(orderItemsTableStmt);
@@ -136,7 +136,7 @@ const tableCheckQuery = (table) => {
       await db.query(cartsTableStmt);
     }
 
-    const cartItems = await db.query(tableCheckQuery("cartItems"));
+    const cartItems = await db.query(tableCheckQuery("cartitems"));
     if(!cartItems.rows[0]){
       console.log("'cartItems' table doesn't exist, creating one.");
       await db.query(cartItemsTableStmt);

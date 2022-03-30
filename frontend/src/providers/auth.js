@@ -33,9 +33,8 @@ export function AuthProvider({ children }) {
   };
 
   const register = (creds, callback) => {
-    return localAuth.register(creds, (error, newUser) => {
-      newUser.loggedIn = false;
-      callback(error, newUser);
+    return localAuth.register(creds, (error) => {
+      callback(error);
     });
   };
 

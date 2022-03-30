@@ -58,16 +58,16 @@ export const localAuth =  {
         body: JSON.stringify(creds)
       });
       if(res.ok){
-        return callback(null, true);
+        return callback(null);
       }
 
       if(res.status === 409){
-        return callback("Already exists", null);
+        return callback("Already exists");
       }
 
-      callback("Something went wrong.", null);
+      callback("Something went wrong.");
     } catch (error) {
-      callback(error.message, null);
+      callback(error.message);
     }
   },
   signout: async (callback) => {

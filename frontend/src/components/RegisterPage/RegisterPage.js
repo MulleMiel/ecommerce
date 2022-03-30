@@ -15,9 +15,9 @@ export default function LoginPage() {
   const handleSubmit = async e => {
     e.preventDefault();
 
-    auth.register({ email, password, firstname, lastname }, (error, user) => {
+    auth.register({ email, password, firstname, lastname }, (error) => {
 
-      if(!user) {
+      if(error) {
         return setError(error);
       }
       
@@ -50,7 +50,7 @@ export default function LoginPage() {
         </div>
         <p className='error'>{error}</p>
       </form>
-      <p>No account? Register <Link to="/register">here</Link>.</p>
+      <p>Own an account? Login <Link to="/login">here</Link>.</p>
     </div>
   )
 }
