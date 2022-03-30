@@ -42,7 +42,7 @@ module.exports = class CartItemModel {
     try {
 
       // Generate SQL statement - using helper for dynamic parameter injection
-      const condition = pgp.as.format('WHERE id = ${id} RETURNING *', { id });
+      const condition = pgp.as.format(' WHERE id = ${id} RETURNING *', { id });
       const statement = pgp.helpers.update(data, null, "cartitems") + condition;
   
       // Execute SQL statment

@@ -38,7 +38,7 @@ module.exports = class OrderModel {
         // Add new information generated in the database (ie: id) to the Order instance properties
         Object.assign(this, result.rows[0]);
 
-        return result.rows[0];
+        return this;
       }
 
       return null;

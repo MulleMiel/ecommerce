@@ -39,6 +39,32 @@ module.exports = class CartModel {
   }
 
   /**
+   * Updates existing cart item
+   * @param  {Object}      data [Cart data]
+   * @param  {Object}      id   [Cart id]
+   * @return {Object|null}      [Updated cart]
+   */
+   static async update(id, data) {
+    try {
+      // Generate SQL statement - using helper for dynamic parameter injection
+      const condition = pgp.as.format(' WHERE id = ${id} RETURNING *', { id });
+      const statement = pgp.helpers.update(data, null, "carts") + condition;
+  
+      // Execute SQL statment
+      const result = await db.query(statement);
+
+      if (result.rows?.length) {
+        return result.rows[0];
+      }
+
+      return null;
+
+    } catch(err) {
+      throw new Error(err);
+    }
+  }
+
+  /**
    * Loads a cart by User ID
    * @param  {number}      id [User ID]
    * @return {Object|null}    [Cart record]

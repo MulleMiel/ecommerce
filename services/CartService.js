@@ -1,7 +1,12 @@
 const createError = require('http-errors');
 const CartModel = require('../models/cart');
 const OrderModel = require('../models/order');
+const OrderItem = require('../models/orderItem');
 const CartItemModel = require('../models/cartItem');
+
+const { FRONTEND_DOMAIN, STRIPE } = require('../config');
+const stripe = require('stripe')(STRIPE.CLIENT_SECRET);
+
 
 module.exports = class CartService {
 
@@ -91,35 +96,68 @@ module.exports = class CartService {
     }
   }
 
-  async checkout(cartId, userId, paymentInfo) {
+  async updateCart(cartId, data) {
     try {
+      // Remove cart item by line ID
+      const cart = await CartModel.update(cartId, data);
+      return cart;
+    } catch(err) {
+      throw err;
+    }
+  }
 
-      const stripe = require('stripe')('sk_test_FOY6txFJqPQvJJQxJ8jpeLYQ');
-
-      // Load cart items
-      const cartItems = await CartItemModel.find(cartId);
+  async checkout(userId) {
+    try {
+      const cart = await this.loadCart(userId);
 
       // Generate total price from cart items
-      const total = cartItems.reduce((total, item) => {
-        return total += Number(item.price);
+      const total = cart.items.reduce((total, item) => {
+        return total += Number(item.price) * item.qty;
       }, 0);
 
-      // Generate initial order
+      // Generate initial order and add to db
       const Order = new OrderModel({ total, userId });
-      Order.addItems(cartItems);
-      await Order.create();
+      Order.addItems(cart.items);
+      const order = await Order.create();
 
-      // Make charge to payment method (not required in this project)
-      const charge = await stripe.charges.create({
-        amount: total,
-        currency: 'usd',
-        source: paymentInfo.id,
-        description: 'Codecademy Charge'
+      // set cart to converted since order has been created from it
+      await this.updateCart(cart.id, { converted: true });
+
+      const line_items = [];
+
+      for(const orderItem of order.items) {
+
+        // Add order items to db
+        orderItem.orderid = order.id;
+        await OrderItem.create(orderItem);
+
+        // Define products and prices for payment page
+
+        const product = await stripe.products.create({
+          name: orderItem.name
+        });
+
+        const price = await stripe.prices.create({
+          product: product.id,
+          unit_amount: orderItem.price,
+          currency: 'eur',
+        });
+
+        line_items.push({
+          price: price.id,
+          quantity: orderItem.qty
+        });
+      }
+
+      const session = await stripe.checkout.sessions.create({
+        client_reference_id: order.id,
+        line_items,
+        mode: 'payment',
+        success_url: `${FRONTEND_DOMAIN}/payment?success=true`,
+        cancel_url: `${FRONTEND_DOMAIN}/payment?canceled=true`,
       });
 
-      // On successful charge to payment method, update order status to COMPLETE
-      const order = Order.update({ status: 'COMPLETE' });
-
+      order.paymentUrl = session.url;
       return order;
 
     } catch(err) {

@@ -1,8 +1,4 @@
 
-#cart {
-
-}
-
 #cart .item {
   display: flex;
   flex-wrap: wrap;

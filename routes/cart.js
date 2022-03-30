@@ -1,17 +1,10 @@
-const stripe = require('stripe')('sk_test_51KinN5FE9MWQrk5ln7ARlBFfvNhzU7ZJRBcjqcDW9xPt7FfslNW1gEphCf93X01LhPNJPzarzAs4BQOqWu2egTdq001D7WvkkE');
 const express = require('express');
 const router = express.Router();
 
 const CartService = require('../services/CartService');
 const CartServiceInstance = new CartService();
-const CartItemModel = require('../models/cartItem')
 
-const OrderService = require('../services/OrderService');
-const OrderServiceInstance = new OrderService();
-const OrderModel = require('../models/order');
-const OrderItem = require('../models/orderItem');
-
-const { isAuthMiddleware } = require('./auth')
+const { isAuthMiddleware } = require('./auth');
 
 module.exports = (app, passport) => {
 
@@ -98,71 +91,11 @@ module.exports = (app, passport) => {
     }
   });
 
-  // router.post('/mine/checkout', async (req, res, next) => {
-  //   try {
-  //     const { id } = req.user;
-
-  //     const { cartId, paymentInfo } = req.body; 
-
-  //     const response = await CartServiceInstance.checkout(cartId, id, paymentInfo);
-
-  //     res.status(200).send(response);
-  //   } catch(err) {
-  //     next(err);
-  //   }
-  // });
-
-  const FRONTEND_DOMAIN = "http://localhost:3000";
-
   router.post('/mine/checkout', async (req, res) => {
     const userId = req.user.id;
-    const { cartId } = req.body; 
 
-    // Load cart items
-    //const cart = await CartServiceInstance.loadCart(userId);
-    const cartItems = await CartItemModel.find(cartId);
-
-    // Generate total price from cart items
-    const total = cartItems.reduce((total, item) => {
-      return total += Number(item.price) * item.qty;
-    }, 0);
-
-    // Generate initial order
-    const Order = new OrderModel({ total, userId });
-    Order.addItems(cartItems);
-    const OrderRecord = await Order.create();
-
-    const line_items = [];
-
-    for(const orderItem of Order.items) {
-      orderItem.orderid = OrderRecord.id;
-      await OrderItem.create(orderItem);
-
-      const product = await stripe.products.create({
-        name: orderItem.name,
-        images: [orderItem.image]
-      });
-
-      const price = await stripe.prices.create({
-        product: product.id,
-        unit_amount: orderItem.price,
-        currency: 'eur',
-      });
-
-      line_items.push({
-        price: price.id,
-        quantity: orderItem.qty
-      });
-    }
-
-    const session = await stripe.checkout.sessions.create({
-      line_items,
-      mode: 'payment',
-      success_url: `${FRONTEND_DOMAIN}/payment?success=true`,
-      cancel_url: `${FRONTEND_DOMAIN}/payment?canceled=true`,
-    });
+    const order = await CartServiceInstance.checkout(userId);
   
-    res.redirect(303, session.url);
-    //res.redirect(303, "/test");
+    res.redirect(303, order.paymentUrl);
   });
 }
