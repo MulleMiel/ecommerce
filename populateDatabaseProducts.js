@@ -1,5 +1,3 @@
-const dotenv = require('dotenv');
-dotenv.config();
 const { Client } = require('pg');
 const { DB } = require('./config');
 
@@ -9,6 +7,11 @@ const tableCheckQuery = (table) => {
   return `SELECT * 
   FROM INFORMATION_SCHEMA.TABLES 
   WHERE TABLE_NAME = '${table}';`;
+}
+
+const recordsCheckQuery = (table) => {
+  return `SELECT COUNT(*) 
+  FROM ${table};`;
 }
 
 (async () => {
@@ -44,13 +47,20 @@ const tableCheckQuery = (table) => {
 
     await db.connect();
     
-    const products = await db.query(tableCheckQuery("products"));
-    if(!products.rows[0]){
+    const productsTable = await db.query(tableCheckQuery("products"));
+
+    if(!productsTable.rows[0]){
       console.log("'products' table doesn't exist, creating one.");
       await db.query(productsTableStmt);
     }
 
+    const productsRecords = await db.query(recordsCheckQuery("products"));
+    const productCount = parseInt(productsRecords.rows[0].count);
 
+    if(productCount){
+      console.log(`${productCount} products in database.`);
+      return;
+    }
 
     for(const sample of samples.data.products.items) {
 
@@ -67,7 +77,7 @@ const tableCheckQuery = (table) => {
       ];
 
       const res = await db.query(text, values);
-      console.log(res.rows[0])
+      console.log(`added ${res.rows[0].name} to products table.`)
     }
 
     await db.end();

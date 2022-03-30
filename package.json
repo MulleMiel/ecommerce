@@ -7,12 +7,13 @@
     "build": "cd frontend && npm run build",
     "install-frontend": "cd frontend && npm install",
     "heroku-postbuild": "npm run install-frontend && npm run build",
-    "start": "npm run create-db && node -r dotenv/config server.js",
+    "start": "npm run create-db && npm run populate-db && node -r dotenv/config server.js",
     "frontend": "cd frontend && npm start",
     "dev": "concurrently \"nodemon -r dotenv/config server.js\" \"npm run frontend\"",
     "backend": "nodemon -r dotenv/config server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "create-db": "node -r dotenv/config setupDatabase"
+    "create-db": "node -r dotenv/config setupDatabase",
+    "populate-db": "node -r dotenv/config populateDatabaseProducts"
   },
   "author": "",
   "license": "ISC",

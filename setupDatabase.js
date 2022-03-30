@@ -1,5 +1,3 @@
-const dotenv = require('dotenv');
-dotenv.config();
 const { Client } = require('pg');
 const { DB } = require('./config');
 
