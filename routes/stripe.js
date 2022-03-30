@@ -3,7 +3,8 @@ const router = express.Router();
 
 const OrderService = require('../services/OrderService');
 const OrderServiceInstance = new OrderService();
-const OrderItemModel = require('../models/orderItem');
+const CartService = require('../services/CartService');
+const CartServiceInstance = new CartService();
 
 const { STRIPE } = require('../config');
 const stripe = require('stripe')(STRIPE.CLIENT_SECRET);
@@ -11,23 +12,38 @@ const stripe = require('stripe')(STRIPE.CLIENT_SECRET);
 module.exports = (app) => {
 
   app.use('/api/stripe', router);
+  
+  const createOrder = async (session) => {
+    
+    const cartId = session.client_reference_id;
+    const total = session.amount_total;
+    const cart = await CartServiceInstance.loadCartById(cartId);
 
-  const fulfillOrder = (session) => {
-    // TODO: fill me in
+    // Generate initial order and add to db
+    await OrderServiceInstance.create({ ref: cartId, userId: cart.userid, total, items: cart.items });
+
+    // set cart to converted since order has been created from it
+    await CartServiceInstance.updateCart(cart.id, { isactive: false });
+
+    console.log(`Created stripe order ref (${session.client_reference_id}) amount (${session.amount_total}) payment status (${session.payment_status})`);
+  }
+
+  const fulfillOrder = async (session) => {
+    const cartId = session.client_reference_id;
+    await CartServiceInstance.removeItems(cartId);
+    await CartServiceInstance.removeCart(cartId);
+    
+    await OrderServiceInstance.updateOrderByRef(cartId, { status: "COMPLETE"});
+
     console.log(`Fulfilled stripe order ref (${session.client_reference_id}) amount (${session.amount_total}) payment status (${session.payment_status})`);
   }
   
-  const createOrder = (session) => {
-    // TODO: fill me in
-    console.log(`Created stripe order ref (${session.client_reference_id}) amount (${session.amount_total}) payment status (${session.payment_status})`);
-  }
-  
-  const emailCustomerAboutFailedPayment = (session) => {
+  const emailCustomerAboutFailedPayment = async (session) => {
     // TODO: fill me in
     console.log(`Failed payment. Stripe order ref (${session.client_reference_id}). Emailing customer.`);
   }
   
-  router.post('/webhook', (req, res) => {
+  router.post('/webhook', async (req, res) => {
     const payload = req.rawBody;
     const sig = req.headers['stripe-signature'];
   
@@ -44,7 +60,7 @@ module.exports = (app) => {
       case 'checkout.session.completed': {
         const session = event.data.object;
         // Save an order in your database, marked as 'awaiting payment'
-        createOrder(session);
+        await createOrder(session);
   
         // Check if the order is paid (for example, from a card payment)
         //
@@ -52,7 +68,7 @@ module.exports = (app) => {
         // you're still waiting for funds to be transferred from the customer's
         // account.
         if (session.payment_status === 'paid') {
-          fulfillOrder(session);
+          await fulfillOrder(session);
         }
   
         break;
@@ -62,7 +78,7 @@ module.exports = (app) => {
         const session = event.data.object;
   
         // Fulfill the purchase...
-        fulfillOrder(session);
+        await fulfillOrder(session);
   
         break;
       }
@@ -71,7 +87,7 @@ module.exports = (app) => {
         const session = event.data.object;
   
         // Send an email to the customer asking them to retry their order
-        emailCustomerAboutFailedPayment(session);
+        await emailCustomerAboutFailedPayment(session);
   
         break;
       }

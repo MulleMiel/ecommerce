@@ -1,7 +1,5 @@
 const createError = require('http-errors');
 const CartModel = require('../models/cart');
-const OrderModel = require('../models/order');
-const OrderItem = require('../models/orderItem');
 const CartItemModel = require('../models/cartItem');
 
 const { FRONTEND_DOMAIN, STRIPE } = require('../config');
@@ -45,6 +43,24 @@ module.exports = class CartService {
     }
   }
 
+  async loadCartById(cartId) {
+    try {
+      // Load user cart based on ID
+      const cart = await CartModel.findOneById(cartId);
+
+      if(!cart) return null;
+
+      // Load cart items and add them to the cart record
+      const items = await CartItemModel.find(cart.id);
+      cart.items = items;
+
+      return cart;
+
+    } catch(err) {
+      throw err;
+    }
+  }
+
   async addItem(userId, item) {
     try {
       // Load user cart based on ID
@@ -72,12 +88,36 @@ module.exports = class CartService {
     }
   }
 
+  async removeCart(cartId) {
+    try {
+      // Remove cart item by line ID
+      const cart = await CartModel.delete(cartId);
+
+      return cart;
+
+    } catch(err) {
+      throw err;
+    }
+  }
+
   async removeItem(cartItemId) {
     try {
       // Remove cart item by line ID
       const cartItem = await CartItemModel.delete(cartItemId);
 
       return cartItem;
+
+    } catch(err) {
+      throw err;
+    }
+  }
+
+  async removeItems(cartId) {
+    try {
+      // Remove cart item by line ID
+      const cartItems = await CartItemModel.deleteByCartId(cartId);
+
+      return cartItems;
 
     } catch(err) {
       throw err;
@@ -110,55 +150,38 @@ module.exports = class CartService {
     try {
       const cart = await this.loadCart(userId);
 
-      // Generate total price from cart items
-      const total = cart.items.reduce((total, item) => {
-        return total += Number(item.price) * item.qty;
-      }, 0);
-
-      // Generate initial order and add to db
-      const Order = new OrderModel({ total, userId });
-      Order.addItems(cart.items);
-      const order = await Order.create();
-
-      // set cart to converted since order has been created from it
-      await this.updateCart(cart.id, { converted: true });
-
       const line_items = [];
 
-      for(const orderItem of order.items) {
-
-        // Add order items to db
-        orderItem.orderid = order.id;
-        await OrderItem.create(orderItem);
-
-        // Define products and prices for payment page
+      // Define products and prices for payment page
+      for(const cartItem of cart.items) {
 
         const product = await stripe.products.create({
-          name: orderItem.name
+          name: cartItem.name,
+          images: [cartItem.image]
         });
 
         const price = await stripe.prices.create({
           product: product.id,
-          unit_amount: orderItem.price,
+          unit_amount: cartItem.price,
           currency: 'eur',
         });
 
         line_items.push({
           price: price.id,
-          quantity: orderItem.qty
+          quantity: cartItem.qty
         });
       }
 
       const session = await stripe.checkout.sessions.create({
-        client_reference_id: order.id,
+        client_reference_id: cart.id,
         line_items,
         mode: 'payment',
         success_url: `${FRONTEND_DOMAIN}/payment?success=true`,
         cancel_url: `${FRONTEND_DOMAIN}/payment?canceled=true`,
       });
 
-      order.paymentUrl = session.url;
-      return order;
+      cart.paymentUrl = session.url;
+      return cart;
 
     } catch(err) {
       throw err;

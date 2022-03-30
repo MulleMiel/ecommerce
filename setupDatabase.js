@@ -37,6 +37,7 @@ const tableCheckQuery = (table) => {
   const ordersTableStmt = `
     CREATE TABLE IF NOT EXISTS orders (
       id              INT             PRIMARY KEY GENERATED ALWAYS AS IDENTITY NOT NULL,
+      ref             INT             NOT NULL,
       total           INT             NOT NULL,
       status          VARCHAR(50)     NOT NULL,
       userid          INT             NOT NULL,

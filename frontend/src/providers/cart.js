@@ -17,8 +17,10 @@ export function CartProvider({ children }) {
     });
     if(res.ok){
       const data = await res.json();
-      setCart(data.items);
-      callback(data.items);
+      if(data.isactive){
+        setCart(data.items);
+        callback(data.items);
+      }
     }
   }
 

@@ -122,4 +122,28 @@ module.exports = class CartItemModel {
     }
   }
 
+  static async deleteByCartId(cartId) {
+    try {
+
+      // Generate SQL statement
+      const statement = `DELETE
+                         FROM "cartitems"
+                         WHERE cartid = $1
+                         RETURNING *`;
+      const values = [cartId];
+  
+      // Execute SQL statment
+      const result = await db.query(statement, values);
+
+      if (result.rows?.length) {
+        return result.rows;
+      }
+
+      return null;
+
+    } catch(err) {
+      throw new Error(err);
+    }
+  }
+
 }

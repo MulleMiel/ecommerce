@@ -6,6 +6,7 @@ const OrderItem = require('./orderItem');
 module.exports = class OrderModel {
 
   constructor(data = {}) {
+    this.ref = data.ref || null;
     this.created = data.created || moment.utc().toISOString();
     this.items = data.items || [];
     this.modified = moment.utc().toISOString();
@@ -48,17 +49,36 @@ module.exports = class OrderModel {
     }
   }
 
+  async createItems() {
+    try {
+
+      let orderItems = [];
+
+       // Add order items to db
+      for(const orderItem of this.items) {
+        orderItem.orderid = this.id;
+        const record = await OrderItem.create(orderItem);
+        orderItems.push(record);
+      }
+
+      return orderItems;
+
+    } catch(err) {
+      throw new Error(err);
+    }
+  }
+
   /**
    * Updates an order for a user
    * @param  {Object}      id   [Order ID]
    * @param  {Object}      data [Order data to update]
    * @return {Object|null}      [Updated order record]
    */
-  async update(data) {
+  static async updateByRef(ref, data) {
     try {
 
       // Generate SQL statement - using helper for dynamic parameter injection
-      const condition = pgp.as.format('WHERE id = ${id} RETURNING *', { id: this.id });
+      const condition = pgp.as.format(' WHERE ref = ${ref} RETURNING *', { ref });
       const statement = pgp.helpers.update(data, null, 'orders') + condition;
   
       // Execute SQL statment

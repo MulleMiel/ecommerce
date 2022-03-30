@@ -94,8 +94,8 @@ module.exports = (app, passport) => {
   router.post('/mine/checkout', async (req, res) => {
     const userId = req.user.id;
 
-    const order = await CartServiceInstance.checkout(userId);
+    const cart = await CartServiceInstance.checkout(userId);
   
-    res.redirect(303, order.paymentUrl);
+    res.redirect(303, cart.paymentUrl);
   });
 }
