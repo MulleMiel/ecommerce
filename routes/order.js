@@ -3,12 +3,13 @@ const router = express.Router();
 
 const OrderService = require('../services/OrderService');
 const OrderServiceInstance = new OrderService();
+const OrderItemModel = require('../models/orderItem');
 
 const { isAuthMiddleware } = require('./auth')
 
 module.exports = (app) => {
 
-  app.use('/orders', isAuthMiddleware, router);
+  app.use('/api/orders', isAuthMiddleware, router);
 
   router.get('/', async (req, res, next) => {
     try {
@@ -28,6 +29,9 @@ module.exports = (app) => {
       const { orderId } = req.params;
   
       const order = await OrderServiceInstance.findById(orderId);
+      const orderItems = await OrderItemModel.find(orderId);
+      order.items = orderItems;
+      
       if(!order) return res.sendStatus(404);
       res.status(200).send(order);
     } catch(err) {

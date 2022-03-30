@@ -34,19 +34,8 @@ export function CartProvider({ children }) {
       })
     });
     if(res.ok){
-      const { cartid, productid, id, qty } = await res.json();
-      const itemIndex = items?.findIndex(item => item.productid === productid);
-      if(itemIndex !== -1){
-        items[itemIndex].qty = qty;
-        setCart([...items]);
-      } else {
-        setCart([...items, {
-          cartitemid: id,
-          id: cartid,
-          productid,
-          qty
-        }]);
-      }
+      const data = await res.json();
+      setCart(data.items);
     }
   }
 
@@ -84,7 +73,24 @@ export function CartProvider({ children }) {
     }
   }
 
-  const value = { items, reset, getCart, addItems, updateItem, removeItem };
+  const checkout = async (callback) => {
+    
+    const res = await fetch(`/api/carts/mine/checkout`, {
+      method: "POST",
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        cartId: items[0].cartid,
+      })
+    });
+    if(res.ok){
+      if(res.redirected) return callback(res.url);
+    }
+    callback(null)
+  }
+
+  const value = { items, reset, getCart, addItems, updateItem, removeItem, checkout };
 
   return <CartContext.Provider value={value}>{children}</CartContext.Provider>;
 }

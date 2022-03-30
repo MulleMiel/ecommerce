@@ -11,7 +11,7 @@ module.exports = class OrderModel {
     this.modified = moment.utc().toISOString();
     this.status = data.status || 'PENDING';
     this.total = data.total || 0;
-    this.userId = data.userId || null;
+    this.userid = data.userId || null;
   }
 
   addItems(items) {
@@ -26,7 +26,7 @@ module.exports = class OrderModel {
     try {
 
       const { items, ...order } = this;
-
+      
       // Generate SQL statement - using helper for dynamic parameter injection
       const statement = pgp.helpers.insert(order, null, 'orders') + ' RETURNING *';
 
@@ -86,14 +86,14 @@ module.exports = class OrderModel {
       // Generate SQL statement
       const statement = `SELECT *
                          FROM orders
-                         WHERE "userId" = $1`;
+                         WHERE "userid" = $1`;
       const values = [userId];
   
       // Execute SQL statment
       const result = await db.query(statement, values);
 
       if (result.rows?.length) {
-        return result.rows[0];
+        return result.rows;
       }
 
       return [];

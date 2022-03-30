@@ -1,0 +1,17 @@
+
+#order-details {
+  width: auto;
+  margin-bottom: 20px;
+}
+
+#order-details tr {
+  border: none;
+}
+
+#order-details td:last-child {
+  white-space: nowrap;
+}
+
+#order-details td:first-child {
+  padding-right: 10px;
+}

@@ -55,6 +55,16 @@
 
 #cart .total-price {
   font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#cart .buttons {
+  padding-top: 30px;
+  text-align: right;
+  padding-right: 90px;
+}
+
+#cart .buttons {
   text-align: right;
   padding-right: 90px;
 }

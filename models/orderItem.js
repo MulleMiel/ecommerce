@@ -7,12 +7,11 @@ module.exports = class OrderItemModel {
   constructor(data = {}) {
     this.created = data.created || moment.utc().toISOString();
     this.description = data.description;
-    this.modified = moment.utc().toISOString();
     this.name = data.name;
     this.price = data.price || 0;
-    this.productId = data.id;
+    this.productid = data.id;
     this.qty = data.qty || 1;
-    this.orderId = data.orderId || null;
+    this.orderid = data.orderid || null;
   }
 
   /**
@@ -24,7 +23,7 @@ module.exports = class OrderItemModel {
     try {
 
       // Generate SQL statement - using helper for dynamic parameter injection
-      const statement = pgp.helpers.insert(data, null, 'orderItems') + 'RETURNING *';
+      const statement = pgp.helpers.insert(data || this, null, 'orderitems') + 'RETURNING *';
  
       // Execute SQL statment
       const result = await db.query(statement);
@@ -51,11 +50,12 @@ module.exports = class OrderItemModel {
       // Generate SQL statement
       const statement = `SELECT 
                             oi.qty,
-                            oi.id AS "cartItemId", 
+                            oi.id, 
+                            p.id AS "productid",
                             p.*
-                         FROM "orderItems" oi
-                         INNER JOIN products p ON p.id = oi."productId"
-                         WHERE "orderId" = $1`
+                         FROM "orderitems" oi
+                         INNER JOIN products p ON p.id = oi."productid"
+                         WHERE "orderid" = $1`
       const values = [orderId];
   
       // Execute SQL statment

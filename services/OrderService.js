@@ -5,7 +5,7 @@ const OrderItemModel = require('../models/orderItem');
 module.exports = class OrderService {
 
   async create(data) {
-    const { userId } = data;
+    const { userId, total } = data;
 
     try {
 

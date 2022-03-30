@@ -1,7 +1,7 @@
 import './CartPage.css';
 import { useEffect, useState } from 'react';
 import { 
-  Link
+  Link, useLocation
 } from 'react-router-dom';
 
 import { useAuth } from '../../providers/auth';
@@ -13,6 +13,7 @@ import { SaveIcon, TrashCan } from '../partials/icons';
 export default function CartPage() {
   const auth = useAuth();
   const cart = useCart();
+  const location = useLocation();
 
   const [subtotals, setSubtotals] = useState([]);
 
@@ -45,6 +46,12 @@ export default function CartPage() {
     });
   }
 
+  // const onCheckoutHandler = () => {
+  //   cart.checkout((redirectLink) => {
+  //     window.location.replace(redirectLink);
+  //   });
+  // }
+
   let total = 0;
   if(cart?.items?.length === subtotals.length){
     total = subtotals.reduce((prevSubtotal, currentSubtotal, currentIndex) => {
@@ -71,14 +78,24 @@ export default function CartPage() {
           }
           return null;
         }) : <p>No items found in your cart.</p> }
-        <div className='total-price'>Total amount: { total / 100 }</div>
+        { cart.items?.length &&
+          <div className='buttons'>
+            <div className='total-price'>Total amount: { total / 100 }</div>
+            <form action="/api/carts/mine/checkout" method="POST">
+              <input type="hidden" name="cartId" value={cart.items[0].cartid}/>
+              <button type="submit" className='btn'>
+                Checkout
+              </button>
+            </form>
+          </div>
+        }
       </div>
     </div>
   );
 }
 
 function CartItem ({ item, index, lQty, onChange, onSave, onRemove }) {
-  const { productid, image, name, qty, price } = item;
+  const { id, image, name, qty, price } = item;
 
   const onChangeHandler  = (e) => {
     const input = e.target;
@@ -108,7 +125,7 @@ function CartItem ({ item, index, lQty, onChange, onSave, onRemove }) {
 
   return (
     <div className="item">
-      <Link to={`/product/${productid}`} className='image'>
+      <Link to={`/product/${id}`} className='image'>
         <img src={image} alt={name} />
       </Link>
       <div className='info'>

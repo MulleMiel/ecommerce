@@ -18,7 +18,7 @@ const tableCheckQuery = (table) => {
       password        TEXT,
       firstName       VARCHAR(50),
       lastName        VARCHAR(50),
-      local          BOOLEAN,
+      local           BOOLEAN,
       google          BOOLEAN,
       facebook        BOOLEAN
     );
@@ -39,10 +39,10 @@ const tableCheckQuery = (table) => {
       id              INT             PRIMARY KEY GENERATED ALWAYS AS IDENTITY NOT NULL,
       total           INT             NOT NULL,
       status          VARCHAR(50)     NOT NULL,
-      userId          INT             NOT NULL,
+      userid          INT             NOT NULL,
       created         DATE            NOT NULL,
       modified        DATE            NOT NULL,
-      FOREIGN KEY (userId) REFERENCES users(id)
+      FOREIGN KEY (userid) REFERENCES users(id)
     );
   `;
 
@@ -50,25 +50,25 @@ const tableCheckQuery = (table) => {
     CREATE TABLE IF NOT EXISTS orderItems (
       id              INT             PRIMARY KEY GENERATED ALWAYS AS IDENTITY NOT NULL,
       created         DATE            NOT NULL,
-      orderId         INT             NOT NULL,
+      orderid         INT             NOT NULL,
       qty             INT             NOT NULL,
       price           INT             NOT NULL,
-      productId       INT             NOT NULL,
+      productid       INT             NOT NULL,
       name            VARCHAR(50)     NOT NULL,
-      description     VARCHAR(200)    NOT NULL,
-      FOREIGN KEY (orderId) REFERENCES orders(id)
+      description     TEXT            NOT NULL,
+      FOREIGN KEY (orderid) REFERENCES orders(id)
     );
   `;
 
   const cartsTableStmt = `
     CREATE TABLE IF NOT EXISTS carts (
       id              INT             PRIMARY KEY GENERATED ALWAYS AS IDENTITY NOT NULL,
-      userId          INT             NOT NULL,
+      userid          INT             NOT NULL,
       modified        DATE            NOT NULL,
       created         DATE            NOT NULL,
-      FOREIGN KEY (userId) REFERENCES users(id),
+      FOREIGN KEY (userid) REFERENCES users(id),
       converted       BOOLEAN         NOT NULL,
-      isActive        BOOLEAN         NOT NULL
+      isactive        BOOLEAN         NOT NULL
     );
   `;
 

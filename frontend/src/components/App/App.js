@@ -4,13 +4,13 @@ import {
   Route, 
   Routes, 
   useNavigate,
-  useLocation,
   Outlet,
   Link
 } from 'react-router-dom';
 
 import { AuthProvider, PreventWhenAuth, RequireAuth, useAuth } from '../../providers/auth';
 import { CartProvider, useCart } from '../../providers/cart';
+import { OrdersProvider } from '../../providers/order';
 
 
 // PAGES
@@ -19,7 +19,9 @@ import RegisterPage from '../RegisterPage/RegisterPage';
 import Homepage from '../Homepage/Homepage';
 import ProductPage from '../ProductPage/ProductPage';
 import AccountPage from '../AccountPage/AccountPage';
+import OrderPage from '../OrderPage/OrderPage';
 import CartPage from '../CartPage/CartPage';
+import PaymentPage from '../PaymentPage/PaymentPage';
 
 import { ShoppingBasket, UserIcon } from '../partials/icons';
 
@@ -43,14 +45,30 @@ function App() {
                   <RegisterPage />
                 </PreventWhenAuth>
               } />
-              <Route path="/account" element={
-                <RequireAuth>
-                  <AccountPage />
-                </RequireAuth>
-                } />
+              <Route path="/account">
+                <Route index element={
+                  <RequireAuth>
+                    <OrdersProvider>
+                      <AccountPage />
+                    </OrdersProvider>
+                  </RequireAuth>
+                  } />
+                <Route path="order/:orderId" element={
+                  <RequireAuth>
+                    <OrdersProvider>
+                      <OrderPage />
+                    </OrdersProvider>
+                  </RequireAuth>
+                  } />
+              </Route>
               <Route path="/cart" element={
                 <RequireAuth>
                   <CartPage />
+                </RequireAuth>
+                } />
+              <Route path="/payment" element={
+                <RequireAuth>
+                  <PaymentPage />
                 </RequireAuth>
                 } />
             </Route>
@@ -64,10 +82,7 @@ function App() {
 function Layout() {
   const auth = useAuth();
   const navigate = useNavigate();
-  const location = useLocation();
   const cart = useCart();
-
-  console.log()
 
   useEffect(() => {
 

@@ -69,9 +69,10 @@ module.exports = class CartItemModel {
 
       // Generate SQL statement
       const statement = `SELECT 
-                            ci.productid,
                             ci.qty,
-                            ci.id AS "cartitemid", 
+                            ci.id AS "cartitemid",
+                            ci.cartid,
+                            p.id AS "productid",
                             p.*
                          FROM "cartitems" ci
                          INNER JOIN products p ON p.id = ci."productid"

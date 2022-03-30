@@ -60,7 +60,6 @@ module.exports = class CartService {
 
       // Create cart item
       const cartItem = await CartItemModel.create({ cartId: cart.id, ...item });
-
       return cartItem;
 
     } catch(err) {
