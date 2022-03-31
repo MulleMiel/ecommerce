@@ -1,3 +1,4 @@
+const path = require('path');
 const expressLoader = require('./express');
 const passportLoader = require('./passport');
 const routeLoader = require('../routes');
@@ -12,6 +13,10 @@ module.exports = async (app) => {
 
   // Load API route handlers
   await routeLoader(app, passport);
+
+  app.all('*', (req, res) => {
+    res.sendFile(path.join(appRoot, 'frontend/build', 'index.html'));
+  });
   
   // Error Handler
   app.use((err, req, res, next) => {

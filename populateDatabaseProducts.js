@@ -59,6 +59,7 @@ const recordsCheckQuery = (table) => {
 
     if(productCount){
       console.log(`${productCount} products in database.`);
+      await db.end();
       return;
     }
 

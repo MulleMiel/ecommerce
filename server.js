@@ -1,5 +1,8 @@
+const path = require('path');
 const express = require('express');
 const app = express();
+
+global.appRoot = path.resolve(__dirname);
 
 const loaders = require('./loaders');
 
