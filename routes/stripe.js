@@ -19,17 +19,6 @@ module.exports = (app) => {
     const total = session.amount_total;
     const cart = await CartServiceInstance.loadCartById(cartId);
 
-    // 2022-03-31T01:29:59.429638+00:00 app[web.1]: /app/routes/stripe.js:23
-    // 2022-03-31T01:29:59.429644+00:00 app[web.1]:     await OrderServiceInstance.create({ ref: cartId, userId: cart.userid, total, items: cart.items });
-    // 2022-03-31T01:29:59.429645+00:00 app[web.1]:                                                                   ^
-    // 2022-03-31T01:29:59.429646+00:00 app[web.1]: 
-    // 2022-03-31T01:29:59.429646+00:00 app[web.1]: TypeError: Cannot read properties of null (reading 'userid')
-    // 2022-03-31T01:29:59.429647+00:00 app[web.1]:     at createOrder (/app/routes/stripe.js:23:67)
-    // 2022-03-31T01:29:59.429647+00:00 app[web.1]:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-    // 2022-03-31T01:29:59.429648+00:00 app[web.1]:     at async /app/routes/stripe.js:63:9
-    // 2022-03-31T01:29:59.429652+00:00 app[web.1]: 
-    // 2022-03-31T01:29:59.429653+00:00 app[web.1]: Node.js v17.8.0
-
     // Generate initial order and add to db
     await OrderServiceInstance.create({ ref: cartId, userId: cart.userid, total, items: cart.items });
 

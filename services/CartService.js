@@ -45,7 +45,6 @@ module.exports = class CartService {
 
   async loadCartById(cartId) {
     try {
-      console.log("loadCartById", cartId);
       // Load user cart based on ID
       const cart = await CartModel.findOneById(cartId);
 

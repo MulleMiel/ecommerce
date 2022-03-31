@@ -133,8 +133,6 @@ module.exports = class CartModel {
       // Execute SQL statment
       const result = await db.query(statement, values);
 
-      console.log("result", result);
-
       if (result.rows?.length) {
         return result.rows[0];
       }
