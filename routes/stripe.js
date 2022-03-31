@@ -16,6 +16,7 @@ module.exports = (app) => {
   const createOrder = async (session) => {
     
     const cartId = session.client_reference_id;
+    const total = session.amount_total;
     const cart = await CartServiceInstance.loadCartById(cartId);
 
     // 2022-03-31T01:29:59.429638+00:00 app[web.1]: /app/routes/stripe.js:23
